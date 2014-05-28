@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0cdda554-d6ea-4af3-af6c-653a5f7dd6cd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="allanchen.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,7 +28,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="4" selection-start="549" selection-end="549" vertical-scroll-proportion="0.33110368" vertical-offset="220" max-vertical-offset="1496">
+            <state line="26" column="12" selection-start="649" selection-end="649" vertical-scroll-proportion="0.91973245" vertical-offset="22" max-vertical-offset="1496">
               <folding />
             </state>
           </provider>
@@ -203,7 +202,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="4" selection-start="549" selection-end="549" vertical-scroll-proportion="0.33110368" vertical-offset="220" max-vertical-offset="1496">
+        <state line="26" column="12" selection-start="649" selection-end="649" vertical-scroll-proportion="0.91973245" vertical-offset="22" max-vertical-offset="1496">
           <folding />
         </state>
       </provider>

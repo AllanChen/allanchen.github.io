@@ -1,16 +1,328 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
-   <title>BeiYuu.com</title>
-   <link href="http://beiyuu.com/atom.xml" rel="self" type="application/atom+xml"/>
-   <link href="http://beiyuu.com" rel="alternate" type="text/html" />
-   <updated>2014-05-29T09:54:15+08:00</updated>
-   <id>http://beiyuu.com</id>
+   <title>AllanChan Blog</title>
+   <link href="http://blog.allanhost.com/atom.xml" rel="self" type="application/atom+xml"/>
+   <link href="http://blog.allanhost.com" rel="alternate" type="text/html" />
+   <updated>2014-05-29T12:22:02+08:00</updated>
+   <id>http://blog.allanhost.com</id>
    <author>
      <name></name>
      <email></email>
    </author>
 
+   
+   <entry>
+     <title>Testblog</title>
+     <link href="http://beiyuu.com/testblog"/>
+     <updated>2014-05-29T00:00:00+08:00</updated>
+     <id>http://beiyuu.com/testblog</id>
+     <content type="html">&lt;h1&gt;Mou&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://mouapp.com/Mou_128.png&quot; alt=&quot;Mou icon&quot; /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Overview&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Mou&lt;/strong&gt;, the missing Markdown editor for &lt;em&gt;web developers&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h3&gt;Syntax&lt;/h3&gt;
+
+&lt;h4&gt;Strong and Emphasize&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;strong&lt;/strong&gt; or &lt;strong&gt;strong&lt;/strong&gt; ( Cmd + B )&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;emphasize&lt;/em&gt; or &lt;em&gt;emphasize&lt;/em&gt; ( Cmd + I )&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Sometimes I want a lot of text to be bold.
+Like, seriously, a &lt;em&gt;LOT&lt;/em&gt; of text&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h4&gt;Blockquotes&lt;/h4&gt;
+
+&lt;blockquote&gt;&lt;p&gt;Right angle brackets &amp;gt; are used for block quotes.&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;h4&gt;Links and Email&lt;/h4&gt;
+
+&lt;p&gt;An email &lt;a href=&quot;&amp;#109;&amp;#97;&amp;#x69;&amp;#108;&amp;#x74;&amp;#x6f;&amp;#x3a;&amp;#101;&amp;#120;&amp;#x61;&amp;#109;&amp;#x70;&amp;#108;&amp;#x65;&amp;#x40;&amp;#x65;&amp;#x78;&amp;#x61;&amp;#109;&amp;#112;&amp;#x6c;&amp;#x65;&amp;#46;&amp;#99;&amp;#x6f;&amp;#x6d;&quot;&gt;&amp;#x65;&amp;#x78;&amp;#x61;&amp;#x6d;&amp;#x70;&amp;#x6c;&amp;#x65;&amp;#64;&amp;#x65;&amp;#120;&amp;#x61;&amp;#109;&amp;#x70;&amp;#x6c;&amp;#101;&amp;#x2e;&amp;#99;&amp;#111;&amp;#x6d;&lt;/a&gt; link.&lt;/p&gt;
+
+&lt;p&gt;Simple inline link &lt;a href=&quot;http://chenluois.com&quot;&gt;http://chenluois.com&lt;/a&gt;, another inline link &lt;a href=&quot;http://smallerapp.com&quot;&gt;Smaller&lt;/a&gt;, one more inline link with title &lt;a href=&quot;http://resizesafari.com&quot; title=&quot;a Safari extension&quot;&gt;Resize&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;A &lt;a href=&quot;http://mouapp.com&quot; title=&quot;Markdown editor on Mac OS X&quot;&gt;reference style&lt;/a&gt; link. Input id, then anywhere in the doc, define the link with corresponding id:&lt;/p&gt;
+
+&lt;p&gt;Titles ( or called tool tips ) in the links are optional.&lt;/p&gt;
+
+&lt;h4&gt;Images&lt;/h4&gt;
+
+&lt;p&gt;An inline image &lt;img src=&quot;http://smallerapp.com/favicon.ico&quot; title=&quot;Title here&quot; alt=&quot;Smaller icon&quot; /&gt;, title is optional.&lt;/p&gt;
+
+&lt;p&gt;A &lt;img src=&quot;http://resizesafari.com/favicon.ico&quot; title=&quot;Title&quot; alt=&quot;Resize icon&quot; /&gt; reference style image.&lt;/p&gt;
+
+&lt;h4&gt;Inline code and Block code&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code&gt;Indent each line by at least 1 tab, or 4 spaces.
+var Mou = exactlyTheAppIwant; 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4&gt;Ordered Lists&lt;/h4&gt;
+
+&lt;p&gt;Ordered lists are created using &quot;1.&quot; + Space:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Ordered list item&lt;/li&gt;
+&lt;li&gt;Ordered list item&lt;/li&gt;
+&lt;li&gt;Ordered list item&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;h4&gt;Unordered Lists&lt;/h4&gt;
+
+&lt;p&gt;Unordered list are created using &quot;*&quot; + Space:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Unordered list item&lt;/li&gt;
+&lt;li&gt;Unordered list item&lt;/li&gt;
+&lt;li&gt;Unordered list item&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;Or using &quot;-&quot; + Space:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Unordered list item&lt;/li&gt;
+&lt;li&gt;Unordered list item&lt;/li&gt;
+&lt;li&gt;Unordered list item&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h4&gt;Hard Linebreak&lt;/h4&gt;
+
+&lt;p&gt;End a line with two or more spaces will create a hard linebreak, called &lt;code&gt;&amp;lt;br /&amp;gt;&lt;/code&gt; in HTML. ( Control + Return )&lt;br/&gt;
+Above line ended with 2 spaces.&lt;/p&gt;
+
+&lt;h4&gt;Horizontal Rules&lt;/h4&gt;
+
+&lt;p&gt;Three or more asterisks or dashes:&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+
+&lt;h4&gt;Headers&lt;/h4&gt;
+
+&lt;p&gt;Setext-style:&lt;/p&gt;
+
+&lt;h1&gt;This is H1&lt;/h1&gt;
+
+&lt;h2&gt;This is H2&lt;/h2&gt;
+
+&lt;p&gt;atx-style:&lt;/p&gt;
+
+&lt;h1&gt;This is H1&lt;/h1&gt;
+
+&lt;h2&gt;This is H2&lt;/h2&gt;
+
+&lt;h3&gt;This is H3&lt;/h3&gt;
+
+&lt;h4&gt;This is H4&lt;/h4&gt;
+
+&lt;h5&gt;This is H5&lt;/h5&gt;
+
+&lt;h6&gt;This is H6&lt;/h6&gt;
+
+&lt;h3&gt;Extra Syntax&lt;/h3&gt;
+
+&lt;h4&gt;Footnotes&lt;/h4&gt;
+
+&lt;p&gt;Footnotes work mostly like reference-style links. A footnote is made of two things: a marker in the text that will become a superscript number; a footnote definition that will be placed in a list of footnotes at the end of the document. A footnote looks like this:&lt;/p&gt;
+
+&lt;p&gt;That&#39;s some text with a footnote.&lt;a href=&quot;And&quot;&gt;^1&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4&gt;Strikethrough&lt;/h4&gt;
+
+&lt;p&gt;Wrap with 2 tilde characters:&lt;/p&gt;
+
+&lt;p&gt;&lt;del&gt;Strikethrough&lt;/del&gt;&lt;/p&gt;
+
+&lt;h4&gt;Fenced Code Blocks&lt;/h4&gt;
+
+&lt;p&gt;Start with a line containing 3 or more backticks, and ends with the first line with the same number of backticks:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Fenced code blocks are like Stardard Markdown’s regular code
+blocks, except that they’re not indented and instead rely on
+a start and end fence lines to delimit the code block.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4&gt;Tables&lt;/h4&gt;
+
+&lt;p&gt;A simple table looks like this:&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;First Header &lt;/th&gt;
+&lt;th&gt; Second Header &lt;/th&gt;
+&lt;th&gt; Third Header&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Content Cell &lt;/td&gt;
+&lt;td&gt; Content Cell  &lt;/td&gt;
+&lt;td&gt; Content Cell&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Content Cell &lt;/td&gt;
+&lt;td&gt; Content Cell  &lt;/td&gt;
+&lt;td&gt; Content Cell&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+
+&lt;p&gt;If you wish, you can add a leading and tailing pipe to each line of the table:&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt; First Header &lt;/th&gt;
+&lt;th&gt; Second Header &lt;/th&gt;
+&lt;th&gt; Third Header &lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt; Content Cell &lt;/td&gt;
+&lt;td&gt; Content Cell  &lt;/td&gt;
+&lt;td&gt; Content Cell &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; Content Cell &lt;/td&gt;
+&lt;td&gt; Content Cell  &lt;/td&gt;
+&lt;td&gt; Content Cell &lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+
+&lt;p&gt;Specify alignement for each column by adding colons to separator lines:&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&quot;text-align:left;&quot;&gt;First Header &lt;/th&gt;
+&lt;th style=&quot;text-align:center;&quot;&gt; Second Header &lt;/th&gt;
+&lt;th style=&quot;text-align:right;&quot;&gt; Third Header&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left;&quot;&gt;Left         &lt;/td&gt;
+&lt;td style=&quot;text-align:center;&quot;&gt; Center        &lt;/td&gt;
+&lt;td style=&quot;text-align:right;&quot;&gt; Right&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left;&quot;&gt;Left         &lt;/td&gt;
+&lt;td style=&quot;text-align:center;&quot;&gt; Center        &lt;/td&gt;
+&lt;td style=&quot;text-align:right;&quot;&gt; Right&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+
+&lt;h3&gt;Shortcuts&lt;/h3&gt;
+
+&lt;h4&gt;View&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Toggle live preview: Shift + Cmd + I&lt;/li&gt;
+&lt;li&gt;Toggle Words Counter: Shift + Cmd + W&lt;/li&gt;
+&lt;li&gt;Toggle Transparent: Shift + Cmd + T&lt;/li&gt;
+&lt;li&gt;Toggle Floating: Shift + Cmd + F&lt;/li&gt;
+&lt;li&gt;Left/Right = 1/1: Cmd + 0&lt;/li&gt;
+&lt;li&gt;Left/Right = 3/1: Cmd + +&lt;/li&gt;
+&lt;li&gt;Left/Right = 1/3: Cmd + -&lt;/li&gt;
+&lt;li&gt;Toggle Writing orientation: Cmd + L&lt;/li&gt;
+&lt;li&gt;Toggle fullscreen: Control + Cmd + F&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h4&gt;Actions&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Copy HTML: Option + Cmd + C&lt;/li&gt;
+&lt;li&gt;Strong: Select text, Cmd + B&lt;/li&gt;
+&lt;li&gt;Emphasize: Select text, Cmd + I&lt;/li&gt;
+&lt;li&gt;Inline Code: Select text, Cmd + K&lt;/li&gt;
+&lt;li&gt;Strikethrough: Select text, Cmd + U&lt;/li&gt;
+&lt;li&gt;Link: Select text, Control + Shift + L&lt;/li&gt;
+&lt;li&gt;Image: Select text, Control + Shift + I&lt;/li&gt;
+&lt;li&gt;Select Word: Control + Option + W&lt;/li&gt;
+&lt;li&gt;Select Line: Shift + Cmd + L&lt;/li&gt;
+&lt;li&gt;Select All: Cmd + A&lt;/li&gt;
+&lt;li&gt;Deselect All: Cmd + D&lt;/li&gt;
+&lt;li&gt;Convert to Uppercase: Select text, Control + U&lt;/li&gt;
+&lt;li&gt;Convert to Lowercase: Select text, Control + Shift + U&lt;/li&gt;
+&lt;li&gt;Convert to Titlecase: Select text, Control + Option + U&lt;/li&gt;
+&lt;li&gt;Convert to List: Select lines, Control + L&lt;/li&gt;
+&lt;li&gt;Convert to Blockquote: Select lines, Control + Q&lt;/li&gt;
+&lt;li&gt;Convert to H1: Cmd + 1&lt;/li&gt;
+&lt;li&gt;Convert to H2: Cmd + 2&lt;/li&gt;
+&lt;li&gt;Convert to H3: Cmd + 3&lt;/li&gt;
+&lt;li&gt;Convert to H4: Cmd + 4&lt;/li&gt;
+&lt;li&gt;Convert to H5: Cmd + 5&lt;/li&gt;
+&lt;li&gt;Convert to H6: Cmd + 6&lt;/li&gt;
+&lt;li&gt;Convert Spaces to Tabs: Control + [&lt;/li&gt;
+&lt;li&gt;Convert Tabs to Spaces: Control + ]&lt;/li&gt;
+&lt;li&gt;Insert Current Date: Control + Shift + 1&lt;/li&gt;
+&lt;li&gt;Insert Current Time: Control + Shift + 2&lt;/li&gt;
+&lt;li&gt;Insert entity &amp;lt;: Control + Shift + ,&lt;/li&gt;
+&lt;li&gt;Insert entity &gt;: Control + Shift + .&lt;/li&gt;
+&lt;li&gt;Insert entity &amp;amp;: Control + Shift + 7&lt;/li&gt;
+&lt;li&gt;Insert entity Space: Control + Shift + Space&lt;/li&gt;
+&lt;li&gt;Insert Scriptogr.am Header: Control + Shift + G&lt;/li&gt;
+&lt;li&gt;Shift Line Left: Select lines, Cmd + [&lt;/li&gt;
+&lt;li&gt;Shift Line Right: Select lines, Cmd + ]&lt;/li&gt;
+&lt;li&gt;New Line: Cmd + Return&lt;/li&gt;
+&lt;li&gt;Comment: Cmd + /&lt;/li&gt;
+&lt;li&gt;Hard Linebreak: Control + Return&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h4&gt;Edit&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Auto complete current word: Esc&lt;/li&gt;
+&lt;li&gt;Find: Cmd + F&lt;/li&gt;
+&lt;li&gt;Close find bar: Esc&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h4&gt;Post&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Post on Scriptogr.am: Control + Shift + S&lt;/li&gt;
+&lt;li&gt;Post on Tumblr: Control + Shift + T&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h4&gt;Export&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Export HTML: Option + Cmd + E&lt;/li&gt;
+&lt;li&gt;Export PDF:  Option + Cmd + P&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h3&gt;And more?&lt;/h3&gt;
+
+&lt;p&gt;Don&#39;t forget to check Preferences, lots of useful options are there.&lt;/p&gt;
+
+&lt;p&gt;Follow &lt;a href=&quot;http://twitter.com/chenluois&quot;&gt;@chenluois&lt;/a&gt; on Twitter for the latest news.&lt;/p&gt;
+
+&lt;p&gt;For feedback, use the menu &lt;code&gt;Help&lt;/code&gt; - &lt;code&gt;Send Feedback&lt;/code&gt;&lt;/p&gt;
+</content>
+   </entry>
    
    <entry>
      <title>VPS环境搭建详解 (Virtualenv+Gunicorn+Supervisor+Nginx)</title>
@@ -3466,41 +3778,6 @@ if ($document) {
 &lt;li&gt;在线阅读：&lt;a href=&quot;http://read.douban.com/ebook/500486/?referral_code=myg7ot50&quot;&gt;《打造Facebook》&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-</content>
-   </entry>
-   
-   <entry>
-     <title>令人焦虑的列表设计</title>
-     <link href="http://beiyuu.com/bad-list-design"/>
-     <updated>2013-01-17T00:00:00+08:00</updated>
-     <id>http://beiyuu.com/bad-list-design</id>
-     <content type="html">&lt;p&gt;用列表展现数据，再平常不过了，想想通讯录、微薄、播放列表、博客目录，都是。&lt;/p&gt;
-
-&lt;p&gt;先来看看全宇宙最奇葩、但是自认为全世界最好用的软件iTunes的播放列表：&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://ww4.sinaimg.cn/large/8b8af2c8jw1e0wkevnm8yj.jpg&quot; alt=&quot;idiot iTunes&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;你能看出正在播放的是哪一首吗？我选择从蓝色条的《So What》开始播放，顺序播下去到当前首，鲜亮的蓝色条并没有动，动的是小喇叭，真瞧得起我的眼神！&lt;/p&gt;
-
-&lt;p&gt;好了，一般人无法体会我对iTunes恨。&lt;/p&gt;
-
-&lt;p&gt;虾米的播放列表设计有模仿iTunes的嫌疑，每次打开，我要瞅半天看到底播放到哪首了，今天再看，已经改成人类的逻辑了，虾米好样的！&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://ww4.sinaimg.cn/large/8b8af2c8jw1e0wkn980w6j.jpg&quot; alt=&quot;xiami&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;再来看下让我写这篇博客的起因：&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/large/8b8af2c8jw1e0wkr4pg14j.jpg&quot; alt=&quot;jiandan&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;这是&lt;a href=&quot;http://jandan.net/2013/01/17/benzs-museum.html&quot;&gt;煎蛋&lt;/a&gt;评论列表，你能一眼看去就明白那个OOXX的标记属于上一条还是下一条吗？真让人捉急。解决办法很简单，就把那些属于评论的Meta信息放在同一个维度就好了。&lt;/p&gt;
-
-&lt;p&gt;看看正面教材&lt;a href=&quot;http://www.google.com/reader/&quot;&gt;Google Reader&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/large/8b8af2c8jw1e0wkx96e78j.jpg&quot; alt=&quot;Google Reader&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;未读、已读一目了然，还感叹过为什么把未读扫过就一点不想再多看了呢，仅仅改变背景色和字体就轻松达到这个目标，这就是好的设计。&lt;/p&gt;
-
-&lt;p&gt;哦，顺道吐槽一下傻逼的所谓欧洲时间格式，你能分清02/10/08和03/09/06里面的年月日吗？&lt;/p&gt;
 </content>
    </entry>
    

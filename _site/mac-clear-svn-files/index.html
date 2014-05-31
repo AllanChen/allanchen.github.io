@@ -5,7 +5,7 @@
     * Author:         AllanChan
     -->
     <meta charset="utf-8" />
-    <title>Tabby | AllanChan Blog</title>
+    <title>Mac Clear SVN Command | Allan's Blog</title>
     <meta name="author" content="AllanChan" />
     <meta name="renderer" content="webkit">
     <meta name="description" content="Allan's Blog" />
@@ -43,36 +43,16 @@
 
 <div id="content">
     <div class="entry">
-        <h1 class="entry-title"><a href="/tabby" title="Tabby">Tabby</a></h1>
-        <p class="entry-date">2013-04-12</p>
-        <p>用<a href="https://chrome.google.com/webstore/detail/tabby/pifnjkdglcfkfpdjdolfacpfdlgpdkhp" title="Tabby">Tabby</a>有一阵子了，最近把细节完善，发布在了Chrome Store。</p>
+        <h1 class="entry-title"><a href="/mac-clear-svn-files" title="Mac Clear SVN Command">Mac Clear SVN Command</a></h1>
+        <p class="entry-date">2014-05-30</p>
+        <h3>清除Mac 项目中的.SVN文件</h3>
 
-<p>他的功能是，当你打开几十上百个Chrome标签，很占资源，不想加入书签，也不想存入Instapaper等Read It Later的东西，只看一次，但就是不想现在看，这时候只要在页面点击右键，选择“暂存到Tabby”即可。</p>
+<p>有时候因为一些SDK，和一些类库的不兼容。导致svn中的某些文件上传不了或者更新不了，这时候你就的清除这个文件下的svn文件，然后 iGnored</p>
 
-<p><a href="https://chrome.google.com/webstore/detail/tabby/pifnjkdglcfkfpdjdolfacpfdlgpdkhp" title="Tabby" target="_blank"><img src="/images/other/Tabby-pro1.png" alt="Tabby"></a></p>
+<pre class="prettyprint">find ./ -name ".svn" | xargs rm -Rf</pre>
 
-<p>你可以设置使用快捷键（默认关闭），要打开暂存的标签，只需点击Tabby的图标。因为使用了Chrome的书签，即使你卸载插件，还没来得及看的也不会丢失，也会默认同步到别的设备。</p>
 
-<p><a href="https://chrome.google.com/webstore/detail/tabby/pifnjkdglcfkfpdjdolfacpfdlgpdkhp" title="Tabby" target="_blank"><img src="/images/other/Tabby-pro2.png" alt="Tabby" ></a></p>
 
-<p>推荐一本书<a href="http://read.douban.com/ebook/709141/?referral_code=e6acsgl3" title="我是个年轻人，我心情不太好">我是个年轻人，我心情不太好</a>，当时是他的简介让我动心了一下：</p>
-
-<blockquote><p>我25岁，读过一个硕士，但是退学了。我被时间、空间、意义这些事情烦扰着。我知道的东西多得难以置信。我知道名字，年份。数以百计。我知道谁第一个上的珠穆朗玛峰。我知道谁导演了那些美国最蹩脚的肥皂剧。我知道亚里士多德讲的话是啥意思。我知道时间在太阳上会走得慢一点……</p>
-
-<p>但是，我知道这些有什么意义呢？</p>
-
-<p>我的生活仍旧是一团糟。</p>
-
-<p>不，连一团糟都不是，它是一片空白。</p>
-
-<p>我没有女朋友，甚至没有很好很好的朋友。我有一个哥哥，还有一个比我小很多、还在上幼儿园的“伙伴”。可他们也不算是朋友。</p>
-
-<p>要是我能有一种非常靠谱的感觉，觉得一切都会好起来，那该多好。</p></blockquote>
-
-<p>不指望这本书能喂你多大一碗鸡汤，就是让你知道这个年纪的共同态，而且或许有解决办法。</p>
-
-<p>好吧，去下载插件吧：
-<a href="https://chrome.google.com/webstore/detail/tabby/pifnjkdglcfkfpdjdolfacpfdlgpdkhp" title="Tabby" target="_blank"><img src="/images/other/Tabby-440.png" alt="Tabby" width="300"></a></p>
 
 
         <div id="disqus_container">
@@ -142,8 +122,6 @@
         <h2>Project</h2>
         <ul class="artical-list">
             
-            <li><a href="/tabby">Tabby</a></li>
-            
             <li><a href="/notty-notes">Notty Notes</a></li>
             
             <li><a href="/overapi-cheatsheet">OverAPI</a></li>
@@ -154,6 +132,13 @@
 
         <h2>Life</h2>
         <ul class="artical-list">
+            
+        </ul>
+
+        <h2>Life</h2>
+        <ul class="artical-list">
+            
+            <li><a href="/mac-clear-svn-files">Mac Clear SVN Command</a></li>
             
         </ul>
     </div>

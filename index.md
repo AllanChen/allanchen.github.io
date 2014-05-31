@@ -10,10 +10,9 @@ layout: home
             <li style="text-align:center"><a href="/life"><span>Life</span></a></li>
             <li style="text-align:right"><a href="/project"><span>Project</span></a></li>
             -->
+            <li style="text-align:right"><a href="/tag"><span>Tag</span></a></li>
         </ul>
-
         <div class="cate-bar"><span id="cateBar"></span></div>
-
         <ul class="artical-list">
         {% for post in site.categories.blog %}
             <li>

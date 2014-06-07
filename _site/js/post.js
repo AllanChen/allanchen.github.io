@@ -32,7 +32,7 @@ $(document).ready(function(){
         $.getScript('http://' + disqus_shortname + '.disqus.com/embed.js',function(){$(that).remove()});
     });
     //**评论的代码也删掉哦***
-    //***********************
+    //***********************–
 
     $('.entry a').each(function(index,element){
         var href = $(this).attr('href');

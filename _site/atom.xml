@@ -4,7 +4,7 @@
    <title>Allan's Blog</title>
    <link href="http://blog.allanhost.com/atom.xml" rel="self" type="application/atom+xml"/>
    <link href="http://blog.allanhost.com" rel="alternate" type="text/html" />
-   <updated>2014-06-07T13:30:24+08:00</updated>
+   <updated>2014-06-07T13:59:23+08:00</updated>
    <id>http://blog.allanhost.com</id>
    <author>
      <name></name>
@@ -38,369 +38,106 @@
    </entry>
    
    <entry>
-     <title>豆瓣FM(iOS 3.0)使用体会</title>
-     <link href="http://beiyuu.com/douban-fm"/>
-     <updated>2013-06-06T00:00:00+08:00</updated>
-     <id>http://beiyuu.com/douban-fm</id>
-     <content type="html">&lt;p&gt;豆瓣FM发布了全新设计的3.0版本，很多Feature不错：&lt;/p&gt;
+     <title>我为什么写博客？</title>
+     <link href="http://beiyuu.com/why-blog"/>
+     <updated>2011-12-18T00:00:00+08:00</updated>
+     <id>http://beiyuu.com/why-blog</id>
+     <content type="html">&lt;h2&gt;世界这么乱，装纯给谁看&lt;/h2&gt;
+
+&lt;p&gt;写博客这个不知道几个“互联网世纪”前的东西，现在还有必要拿出来说吗？不想用太多的理论去说这个命题，先看看两个最近对我影响比较大的两个博客：&lt;/p&gt;
 
 &lt;ul&gt;
-    &lt;li&gt;全新设计，清新、大气&lt;/li&gt;
-    &lt;li&gt;操作流畅爽滑，运行交互效率很高&lt;/li&gt;
-    &lt;li&gt;终于有歌词啦&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://stevelosh.com/&quot; title=&quot;Steve Losh&quot;&gt;Steve Losh&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://sivers.org/&quot; title=&quot;Derek Sivers&quot;&gt;Derek Sivers&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 
-&lt;p&gt;使用中总结了一些体会，非常感性、毫无逻辑可言，看看就好：&lt;/p&gt;
+&lt;p&gt;第一个是&lt;a href=&quot;http://stevelosh.com/&quot; title=&quot;Steve Losh&quot;&gt;Steve Losh&lt;/a&gt;的博客，我在搜索了&lt;a href=&quot;http://stevelosh.com/blog/2011/09/writing-vim-plugins/&quot; title=&quot;Write Vim Plugins&quot;&gt;VIM&lt;/a&gt;相关的关键字之后被带到了这里。简洁的风格和关屏的利落就已经吸引了我，顺手点开其他的文章看了看，博主非常的谨慎认真，每一篇都是高质量的作品，看得出他的用心，整个网站也是异常的简洁舒适，深深的被这种淡然的心态打动，躲进小楼成一统，哪管他春夏与秋冬。再看看他的介绍：&lt;/p&gt;
 
-&lt;h2&gt;产品定位&lt;/h2&gt;
+&lt;blockquote&gt;&lt;p&gt;&quot;I’m a programmer, photographer, dancer &amp;amp; bassist from Rochester, New York.&quot;&lt;/p&gt;&lt;/blockquote&gt;
 
-&lt;p&gt;豆瓣FM的产品定位，摘抄如下：&lt;/p&gt;
+&lt;p&gt;呵呵，他完全就过着我期望的生活。&lt;/p&gt;
 
-&lt;blockquote&gt;&lt;p&gt;它简单、易用，熟悉每个用户的脾气秉性，又能够聚合集体的智慧。无论是在家里、工作场所、咖啡厅还是交通工具上，无论是在休息、等候、娱乐还是工作时，它都能够提供完美、一致的体验。&lt;/p&gt;&lt;/blockquote&gt;
-
-&lt;p&gt;大家对推荐都满意，算法就不说了。简单易用来讲，国内的音乐APP中(虾米、QQ、百度等)，只有豆瓣是打开就播放，确实简单易用。&lt;/p&gt;
-
-&lt;p&gt;这样的打开播放的产品定位下，使用场景就有些变化了。&lt;/p&gt;
-
-&lt;h2&gt;交互框架&lt;/h2&gt;
-
-&lt;h3&gt;引导页&lt;/h3&gt;
-
-&lt;p&gt;从App引导开始，新版FM就想让用户熟悉上下拉动的操作。&lt;/p&gt;
-
-&lt;p&gt;豆瓣这次竟然使用了被吐槽无数次的App引导，还蛮让人意外的。是对交互设计不自信吗？观察周围使用的人以及我自己，基本上没人会去看引导页的内容，况且下拉的操作违反直觉，更容易招惹反感，播放页面也被蒙层，我直观感受是恐惧。&lt;/p&gt;
-
-&lt;p&gt;登录和进入按钮被放置在引导页下方，并且位置尴尬，大约是为了让用户感受到下面还有内容，平衡了讨厌引导的用户需求(估计设计师自己也讨厌引导吧)，却牺牲了美感。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://ww3.sinaimg.cn/mw1024/8b8af2c8jw1e5eqcvmp9gj20oq0lp408.jpg&quot; alt=&quot;splash&quot; /&gt;&lt;/p&gt;
-
-&lt;h3&gt;上下拉&lt;/h3&gt;
-
-&lt;p&gt;自从抽屉式导航普及开来之后，横滑展开设置成为一种默认操作。&lt;/p&gt;
-
-&lt;p&gt;上下拉在虾米音乐中也有被应用，但和豆瓣的不同在于：虾米入口界面不是播放页，而是搜索、我的虾米、本地音乐这样的交互界面，此时播放页从下拉上来，更像是另一个维度的事情，并且主界面的交互有很多，播放页到另一个维度是很好理解的事情。硬套生活中所讲的横向、纵向的概念也完全讲的通。&lt;/p&gt;
-
-&lt;p&gt;豆瓣FM的逻辑不完美在于，他的主页是播放页，选择兆赫更像是个设置，硬说他是另一个维度也没错，但是这两个的关系太平等（都只有一个），上下拉就显得违反直觉了。&lt;/p&gt;
-
-&lt;p&gt;而且没人看引导，反直觉的上下拉动的交互，让很多人不知所措，顶部也没有标记表明那是可以拉动的。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://ww4.sinaimg.cn/mw1024/8b8af2c8jw1e5eqd2xcj9j20oq0lpjv1.jpg&quot; alt=&quot;slide&quot; /&gt;&lt;/p&gt;
-
-&lt;h2&gt;设计细节&lt;/h2&gt;
+&lt;p&gt;第二位博主的&lt;a href=&quot;http://sivers.org/sharing&quot; title=&quot;The co-op business model: share whatever you&#39;ve got&quot;&gt;&#39;Co-op Business Model&#39;&lt;/a&gt;文章也是让我茅厕顿开，这种分享的精神，用博主自己活生生的例子讲述出来之后，读者自然会被感动的，我也在团队内分享过这篇文章，下面我简要介绍一下他的事迹吧：&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;封面不清晰&lt;/li&gt;
-&lt;li&gt;对话框关闭按钮在左边，为什么呢？&lt;/li&gt;
-&lt;li&gt;兆赫不能搜索，连换一批也不能？更新说明说动态切换，怎么切换？&lt;/li&gt;
-&lt;li&gt;暂停、播放按钮太小（上面显示广告也罢了，下面那么大的空间，完全可以利用起来）&lt;/li&gt;
-&lt;li&gt;只支持上下拉的手势，却不支持左右后退的手势？（更新说明里我瞟见了手势两个字）&lt;/li&gt;
-&lt;li&gt;顶部“正在同步”等状态栏，完全遮挡操作按钮，为什么不加后退手势这种标配呢？&lt;/li&gt;
-&lt;li&gt;在上下拉的交互框架中，歌曲状态栏细节做的很到位（比如当上下拉到歌曲名称位置的时候，状态栏才会fix住），但是上拉拖动的时候，状态栏此时是拖动的把手，却自己不动弹，逻辑又奇怪了不是？&lt;/li&gt;
-&lt;li&gt;其他的程序BUG，比如红心数目不对等等。&lt;/li&gt;
-&lt;li&gt;如何收藏兆赫，研究许久才知道是长按。&lt;/li&gt;
-&lt;li&gt;也是琢磨了半天才知道，点头像是进入设置。&lt;/li&gt;
+&lt;li&gt;1994年，他把需要邮寄才能得到的版权申请表单扫描上传到网上，为大家申请提供方便的下载服务，直到版权机构将表单上网之前，他的网站是全美唯一一个可以下载到表单的地方，他也并没有盈利。&lt;/li&gt;
+&lt;li&gt;1995年，他为自己的乐队注册了一个名字，并且把注册过程详细的写在自己的博客上，很长一段时间内，他的这篇文章几乎成了注册乐队名称的标准教程。&lt;/li&gt;
+&lt;li&gt;1996年，他有了一个&lt;a href=&quot;http://artificialrecords.com&quot;&gt;小唱片公司&lt;/a&gt;，也就有了一个条形码账户，他需要支付$750给条码协会，这样他就拥有了十万个条码，一开始他免费把这些条码给朋友们要出售的CD用，后来，越来越多人知道了他有条码，又懒得去自己申请账户，就给他付一定的费用，方便的使用，他每个收费$20，在过去的12年里，他靠出售这个条码就赚到了二百万美元。&lt;/li&gt;
+&lt;li&gt;1997年，他花费$1000申请了一个信用卡商户账户，用来销售自己的CD，一开始也免费给他的做音乐的朋友们帮忙卖，后来有越来越多的陌生人希望能使用他的账号，省的自己去申请，因为他有一些劳动量，所以也收取一定费用，每张专辑收取$35的制作费，然后每卖一张收$4，在过去的12年中，他赚到了二千万美元。&lt;/li&gt;
+&lt;li&gt;1999年，他学会了制作网站，一开始是为了展示自己的CD，后来他的朋友们抱怨自己的网站服务商很糟糕，希望能使用&lt;a href=&quot;http://sivers.org/&quot; title=&quot;Derek Sivers&quot;&gt;Derek Sivers&lt;/a&gt;的系统，因为也有一些劳动量，所以会一开始收取$300，然后每个月收取$20，在过去的9年中，他赚到了五百万美元。&lt;/li&gt;
+&lt;li&gt;2000年以后，他会无偿的分享所有他学到的东西，或许“&lt;a href=&quot;http://sivers.org/below-average&quot; title=&quot;probably below average&quot;&gt;他不是最聪明的人&lt;/a&gt;”，但是分享没有什么成本，而且这是正确的事，所以在后来的11年里，他收获了很多的好运与快乐，遇见了很多有趣的人。&lt;/li&gt;
 &lt;/ul&gt;
 
 
-&lt;p&gt;&lt;img src=&quot;http://ww3.sinaimg.cn/mw1024/8b8af2c8jw1e5eqd8tkg5j20oq0lpjti.jpg&quot; alt=&quot;slide&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;找到了一个神交的外国博主，又有这么励志“好人好报”的故事，我想大道理不用讲太多也都明白了。&lt;/p&gt;
 
-&lt;p&gt;再重复一下，APP引导太可怕了！ 我说的全是废话，因为这个版本发布后，看起来好评如潮，哎。&lt;/p&gt;
-</content>
-   </entry>
-   
-   <entry>
-     <title>史蒂夫·乔布斯：遗失的访谈</title>
-     <link href="http://beiyuu.com/jobs-interview"/>
-     <updated>2013-05-14T00:00:00+08:00</updated>
-     <id>http://beiyuu.com/jobs-interview</id>
-     <content type="html">&lt;h2&gt;1、做公司就是做产品&lt;/h2&gt;
+&lt;p&gt;还有一篇理论性很强的文章做参考，&lt;a href=&quot;http://www.cnblogs.com/bangerlee/archive/2011/09/11/2173632.html&quot; title=&quot;Why I Blog翻译版&quot;&gt;我为什么写博客&lt;/a&gt;。&lt;/p&gt;
 
-&lt;p&gt;乔布斯从12岁开始，就捣鼓着好玩有用的产品，在惠普兼职的那些日子，也让他体会到了科技的魅力，原来凭一个人的力量也可以有如此之大的影响力，也是在惠普他认识了沃兹尼亚克。&lt;/p&gt;
+&lt;h2&gt;那些虚的没用，说点实际的&lt;/h2&gt;
 
-&lt;p&gt;Apple II发布时，乔布斯年仅21岁，从此之后，他的财富不断增加，23岁一百万，24岁一千万，25岁一亿美元。但是钱并不是乔布斯认为最重要的东西，重要的是人才、产品，是产品带给用户的价值。&lt;/p&gt;
+&lt;p&gt;或许这些看起来很美好的东西，你会觉得离自己很远，那就说点直接的收益，看看是否够诱人。&lt;/p&gt;
 
-&lt;p&gt;做产品要深入的每一个细节，要去控制成本，就必须知道每一个步骤的精确成本，他也建议所有人都去学习一下编程，学习这种思考问题的方式。&lt;/p&gt;
+&lt;p&gt;我还是先推荐一篇文章：&lt;a href=&quot;http://mindhacks.cn/2011/11/04/how-to-interview-a-person-for-two-years/&quot; title=&quot;怎样花两年时间去面试一个人&quot;&gt;怎样花两年时间去面试一个人&lt;/a&gt;，招聘永远是公司和个人的难题，双方的信息不对称，导致这个矛盾无法调和，这篇文章就是告诉你，如何自己去推销自己，让公司得到你的全部优质信息，尤其在现在的网络环境下，将自己工作有用的能力搬上网，那么就是最好的能力证明，就是最好的面试答案。无论你是程序员，还是设计师。&lt;/p&gt;
 
-&lt;p&gt;乔布斯举了百事可乐的例子，来说明大公司为什么会失败，因为一旦公司做大，形成垄断市场之后，产品数十年也不会发生多大的变化，而且这些垄断的市场也很难再提高业绩，要提高业绩还得靠营销部门，最终营销人员挤走了产品人员，而营销人员并不懂产品，这情形在百事可乐这样的公司没问题，但在科技公司就会造成悲剧。&lt;/p&gt;
+&lt;p&gt;或许你会想，好吧好吧，那我找个博客站开一个博客好了，我不太会同意这个做法，有一个个人的品牌，对于自己的发展只有好处，行走网络江湖，有同一个ID标识，无论在哪里都会让人看到你，这样长期的潜移默化，个人的品牌效力也就展现出来了。然后有一个自己独立的域名，并且用心去经营，肯定会有人欣赏的。而且经过我的一番研究，成本并不是很高。&lt;/p&gt;
 
-&lt;p&gt;光靠流程和制度，是不能让公司持续成功的，必须全心全意放在产品上。&lt;/p&gt;
+&lt;p&gt;我期望的博客内容，并不是贴一段代码，或者胡言乱语两句，具体的质量可以参考&lt;a href=&quot;http://stevelosh.com/&quot; title=&quot;Steve Losh&quot;&gt;Steve Losh&lt;/a&gt;，这样的高质量，更能展现自己的态度，或许你说有一些小心得小点滴也想和大家分享，那也可以在自己的空间下开一个Wiki频道，专门存放琐碎的知识点。&lt;/p&gt;
 
-&lt;h2&gt;2、如何使公司良好运转&lt;/h2&gt;
+&lt;p&gt;高质量的博文，肯定需要自己缜密的思考，并且需要一定的文笔才能将自己的想法完整清晰的表达出来，我在这两个方面都还差了很多，还需要大量的练习才好，给自己这样的机会。&lt;/p&gt;
 
-&lt;p&gt;对于传统行业来说，最好和普通之间，差距可能就是百分之几十的样子，但是对科技行业来说，最好的与普通的人才，能力的差距可能达百倍，所以一流的公司需要一流的人才，一流的人才也愿意与一流的人才共事。&lt;/p&gt;
+&lt;p&gt;在快知识、微段子横行的今天，能对一个个问题深入的去思考，一方面得到的是心灵的平静，更多的则是深入思考之后的收获的喜悦感，会有不一样的体会的。&lt;/p&gt;
 
-&lt;p&gt;团队的协作过程，就像磨石机的工作过程一样，会有摩擦会有障碍，这是必然的，以乔布斯的理解来看，真正优秀的人，只想成功，不在乎是非，用事实说话，其他的都不重要，他认为优秀的人也不太需要你太在乎他们的自尊。&lt;/p&gt;
+&lt;h2&gt;技术很简单，不用担心&lt;/h2&gt;
 
-&lt;p&gt;大约这就是他被谣传暴戾的原因吧，从访谈中可以看的出，他确实不太在乎事实之外的东西，他自己也会犯错，别人也可以说服他，只要基于事实就好。&lt;/p&gt;
+&lt;p&gt;或者你很幸运不是一个程序员，或者你是一个不用搞这些乱七八糟东西的程序员，那么相信我，你一样可以搭起来一个跟我的一模一样的个人站点的。&lt;/p&gt;
 
-&lt;h2&gt;3、品位问题&lt;/h2&gt;
-
-&lt;p&gt;毫无疑问，乔布斯的品位很好，他认为和在大学时旁听排版课程的关系密不可分，的确，内容永远都是最重要的，并且，字体设计那些细致入微的细节，也对他有很深的影响。&lt;/p&gt;
-
-&lt;p&gt;微软是一个成功的公司，善于抓住机遇，但是他们的产品毫无品位，是三流的，或许没有苹果，微软的产品会更糟糕，没有灵魂，非常平庸，但是更令人可悲的是用户并不以为然。&lt;/p&gt;
-
-&lt;p&gt;人类应该追求极致，并分享给同类。&lt;/p&gt;
-
-&lt;p&gt;乔布斯也从来不觉得借鉴别人的创意是可耻的，笨拙的工匠只会抄，灵巧的工匠会借鉴的恰到好处，苹果的产品非常确切的说明了这个事实。&lt;/p&gt;
-
-&lt;p&gt;6、70年代的嬉皮士运动给乔布斯留下了深刻印象，他认为嬉皮士是去努力寻找生活的真相的一群人，他们觉得生活不应该是父母过的那样。嬉皮士的出发点是可贵的。也正是因为这种精神，有人宁愿当诗人也不愿做银行家。&lt;/p&gt;
-
-&lt;p&gt;乔布斯很欣赏这种精神，他也想把这种精神溶入到产品中。只要用户使用产品，就能感受到这种精神，如果与Macintosh的用户交谈，会发现他们喜爱这个产品，在此之前，你很少听人说真心喜欢某个商业产品——是的，但你可以从Macintosh感受到某种奇妙的东西。&lt;/p&gt;
-
-&lt;!--&lt;iframe height=&quot;498&quot; width=&quot;510&quot; src=&quot;http://player.youku.com/embed/XNTUxNDY1NDY4&quot; frameborder=&quot;0&quot; style=&quot;margin:0 auto&quot;&gt;&lt;/iframe&gt;--&gt;
-
-
-
-
-&lt;div style=&quot;text-align:center&quot;&gt;
-&lt;embed src=&quot;http://player.youku.com/player.php/sid/XNTUxNDY1NDY4/v.swf&quot; allowFullScreen=&quot;true&quot; quality=&quot;high&quot; width=&quot;480&quot; height=&quot;400&quot; align=&quot;middle&quot; allowScriptAccess=&quot;always&quot; type=&quot;application/x-shockwave-flash&quot;&gt;&lt;/embed&gt;
-&lt;/div&gt;
-
-</content>
-   </entry>
-   
-   <entry>
-     <title>40届全美音乐奖和55届格莱美颁奖演出观感</title>
-     <link href="http://beiyuu.com/40-ama-55-grammy"/>
-     <updated>2013-02-19T00:00:00+08:00</updated>
-     <id>http://beiyuu.com/40-ama-55-grammy</id>
-     <content type="html">&lt;h2&gt;40届全美音乐奖(Ameican Musican Awards)&lt;/h2&gt;
-
-&lt;p&gt;1、少了英伦小清新的全美音乐奖，总体来说还是俗气了些；&lt;/p&gt;
-
-&lt;p&gt;2、Justin Bieber的gay气太重了，歌我还是喜欢呀，准备练习一首，哈哈；&lt;/p&gt;
-
-&lt;p&gt;3、Pink真是用生命在唱歌，并且是杂技团出身，脑补前年格莱美颁奖；&lt;/p&gt;
-
-&lt;p&gt;4、我依然没有抓住Taylor Swift的点，女艺人里面喜欢的有很多，Katy Perry，Carrie Underwood、Nelly Furtado、Rihanna甚至Kelly Clarkson、Lady Gaga、Adele，但是依然不懂Taylor Swift凭什么呢？&lt;/p&gt;
-
-&lt;p&gt;5、Carrie Underwood这样才是唱乡村的啊，斯威夫特姐姐，也终于想起来吴怡霈为什么看起来亲切眼熟了；&lt;/p&gt;
-
-&lt;p&gt;6、第一次加入了电子乐，恩，电子乐牛逼，史旺达也牛逼；&lt;/p&gt;
-
-&lt;p&gt;7、Nicki Minaj真是太有才太可爱啦；&lt;/p&gt;
-
-&lt;p&gt;8、鸟叔果然是最棒的，Hi爆全场，期待格莱美上的演出；&lt;/p&gt;
-
-&lt;p&gt;9、Galaxy Note II强势插入的广告，脑补两年前格莱美的iPad广告；&lt;/p&gt;
-
-&lt;div style=&quot;text-align:center;margin-bottom:50px;&quot;&gt;
-&lt;embed src=&quot;http://player.youku.com/player.php/sid/XNDc3MTQzMjg0/v.swf&quot; quality=&quot;high&quot; width=&quot;480&quot; height=&quot;400&quot; align=&quot;middle&quot; allowScriptAccess=&quot;sameDomain&quot; allowFullscreen=&quot;true&quot; type=&quot;application/x-shockwave-flash&quot;&gt;&lt;/embed&gt;
-&lt;/div&gt;
-
-
-&lt;h2&gt;55届格莱美(Grammy)颁奖&lt;/h2&gt;
-
-&lt;p&gt;1、今年的格莱美，老将大都歇菜了，对新人感情积累不够，没法High起来，平淡的Happy一下吧；&lt;/p&gt;
-
-&lt;p&gt;2、制作、演出水平还是一如既往的高，不用多说；&lt;/p&gt;
-
-&lt;p&gt;3、Taylor Swift第一个出场，突然解了我一个疑惑，原来美国恐怖故事里那个神经质的年轻修女，长的是像她啊！&lt;/p&gt;
-
-&lt;p&gt;4、Fun. 今年收获颇丰，歌很好听，耕耘这么多年，总算出头了，演出中下雨这舞台设计也还蛮意外的；&lt;/p&gt;
-
-&lt;p&gt;5、查了资料原来Justin Timberlake从超级男孩就开始了，贾老板人气如此之高，大约还是演电影的因素，他的歌除了4年前和T.I.的合唱听起来比较动听，今年我是没感受到，胡子倒是刮得真干净真嫩；&lt;/p&gt;
-
-&lt;p&gt;6、像Maroon 5的这些新歌，我觉得自己时常难以跟上时代的步伐，接受这些都是从我们这城乡结合部的发廊、呼啸而过的摩托、人群中刺耳的手机铃声来的，好奇他们如何发现的？&lt;/p&gt;
-
-&lt;p&gt;7、Rihanna今年一甩骚情女的姿态，玩起了动情，stay这首确实挺打动人，一时间想起来很多；&lt;/p&gt;
-
-&lt;p&gt;8、整场演出最High的部分就是Bruno Mars和Sting了，去年听了很多Reggae，看的最棒的现场也是Reggae，有很美好的回忆也烙上了Reggae，这让人感到快乐的音乐，任何时候都无法拒绝，真心感谢Bob Marley，感谢Marley家族带给世界这样美好的东西；&lt;/p&gt;
-
-&lt;p&gt;9、Jack White以前没听过，Rock的范很足，要吐槽的是他手里那把烂Fender，质感比大G差太多，无怪乎演出结束要砸掉；&lt;/p&gt;
-
-&lt;p&gt;10、Carrie Underwood这次就高端大气上档次了，没有Oklahoma的丁点气息了，当然，一如既往的喜欢这个姑娘，比Taylor好太多了；&lt;/p&gt;
-
-&lt;p&gt;11、今年的“群口相声”改成LL Cool J了，没啥想说的；&lt;/p&gt;
-
-&lt;p&gt;12、数数颁奖嘉宾，老爸老妈的Barney很搞；大爆炸的Penny倒是常来，可是姐姐你能不能有点专业精神，一层一层的下巴，减减肥好吗？2B Girls的Max，致辞毫无亮点，透露出胸大无脑的本性；Johnny Depp，嗯，吊；最碉堡还是Prince，看得出欧美音乐圈相当尊重前辈，我还有张他的打口碟，只是当时的水平无力欣赏，那些影响音乐人的音乐大师，总要一定积累去体会；&lt;/p&gt;
-
-&lt;p&gt;13、一直疑惑的一点是，为什么唱歌好的男艺人大多都是小个子，从Bon Jovi到Alex Rose，从Bruno Mars到Fun.，数不胜数，为什么？&lt;/p&gt;
-
-&lt;p&gt;14、每每看到艺人拿奖，他们也没煽什么情，我却总是替他们激动到不行，实在比国内的节目高级多了，哎；&lt;/p&gt;
-
-&lt;p&gt;15、说起来格莱美这两年都比较low，你说没有Coldplay没有Usher没有Katy Perry没有Lady Gaga没有Justin Bieber没有Black Eyed Peas没有Eminem，连鸟叔都没有，你还让我怎么看，期待明年会更好吧！&lt;/p&gt;
-
-&lt;div style=&quot;text-align:center&quot;&gt;
-&lt;embed src=&quot;http://player.youku.com/player.php/sid/XNTEzNzI1Njcy/v.swf&quot; quality=&quot;high&quot; width=&quot;480&quot; height=&quot;400&quot; align=&quot;middle&quot; allowScriptAccess=&quot;sameDomain&quot; allowFullscreen=&quot;true&quot; type=&quot;application/x-shockwave-flash&quot;&gt;&lt;/embed&gt;
-&lt;/div&gt;
-
-
-
-</content>
-   </entry>
-   
-   <entry>
-     <title>只有好的棋手才会走运</title>
-     <link href="http://beiyuu.com/build-facebook"/>
-     <updated>2013-01-21T00:00:00+08:00</updated>
-     <id>http://beiyuu.com/build-facebook</id>
-     <content type="html">&lt;p&gt;能和Facebook这样的公司一起成长太幸福，对作者真是羡慕嫉妒恨。&lt;/p&gt;
-
-&lt;p&gt;Facebook快速并且顺利的成长，作者初期选择他，悬念并不大，不过在第一章谈到对公司的忠诚度倒是个不错的话题，树倒猢狲散、墙倒众人推，这就是现实，更何况赤裸裸的签订的打工合同，每个人都会做对自己最有利的选择，同样的，公司招聘也不是做慈善，所以忠诚在这里的定义是，在职期间尽心尽力做到自己该做的事情。&lt;/p&gt;
-
-&lt;p&gt;对于初创互联网公司来说，招聘是重中之重，任何苛刻都不为过，臭味相投的一流人才的内部推荐，是作者首推的方法。最早听到Facebook的“Fire Fast”原则有些惊讶，招聘成本如此之高，还有这样严厉的作为，足见对人的重视。&lt;/p&gt;
-
-&lt;p&gt;盛行工程师文化，并且对应聘者非常挑剔的公司，经理这个职位有时候会显得力量薄弱，所以书中讲团队管理章节的部分就比较没有新意，产品流程业界合格的公司大抵都如此罢。值得注意的一点就是Facebook的快，将迭代这个概念完好的贯彻执行，在Web时代，不完美不重要，错一点也不重要，慢了就很要命。当然，这需要高水平的“黑客”。&lt;/p&gt;
-
-&lt;p&gt;其实整本书趋于平淡，尤其身处行业内、并且经常捕风捉影关注此类信息，不过，我不在其中亲身感受，很多观感自然也是架空的，也无法完整体会Facebook的优秀之处。&lt;/p&gt;
-
-&lt;p&gt;最后一章，作者的投资理念很务实很合理，不过，窃以为这在互联网行业应该也是标配吧。&lt;/p&gt;
-
-&lt;p&gt;当然，祝作者报效祖国成功！&lt;/p&gt;
-
-&lt;p&gt;多废话一句：在我看来，豆瓣和Facebook有许多的相似之处，或许这只是我一厢情愿吧，哈哈。&lt;/p&gt;
+&lt;p&gt;我要特别鸣谢以下几个站点、技术：&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;豆瓣链接：&lt;a href=&quot;http://book.douban.com/subject/20471120/&quot; title=&quot;打造Facebook&quot;&gt;《打造Facebook》&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;在线阅读：&lt;a href=&quot;http://read.douban.com/ebook/500486/?referral_code=myg7ot50&quot;&gt;《打造Facebook》&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://godaddy.com&quot; title=&quot;Godaddy&quot;&gt;GoDaddy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://dnspod.cn&quot; title=&quot;DNSPod&quot;&gt;DNSPod&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://github.com&quot; title=&quot;Github:social coding&quot;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/mojombo/jekyll&quot;&gt;Jekyll&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://disqus.com&quot; title=&quot;Disqus&quot;&gt;Disqus&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-</content>
-   </entry>
-   
-   <entry>
-     <title>令人焦虑的列表设计</title>
-     <link href="http://beiyuu.com/bad-list-design"/>
-     <updated>2013-01-17T00:00:00+08:00</updated>
-     <id>http://beiyuu.com/bad-list-design</id>
-     <content type="html">&lt;p&gt;用列表展现数据，再平常不过了，想想通讯录、微薄、播放列表、博客目录，都是。&lt;/p&gt;
 
-&lt;p&gt;先来看看全宇宙最奇葩、但是自认为全世界最好用的软件iTunes的播放列表：&lt;/p&gt;
+&lt;p&gt;下面我来做一个简要说明，完整的搭建方法，我后面会专门写一篇博客分享给大家，等不及的可以自己去找资料哈。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://ww4.sinaimg.cn/large/8b8af2c8jw1e0wkevnm8yj.jpg&quot; alt=&quot;idiot iTunes&quot; /&gt;&lt;/p&gt;
+&lt;h3&gt;GoDaddy &amp;amp; DNSPod&lt;/h3&gt;
 
-&lt;p&gt;你能看出正在播放的是哪一首吗？我选择从蓝色条的《So What》开始播放，顺序播下去到当前首，鲜亮的蓝色条并没有动，动的是小喇叭，真瞧得起我的眼神！&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://godaddy.com&quot; title=&quot;Godaddy&quot;&gt;GoDaddy&lt;/a&gt;是一家非常不错的域名注册商，良好的用户体验，飞快的生效速度，给力的优惠码，也支持支付宝，永远不用担心国内那些流氓厂商的流氓行为，注册了域名，就可以放心不会被别人抢走。在Godaddy注册域名是一件很简单的事情，按照提示走就完全没有问题，唯一需要动脑筋的可能是，你要想一个既有个人标识，又没有被别人注册的域名了，我觉得我的&lt;a href=&quot;http://beiyuu.com&quot; title=&quot;BeiYuu&quot;&gt;BeiYuu&lt;/a&gt;还是不错的，呵呵。&lt;/p&gt;
 
-&lt;p&gt;好了，一般人无法体会我对iTunes恨。&lt;/p&gt;
+&lt;p&gt;Godaddy一切都很完美，直到遇到了GFW，原因你肯定懂。前段时间推上风传Godaddy的DNS服务器被墙，导致域名不能解析，看起来好像自己的站被墙了一样，这个确实是个闹心的事情，还好国内有DNS服务的替代产品，而且做得还非常的不错，也是免费的，功能强大，速度快，不用担心被和谐，所以隆重推荐&lt;a href=&quot;http://dnspod.cn&quot; title=&quot;DNSPod&quot;&gt;DNSPod&lt;/a&gt;给大家，可以试用一下，把DNS服务迁移到DNSPod来，解决后顾之忧，配置比较简单，不懂的可以等我后面的博客啦，哈。&lt;/p&gt;
 
-&lt;p&gt;虾米的播放列表设计有模仿iTunes的嫌疑，每次打开，我要瞅半天看到底播放到哪首了，今天再看，已经改成人类的逻辑了，虾米好样的！&lt;/p&gt;
+&lt;h3&gt;GitHub &amp;amp; Jekyll&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://ww4.sinaimg.cn/large/8b8af2c8jw1e0wkn980w6j.jpg&quot; alt=&quot;xiami&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://github.com&quot; title=&quot;Github:social coding&quot;&gt;GitHub&lt;/a&gt;是一个非常优秀的产品，爆发式的增长，各大优质开源软件的蜂涌而至，只能说明人们太需要他了。&lt;strong&gt;Social Coding&lt;/strong&gt;是他的Slogan，产品的设计确实解决了很多代码交流的难题，让世界更平，让交流更畅，关于Git的学习，大家可以移步这里&lt;a href=&quot;http://progit.org/book/zh/&quot; title=&quot;Pro Git&quot;&gt;Pro Git中文版&lt;/a&gt;，这也是一个本身就在Github维护的一个项目，高质量的翻译了Git入门书，讲解详细，是学习Git的好资料。&lt;/p&gt;
 
-&lt;p&gt;再来看下让我写这篇博客的起因：&lt;/p&gt;
+&lt;p&gt;GitHub是一个伟大的产品，&lt;a href=&quot;http://pages.github.com&quot; title=&quot;GitHub Pages&quot;&gt;GitHub Pages&lt;/a&gt;是他伟大的一部分，GitHub Pages基于&lt;a href=&quot;https://github.com/mojombo/jekyll&quot;&gt;Jekyll&lt;/a&gt;博客引擎，当我深入的研究了他之后，我深深的想给Jekyll的作者一个拥抱，列举一下Jekyll的优点：&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/large/8b8af2c8jw1e0wkr4pg14j.jpg&quot; alt=&quot;jiandan&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;这是&lt;a href=&quot;http://jandan.net/2013/01/17/benzs-museum.html&quot;&gt;煎蛋&lt;/a&gt;评论列表，你能一眼看去就明白那个OOXX的标记属于上一条还是下一条吗？真让人捉急。解决办法很简单，就把那些属于评论的Meta信息放在同一个维度就好了。&lt;/p&gt;
-
-&lt;p&gt;看看正面教材&lt;a href=&quot;http://www.google.com/reader/&quot;&gt;Google Reader&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/large/8b8af2c8jw1e0wkx96e78j.jpg&quot; alt=&quot;Google Reader&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;未读、已读一目了然，还感叹过为什么把未读扫过就一点不想再多看了呢，仅仅改变背景色和字体就轻松达到这个目标，这就是好的设计。&lt;/p&gt;
-
-&lt;p&gt;哦，顺道吐槽一下傻逼的所谓欧洲时间格式，你能分清02/10/08和03/09/06里面的年月日吗？&lt;/p&gt;
-</content>
-   </entry>
-   
-   <entry>
-     <title>胡言乱语说简单</title>
-     <link href="http://beiyuu.com/about-simplify"/>
-     <updated>2013-01-08T00:00:00+08:00</updated>
-     <id>http://beiyuu.com/about-simplify</id>
-     <content type="html">&lt;h2&gt;最初的简单&lt;/h2&gt;
-
-&lt;p&gt;从第一代iPhone出来，简单这个概念，便疯样的传开来。我怀疑过这是否绝对正确，最终还是服了。&lt;/p&gt;
-
-&lt;p&gt;碎片化的生活让人类的注意力很难集中3分钟，且有千千万的选择，任何一点负面的感受，会立刻遭到用户唾弃。物质、文化匮乏的时代，故作繁杂，可以脱颖而出，但现在能打动你的肯定是左边。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://ww2.sinaimg.cn/bmiddle/5e0bba51gw1dyxy98zixmj.jpg&quot; alt=&quot;Apple Remote&quot; /&gt;&lt;/p&gt;
-
-&lt;h2&gt;简单才可依赖&lt;/h2&gt;
-
-&lt;p&gt;有些句子，看起来懂，也经常说，比如上面标题这句，但当我看到&lt;a href=&quot;http://v.youku.com/v_show/id_XNDkwMTg0MDI0.html&quot;&gt;《差速器原理》&lt;/a&gt;的视频时，才真正懂了这句话：&lt;/p&gt;
-
-&lt;p style=&quot;text-align:center&quot;&gt;&lt;embed src=&quot;http://player.youku.com/player.php/sid/XNDkwMTg0MDI0/v.swf&quot; quality=&quot;high&quot; width=&quot;480&quot; height=&quot;400&quot; align=&quot;middle&quot; allowScriptAccess=&quot;sameDomain&quot; allowFullscreen=&quot;true&quot; type=&quot;application/x-shockwave-flash&quot;&gt;&lt;/embed&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;可以单独放在自己的服务器上，他也是GitHub Pages的基础，质量可靠&lt;/li&gt;
+&lt;li&gt;将博客最重要的功能抽取出来，去除了&lt;a href=&quot;http://wordpress.org&quot; title=&quot;WordPress&quot;&gt;WordPress&lt;/a&gt;的复杂、烦躁的东西，一切都是清晰可控的&lt;/li&gt;
+&lt;li&gt;可以方便的使用&lt;a href=&quot;http://markdown.tw/&quot; title=&quot;Markdown语法&quot;&gt;Markdown&lt;/a&gt;等其他标记语言
+&lt;li&gt;清晰、简洁的文件组织，完美的永久链接方案，既漂亮、又可定制&lt;/li&gt;
+&lt;li&gt;博客静态化，速度快&lt;/li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/mojombo/jekyll&quot;&gt;Jekyll&lt;/a&gt;是完美的&lt;/li&gt;
+&lt;/ul&gt;
 
 
-&lt;h2&gt;蔓延的简单&lt;/h2&gt;
+&lt;h3&gt;Disqus&lt;/h3&gt;
 
-&lt;p&gt;大概是工作的关系，渐渐追求简单的思维蔓延到了生活中，甚至到了本没有标准的艺术范畴。来看下图：&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/mojombo/jekyll&quot;&gt;Jekyll&lt;/a&gt;都很不错，但是可能有些童鞋会不满意于他不提供评论功能，这个时候，&lt;a href=&quot;http://disqus.com&quot; title=&quot;Disqus&quot;&gt;Disqus&lt;/a&gt;的出现就显得是雪中送炭了。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://img1.bitautoimg.com/autoalbum/files/20120319/123/23575912395576_1844692_7.jpg&quot; alt=&quot;Focus Inside&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;搭朋友的车，这中控系统功能确实强大，但是不得不说这界面的设计师，还活在上个世纪，早该被解雇了。只因这不是选车最值得考虑的部分，不然朋友肯定会选择更好的。&lt;/p&gt;
-
-&lt;p&gt;甚至到了没有标准的艺术范畴，简单都成了标准：&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://ww3.sinaimg.cn/large/a74eed94jw1e0mmo1xa2kj.jpg&quot; alt=&quot;My Photo&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;也不知是否因为我看娱乐节目太多，导致智商降低，对于文学、电影作品，甚至都不能接受故弄玄虚，我不愿去想，也不愿去猜。比如&lt;a href=&quot;http://movie.douban.com/subject/3821067/&quot;&gt;《一代宗师》&lt;/a&gt;故事支离破碎，台词游离，就连王家卫最拿手的气氛渲染，也比&lt;a href=&quot;http://movie.douban.com/subject/1291557/&quot;&gt;《花样年华》&lt;/a&gt;差远了。复杂了，失焦了，我也没有耐心去思索。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://ww4.sinaimg.cn/bmiddle/62275834jw1e0mlp67dv4j.jpg&quot; alt=&quot;The Grandmasters&quot; /&gt;&lt;/p&gt;
-
-&lt;h2&gt;简单的背后&lt;/h2&gt;
-
-&lt;p&gt;做加法很容易，把所见所想全写上就好，做到简单却要经过谨慎的思考。&lt;/p&gt;
-
-&lt;p&gt;简单的背后不应该是简陋。对比&lt;a href=&quot;http://douban.fm/&quot;&gt;豆瓣FM&lt;/a&gt;和&lt;a href=&quot;http://xiami.fm/&quot;&gt;虾米FM&lt;/a&gt;就能理解，豆瓣FM简陋的背后带来了无尽的不安全感，无法控制的挫败感，纵然你能满足大部分用户，但也绝不应该放弃更苛刻的用户，因为作为创造者，你自己也是那些苛求的需要者。&lt;/p&gt;
-
-&lt;p&gt;当然，我知道豆瓣FM有他的苦衷，只是举个例子，做减法并不是舍弃，而是合理的隐藏。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/large/a74ecc4cjw1e0mnhp3ijtj.jpg&quot; alt=&quot;The Next Day&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://itunes.apple.com/us/app/next-day/id491352621?mt=8&quot;&gt;Next Day&lt;/a&gt;就是这样，简单美妙，但是当你想要更多的时候，控制权也完全交到你手中，并且很高效。&lt;/p&gt;
+&lt;p&gt;Disqus是一个社会化的评论解决方案，请允许我使用这个烂透了的词，调用它的接口非常简单，在自己的页面加载他的一段JS代码即可，如果别人注册了Disqus，那么就可以方便的留言，交流，一处登录，处处方便，而且Disqus也提供了一些spam等策略，不用自己操心了，并且可以和一些现有的博客系统很好的转换对接。越来越多的网站开始使用Disqus的服务了，这是一个非常不错的趋势，Jekyll配合&lt;a href=&quot;http://disqus.com&quot; title=&quot;Disqus&quot;&gt;Disqus&lt;/a&gt;实在是完美了。我别无所求了。&lt;/p&gt;
 
 &lt;h2&gt;TL;DR&lt;/h2&gt;
 
-&lt;p&gt;错过这篇废话而无用的文章，你是赚到啦！&lt;/p&gt;
-</content>
-   </entry>
-   
-   <entry>
-     <title>随内容滚动隐藏的工具栏</title>
-     <link href="http://beiyuu.com/auto-edit-bar"/>
-     <updated>2012-12-27T00:00:00+08:00</updated>
-     <id>http://beiyuu.com/auto-edit-bar</id>
-     <content type="html">&lt;p&gt;最先在&lt;a href=&quot;https://itunes.apple.com/us/app/google+/id447119634?mt=8&quot;&gt;Google+&lt;/a&gt;的APP上看到这种交互细节，而后在&lt;a href=&quot;http://www.meilishuo.com/welcome&quot;&gt;美丽说&lt;/a&gt;的新版上也看到了，上图：&lt;/p&gt;
+&lt;p&gt;写到这里，基本的点已经介绍完毕，看看Jekyll生成的博客页面，我心满意足，虽然文笔很烂，语句多不通顺，但是这是一个新的开始了，我觉得心灵都纯洁了不少，这不是发一条微博什么能带来的快乐。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/other/auto-edit-bar.jpg&quot; alt=&quot;Auto Edit Bar&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;图中画蓝色线框的部分既是。打开APP，下面的工具栏部分是显示的，当手指滑动内容，如果是向下浏览更多内容，工具栏自动收起，如果向上回滚，工具栏又会显示。&lt;/p&gt;
-
-&lt;p&gt;好处显而易见，当APP认为你在浏览，收起留出更多的屏幕空间，不遮挡、影响内容的显示，需要时再出现。&lt;/p&gt;
-
-&lt;p&gt;起初看到这个交互，还有些不习惯，体会到他的优势之后，顿时又觉得不支持这样的APP实在太out。&lt;/p&gt;
-
-&lt;p&gt;Google+和美丽说还有些不同的细节：&lt;/p&gt;
-
-&lt;ul&gt;
-    &lt;li&gt;Google+是在手指动作触发刚开始时就起效，而美丽说做在了手指滑动之后，因为有个缓冲时间，所以略感迟钝。&lt;/li&gt;
-    &lt;li&gt;美丽说在工具栏收起之后，留有一个小按钮，其实当用户熟悉这个交互后，略显多余。&lt;/li&gt;
-&lt;/ul&gt;
-
-
-
-</content>
-   </entry>
-   
-   <entry>
-     <title>如果侧滑成为APP标配</title>
-     <link href="http://beiyuu.com/side-slide"/>
-     <updated>2012-12-26T00:00:00+08:00</updated>
-     <id>http://beiyuu.com/side-slide</id>
-     <content type="html">&lt;p&gt;前两天这样感叹过：&lt;/p&gt;
-
-&lt;blockquote&gt;&lt;p&gt;
-像Weico和网易新闻的手势滑动后退这样流畅、高效的交互真让人爱不释手，而且会很快形成惯性，真期待成为各App标配。就像当年第一次用完触屏手机，再去用其他机器，都会上手去摸一样。
-&lt;/p&gt;&lt;/blockquote&gt;
-
-
-&lt;p&gt;&lt;img src=&quot;/images/other/side-slide.jpg&quot; alt=&quot;Weico Side&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;左图Weico的侧拉导航这种交互，从Path之后就遍地开花。对于手机应用，合理利用边缘操作，方便的隐藏显示功能，实在优雅。&lt;/p&gt;
-
-&lt;p&gt;导航部分的侧拉交互并不是每个APP都需要，但是像右图中网易新闻的内容侧拉后退，我觉得应该成为各APP标配。&lt;/p&gt;
-
-&lt;p&gt;这个交互并不新鲜，iPad上的&lt;a href=&quot;http://reederapp.com/ipad/&quot;&gt;Reeder&lt;/a&gt;和&lt;a href=&quot;http://alienblue.org/&quot;&gt;Alien Blue&lt;/a&gt;一直都有，iPad屏幕大，点击顶部按钮的动作幅度太大，问题很突出，就有了侧滑后退这个不错的办法。Alien Blue还像Mac下Finder的并列布局那样，会留有一定宽度的上级内容边缘，转换更加方便。&lt;/p&gt;
-
-&lt;p&gt;先不说手机屏幕越来越大，这个交互本就是令人愉悦的，就像之前Tweetie的下拉刷新一样。人在习惯了高效的东西之后，就很难再回去了，我现在遇见不能侧滑后退的应用，心底的鄙视之情油然而生。可喜的是，很多应用也有了这个Feature，比如&lt;a href=&quot;http://instagram.com/&quot;&gt;Instagram&lt;/a&gt;，等等。&lt;/p&gt;
-
-&lt;p&gt;侧滑本就是手机上很舒适自然的一个体验，想想你会不会没事解锁手机，桌面划两下，再锁屏呢？&lt;/p&gt;
-
-&lt;p&gt;希望能有更多的PM、设计师和开发者认同，赶紧给自己的APP加上这个舒适的Feature吧！&lt;/p&gt;
+&lt;p&gt;对于那些对上述技术不是很熟悉的童鞋来说，搭建起来可能还是需要花费些功夫的，我会在后面写一篇专门的教程，给有需要的人，等不及了的，可以自己研究下，&lt;strong&gt;生命在于折腾&lt;/strong&gt;。&lt;/p&gt;
 </content>
    </entry>
    

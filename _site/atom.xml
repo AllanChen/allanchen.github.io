@@ -4,7 +4,7 @@
    <title>Allan's Blog</title>
    <link href="http://blog.allanhost.com/atom.xml" rel="self" type="application/atom+xml"/>
    <link href="http://blog.allanhost.com" rel="alternate" type="text/html" />
-   <updated>2014-06-07T14:49:54+08:00</updated>
+   <updated>2014-06-07T16:12:31+08:00</updated>
    <id>http://blog.allanhost.com</id>
    <author>
      <name></name>
@@ -17,7 +17,7 @@
      <link href="http://beiyuu.com/about-swift"/>
      <updated>2014-06-07T00:00:00+08:00</updated>
      <id>http://beiyuu.com/about-swift</id>
-     <content type="html">&lt;h4&gt;COCOSPODS 就是其中一个不兼容，你的更新xcode，和cocospad 才可以继续用pod install&lt;/h4&gt;
+     <content type="html">&lt;h4&gt;COCOSPODS 就是其中一个不兼容，你的更新xcode，COCOSPODS 才可以继续用pod install&lt;/h4&gt;
 
 &lt;h4&gt;具体步奏如下&lt;/h4&gt;
 
@@ -41,11 +41,60 @@
    </entry>
    
    <entry>
-     <title>我的新生活</title>
-     <link href="http://beiyuu.com/new-life"/>
-     <updated>2014-05-31T00:00:00+08:00</updated>
-     <id>http://beiyuu.com/new-life</id>
-     <content type="html">
+     <title>About iTunes ERROR 17</title>
+     <link href="http://beiyuu.com/about-itunes-error-17"/>
+     <updated>2014-06-07T00:00:00+08:00</updated>
+     <id>http://beiyuu.com/about-itunes-error-17</id>
+     <content type="html">&lt;h2&gt;Mac 解决方法&lt;/h2&gt;
+
+&lt;pre class=&quot;prettyprint&quot;&gt;nano /etc/hosts&lt;/pre&gt;
+
+
+&lt;ul&gt;
+&lt;li&gt;贴上如下代码&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;pre class=&quot;prettyprint&quot;&gt;
+* ### Host Database#
+# localhost is used to configure the loopback interface
+# when the system is booting.  Do not change this entry.
+##
+127.0.0.1   localhost
+255.255.255.255 broadcasthost
+::1             localhost 
+fe80::1%lo0 localhost
+#127.0.0.1      osxdaily.com
+0.0.0.0     yahoo.com
+0.0.0.0     www.yahoo.com
+&lt;/pre&gt;
+
+
+&lt;p&gt;如果系统版本是OS X 10.9时请清除缓存&lt;/p&gt;
+
+&lt;pre class=&quot;prettyprint&quot;&gt;dscacheutil -flushcache;sudo killall -HUP mDNSResponder&lt;/pre&gt;
+
+
+&lt;h2&gt;Windows 解决方法&lt;/h2&gt;
+
+&lt;p&gt;直接编辑  C:\WINDOWS\system32\drivers\etc\hosts&lt;/p&gt;
+
+&lt;p&gt;贴上如下代码&lt;/p&gt;
+
+&lt;pre class=&quot;prettyprint&quot;&gt;
+* ### Host Database#
+# localhost is used to configure the loopback interface
+# when the system is booting.  Do not change this entry.
+##
+127.0.0.1   localhost
+255.255.255.255 broadcasthost
+::1             localhost 
+fe80::1%lo0 localhost
+#127.0.0.1      osxdaily.com
+0.0.0.0     yahoo.com
+0.0.0.0     www.yahoo.com
+&lt;/pre&gt;
+
 </content>
    </entry>
    

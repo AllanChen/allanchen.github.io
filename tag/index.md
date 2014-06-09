@@ -1,16 +1,13 @@
 ---
 layout: home
 ---
-
 <div class="index-content tag">
     <div class="section">
         <ul class="artical-cate">
             <li><a href="/"><span>Blog</span></a></li>
             <li class="on" style="text-align:right"><a href="/tag"><span>Tag</span></a></li>
         </ul>
-
         <div class="cate-bar"><span id="cateBar"></span></div>
-
         <ul class="artical-list">
         {% for post in site.categories.tag %}
             <li>

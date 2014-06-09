@@ -559,6 +559,10 @@ h3.about {
         margin-right: auto;
         width: 25%;
     }
+    .post_photo_white
+    {
+        with:100%;
+    }
 }
 @media (max-width: 750px) {
     body {

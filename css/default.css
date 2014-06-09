@@ -544,6 +544,8 @@ h3.about {
         width:85%;
         margin:auto auto 50px;
     }
+    .post_photo{height:200px;}
+    .content-box{margin: 50px auto 60px}
     .sidenav {
         float: left;
         box-shadow: 0 1px 4px #ccc;
@@ -561,7 +563,7 @@ h3.about {
     }
     .post_photo_white
     {
-        with:100%;
+        display: none;
     }
 }
 @media (max-width: 750px) {

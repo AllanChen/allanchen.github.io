@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd5a4894-d537-4e2f-b2d0-33c5d7373989" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/404.html" afterPath="$PROJECT_DIR$/_site/404.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/atom.xml" afterPath="$PROJECT_DIR$/_site/atom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/css/default.css" afterPath="$PROJECT_DIR$/_site/css/default.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/default.css" afterPath="$PROJECT_DIR$/css/default.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/default.html" afterPath="$PROJECT_DIR$/_layouts/default.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/about-itunes-error-17/index.html" afterPath="$PROJECT_DIR$/_site/about-itunes-error-17/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/about-swift/index.html" afterPath="$PROJECT_DIR$/_site/about-swift/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/life/index.html" afterPath="$PROJECT_DIR$/_site/life/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/mac-clear-svn-files/index.html" afterPath="$PROJECT_DIR$/_site/mac-clear-svn-files/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/project/index.html" afterPath="$PROJECT_DIR$/_site/project/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/tag/index.html" afterPath="$PROJECT_DIR$/_site/tag/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/wiki.html" afterPath="$PROJECT_DIR$/_site/wiki.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="allanchen.github.io.iws" />
@@ -59,7 +47,7 @@
       <file leaf-file-name="default.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/default.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="254" column="21" selection-start="10206" selection-end="10206" vertical-scroll-proportion="0.63096774" vertical-offset="5099" max-vertical-offset="5896">
+            <state line="34" column="24" selection-start="743" selection-end="743" vertical-scroll-proportion="0.42394015" vertical-offset="408" max-vertical-offset="14674">
               <folding />
             </state>
           </provider>
@@ -408,7 +396,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/default.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="254" column="21" selection-start="10206" selection-end="10206" vertical-scroll-proportion="0.63096774" vertical-offset="5099" max-vertical-offset="5896">
+        <state line="34" column="24" selection-start="743" selection-end="743" vertical-scroll-proportion="0.42394015" vertical-offset="408" max-vertical-offset="14674">
           <folding />
         </state>
       </provider>

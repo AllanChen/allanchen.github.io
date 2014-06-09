@@ -2,8 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd5a4894-d537-4e2f-b2d0-33c5d7373989" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/default.css" afterPath="$PROJECT_DIR$/css/default.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/images/allanphoto/facebook_like_btn2.png" afterPath="$PROJECT_DIR$/_site/images/allanphoto/facebook_like_btn2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/404.html" afterPath="$PROJECT_DIR$/_site/404.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/atom.xml" afterPath="$PROJECT_DIR$/_site/atom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/css/default.css" afterPath="$PROJECT_DIR$/_site/css/default.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/default.html" afterPath="$PROJECT_DIR$/_layouts/default.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/home.html" afterPath="$PROJECT_DIR$/_layouts/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/about-itunes-error-17/index.html" afterPath="$PROJECT_DIR$/_site/about-itunes-error-17/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/about-swift/index.html" afterPath="$PROJECT_DIR$/_site/about-swift/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/life/index.html" afterPath="$PROJECT_DIR$/_site/life/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/mac-clear-svn-files/index.html" afterPath="$PROJECT_DIR$/_site/mac-clear-svn-files/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/project/index.html" afterPath="$PROJECT_DIR$/_site/project/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/tag/index.html" afterPath="$PROJECT_DIR$/_site/tag/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/wiki.html" afterPath="$PROJECT_DIR$/_site/wiki.html" />
     </list>
     <ignored path="allanchen.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,7 +41,7 @@
       <file leaf-file-name="default.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/default.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="44" selection-start="1561" selection-end="1574" vertical-scroll-proportion="-20.580645" vertical-offset="176" max-vertical-offset="1078">
+            <state line="33" column="10" selection-start="1509" selection-end="1509" vertical-scroll-proportion="-17.774193" vertical-offset="175" max-vertical-offset="946">
               <folding />
             </state>
           </provider>
@@ -38,16 +50,16 @@
       <file leaf-file-name="post.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/post.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="0" selection-start="2046" selection-end="2355" vertical-scroll-proportion="-3.0" vertical-offset="927" max-vertical-offset="1826">
+            <state line="44" column="23" selection-start="1545" selection-end="1545" vertical-scroll-proportion="-11.126437" vertical-offset="0" max-vertical-offset="1826">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="default.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/default.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="24" selection-start="743" selection-end="743" vertical-scroll-proportion="0.42394015" vertical-offset="408" max-vertical-offset="14674">
+            <state line="34" column="24" selection-start="743" selection-end="743" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="14674">
               <folding />
             </state>
           </provider>
@@ -62,10 +74,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="home.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_layouts/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="13.032258" vertical-offset="404" max-vertical-offset="1188">
+            <state line="8" column="6" selection-start="360" selection-end="360" vertical-scroll-proportion="0.22827497" vertical-offset="0" max-vertical-offset="1254">
               <folding />
             </state>
           </provider>
@@ -89,8 +101,9 @@
         <option value="$PROJECT_DIR$/_posts/blog/2014-06-07-about-swift.md" />
         <option value="$PROJECT_DIR$/tag/index.md" />
         <option value="$PROJECT_DIR$/_layouts/post.html" />
-        <option value="$PROJECT_DIR$/_layouts/default.html" />
         <option value="$PROJECT_DIR$/css/default.css" />
+        <option value="$PROJECT_DIR$/_layouts/default.html" />
+        <option value="$PROJECT_DIR$/_layouts/home.html" />
       </list>
     </option>
   </component>
@@ -366,13 +379,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/post.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="0" selection-start="2046" selection-end="2355" vertical-scroll-proportion="-3.0" vertical-offset="927" max-vertical-offset="1826">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/page.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="6" selection-start="77" selection-end="77" vertical-scroll-proportion="-3.548387" vertical-offset="0" max-vertical-offset="264">
@@ -380,23 +386,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/home.html">
+    <entry file="file://$PROJECT_DIR$/css/default.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="13.032258" vertical-offset="404" max-vertical-offset="1188">
+        <state line="34" column="24" selection-start="743" selection-end="743" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="14674">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="23" selection-start="1545" selection-end="1545" vertical-scroll-proportion="-11.126437" vertical-offset="0" max-vertical-offset="1826">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/default.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="44" selection-start="1561" selection-end="1574" vertical-scroll-proportion="-20.580645" vertical-offset="176" max-vertical-offset="1078">
+        <state line="33" column="10" selection-start="1509" selection-end="1509" vertical-scroll-proportion="-17.774193" vertical-offset="175" max-vertical-offset="946">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/default.css">
+    <entry file="file://$PROJECT_DIR$/_layouts/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="24" selection-start="743" selection-end="743" vertical-scroll-proportion="0.42394015" vertical-offset="408" max-vertical-offset="14674">
+        <state line="8" column="6" selection-start="360" selection-end="360" vertical-scroll-proportion="0.22827497" vertical-offset="0" max-vertical-offset="1254">
           <folding />
         </state>
       </provider>

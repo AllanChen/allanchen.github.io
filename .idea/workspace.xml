@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd5a4894-d537-4e2f-b2d0-33c5d7373989" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/default.css" afterPath="$PROJECT_DIR$/css/default.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/post.html" afterPath="$PROJECT_DIR$/_layouts/post.html" />
     </list>
     <ignored path="allanchen.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,19 +25,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="post.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="post.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_layouts/post.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="20" selection-start="2066" selection-end="2066" vertical-scroll-proportion="-2.7471263" vertical-offset="949" max-vertical-offset="1826">
+            <state line="56" column="167" selection-start="2332" selection-end="2332" vertical-scroll-proportion="0.3958042" vertical-offset="949" max-vertical-offset="1826">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="default.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/default.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="228" column="32" selection-start="9696" selection-end="9699" vertical-scroll-proportion="0.43225807" vertical-offset="4681" max-vertical-offset="5522">
+            <state line="33" column="16" selection-start="1217" selection-end="1219" vertical-scroll-proportion="-8.333333" vertical-offset="501" max-vertical-offset="5522">
               <folding />
             </state>
           </provider>
@@ -61,8 +61,8 @@
         <option value="$PROJECT_DIR$/_posts/blog/2014-06-07-about-swift.md" />
         <option value="$PROJECT_DIR$/tag/index.md" />
         <option value="$PROJECT_DIR$/_layouts/default.html" />
-        <option value="$PROJECT_DIR$/_layouts/post.html" />
         <option value="$PROJECT_DIR$/css/default.css" />
+        <option value="$PROJECT_DIR$/_layouts/post.html" />
       </list>
     </option>
   </component>
@@ -387,16 +387,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/post.html">
+    <entry file="file://$PROJECT_DIR$/css/default.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="20" selection-start="2066" selection-end="2066" vertical-scroll-proportion="-2.7471263" vertical-offset="949" max-vertical-offset="1826">
+        <state line="33" column="16" selection-start="1217" selection-end="1219" vertical-scroll-proportion="-8.333333" vertical-offset="501" max-vertical-offset="5522">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/default.css">
+    <entry file="file://$PROJECT_DIR$/_layouts/post.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="228" column="32" selection-start="9696" selection-end="9699" vertical-scroll-proportion="0.43225807" vertical-offset="4681" max-vertical-offset="5522">
+        <state line="56" column="167" selection-start="2332" selection-end="2332" vertical-scroll-proportion="0.3958042" vertical-offset="949" max-vertical-offset="1826">
           <folding />
         </state>
       </provider>

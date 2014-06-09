@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Cocoapods with Xcode 6 and 10.10 Yosemite
+title:      Cocoapods with Xcode 6 and Yosemite
 category:   blog
 description: 所以说NO ZUO NO DIE 对于一些急着体验的Yosemite系统的朋友来说，在新的系统上有太多的不兼容了，不过对于苹果的设计。我个人还是给予满分。
 ---

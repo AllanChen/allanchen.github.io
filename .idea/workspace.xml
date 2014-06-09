@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd5a4894-d537-4e2f-b2d0-33c5d7373989" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/images/allanphoto/facebook_like_btn2.png" afterPath="$PROJECT_DIR$/_site/images/allanphoto/facebook_like_btn2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/404.html" afterPath="$PROJECT_DIR$/_site/404.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/atom.xml" afterPath="$PROJECT_DIR$/_site/atom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/css/default.css" afterPath="$PROJECT_DIR$/_site/css/default.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/default.html" afterPath="$PROJECT_DIR$/_layouts/default.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/home.html" afterPath="$PROJECT_DIR$/_layouts/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/about-itunes-error-17/index.html" afterPath="$PROJECT_DIR$/_site/about-itunes-error-17/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/about-swift/index.html" afterPath="$PROJECT_DIR$/_site/about-swift/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/life/index.html" afterPath="$PROJECT_DIR$/_site/life/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/mac-clear-svn-files/index.html" afterPath="$PROJECT_DIR$/_site/mac-clear-svn-files/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/project/index.html" afterPath="$PROJECT_DIR$/_site/project/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/tag/index.html" afterPath="$PROJECT_DIR$/_site/tag/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/wiki.html" afterPath="$PROJECT_DIR$/_site/wiki.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/blog/2014-06-07-about-swift.md" afterPath="" />
     </list>
     <ignored path="allanchen.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -74,10 +61,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="6" selection-start="360" selection-end="360" vertical-scroll-proportion="0.22827497" vertical-offset="0" max-vertical-offset="1254">
+            <state line="8" column="6" selection-start="360" selection-end="360" vertical-scroll-proportion="-5.677419" vertical-offset="0" max-vertical-offset="1254">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2014-06-07-about-cocoapods-with-Xcode6-and-Yosemite.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/blog/2014-06-07-about-cocoapods-with-Xcode6-and-Yosemite.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="10" selection-start="254" selection-end="254" vertical-scroll-proportion="0.22651222" vertical-offset="0" max-vertical-offset="777">
               <folding />
             </state>
           </provider>
@@ -104,6 +100,7 @@
         <option value="$PROJECT_DIR$/css/default.css" />
         <option value="$PROJECT_DIR$/_layouts/default.html" />
         <option value="$PROJECT_DIR$/_layouts/home.html" />
+        <option value="$PROJECT_DIR$/_posts/blog/2014-06-07-about-cocoapods-with-Xcode6-and-Yosemite.md" />
       </list>
     </option>
   </component>
@@ -172,6 +169,24 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="_posts">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="allanchen.github.io">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="_posts">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="blog">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -325,11 +340,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/blog/2014-06-07-about-swift.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0" vertical-offset="22" max-vertical-offset="682" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/tag/2014-05-30-mac-clear-svn-files.md">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="0" selection-start="186" selection-end="211" vertical-scroll-proportion="0.0" vertical-offset="220" max-vertical-offset="396" />
@@ -355,11 +365,6 @@
     <entry file="file://$PROJECT_DIR$/_posts/tag/2014-05-30-mac-clear-svn-files.md">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="0" selection-start="186" selection-end="211" vertical-scroll-proportion="0.25" vertical-offset="0" max-vertical-offset="880" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/blog/2014-06-07-about-swift.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="30" selection-start="475" selection-end="475" vertical-scroll-proportion="0.475" vertical-offset="0" max-vertical-offset="880" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/tag/template.md">
@@ -409,7 +414,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="6" selection-start="360" selection-end="360" vertical-scroll-proportion="0.22827497" vertical-offset="0" max-vertical-offset="1254">
+        <state line="8" column="6" selection-start="360" selection-end="360" vertical-scroll-proportion="-5.677419" vertical-offset="0" max-vertical-offset="1254">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/blog/2014-06-07-about-cocoapods-with-Xcode6-and-Yosemite.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="10" selection-start="254" selection-end="254" vertical-scroll-proportion="0.22651222" vertical-offset="0" max-vertical-offset="777">
           <folding />
         </state>
       </provider>

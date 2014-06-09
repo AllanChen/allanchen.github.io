@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd5a4894-d537-4e2f-b2d0-33c5d7373989" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/atom.xml" afterPath="$PROJECT_DIR$/_site/atom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/css/default.css" afterPath="$PROJECT_DIR$/_site/css/default.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/default.css" afterPath="$PROJECT_DIR$/css/default.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="allanchen.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,7 +37,7 @@
       <file leaf-file-name="default.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/default.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="242" column="19" selection-start="9975" selection-end="9975" vertical-scroll-proportion="0.8296774" vertical-offset="4681" max-vertical-offset="5522">
+            <state line="228" column="32" selection-start="9699" selection-end="9699" vertical-scroll-proportion="0.43225807" vertical-offset="4681" max-vertical-offset="5522">
               <folding />
             </state>
           </provider>
@@ -399,7 +396,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/default.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="242" column="19" selection-start="9975" selection-end="9975" vertical-scroll-proportion="0.8296774" vertical-offset="4681" max-vertical-offset="5522">
+        <state line="228" column="32" selection-start="9699" selection-end="9699" vertical-scroll-proportion="0.43225807" vertical-offset="4681" max-vertical-offset="5522">
           <folding />
         </state>
       </provider>

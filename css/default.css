@@ -226,7 +226,7 @@ h3.about {color:#777;margin-top:20px;font-size:22px;margin-bottom:10px}
     .sidenav-social{margin-left:52px;}
 }
 
-@media screen and (max-width:400px){
+@media screen and (max-width:320px){
     #content{
         width: 100%;}
     .post_photo

@@ -4,7 +4,7 @@ layout: default
 
 <link rel="stylesheet" href="/js/prettify/prettify.css" />
 <style type="text/css">
-    body { background:#e8e8e8; }
+    body { background:#ffffff; }
     @media screen and (max-width: 750px){
         body { background:#fff; }
     }
@@ -12,9 +12,12 @@ layout: default
         body { background:#fff; }
     }
 </style>
-
 <div id="content">
-    <div class="entry">
+    <div class="post_photo">
+        <div class="post_photo_white"></div>
+    </div>
+    <div class="content-box">
+        <div class="entry">
         <h1 class="entry-title"><a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></h1>
         <p class="entry-date">{{ page.date|date:"%Y-%m-%d" }}</p>
         {{ content }}
@@ -49,15 +52,11 @@ layout: default
             <div id="disqus_thread"></div>
         </div>-->
     </div>
-
-    <!--
-     |  社交平台
-    -->
-    <div class="sidenav-social">
-        <iframe width="100%" height="95" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=95&fansRow=1&ptype=1&speed=0&skin=5&isTitle=0&noborder=0&isWeibo=0&isFans=0&uid=1787907831&verifier=bfb94dac&dpc=1"></iframe>
+        <div class="sidenav">
+    <div class="header_profile"><img src="../images/allanphoto/header.jpg"></div>
+    <div class="info_profile">Allan Chan <a href="http://weibo.com/kakasir/home?wvr=5"><img src="../images/allanphoto/facebook_like_btn.jpg"></a></div>
     </div>
-
-    <div class="sidenav">
+        <div class="sidenav">
         <h2>Blog</h2>
         <ul class="artical-list">
         {% for post in site.categories.blog%}
@@ -72,6 +71,7 @@ layout: default
         {% endfor %}
         </ul>
 
+    </div>
     </div>
 </div>
 

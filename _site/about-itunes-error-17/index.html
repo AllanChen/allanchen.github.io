@@ -7,6 +7,7 @@
     <meta charset="utf-8" />
     <title>About iTunes ERROR 17 | Allan's Blog</title>
     <meta name="author" content="AllanChan" />
+    <meta property="wb:webmaster" content="30387569cc40877b" />
     <meta name="renderer" content="webkit">
     <meta name="description" content="Allan's Blog" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
@@ -32,7 +33,7 @@
 
     <link rel="stylesheet" href="/js/prettify/prettify.css" />
 <style type="text/css">
-    body { background:#e8e8e8; }
+    body { background:#ffffff; }
     @media screen and (max-width: 750px){
         body { background:#fff; }
     }
@@ -40,9 +41,12 @@
         body { background:#fff; }
     }
 </style>
-
 <div id="content">
-    <div class="entry">
+    <div class="post_photo">
+        <div class="post_photo_white"></div>
+    </div>
+    <div class="content-box">
+        <div class="entry">
         <h1 class="entry-title"><a href="/about-itunes-error-17" title="About iTunes ERROR 17">About iTunes ERROR 17</a></h1>
         <p class="entry-date">2014-06-07</p>
         <h2>Mac 解决方法</h2>
@@ -70,16 +74,21 @@ fe80::1%lo0 localhost
 </pre>
 
 
-<p>如果系统版本是OS X 10.9时请清除缓存</p>
+<ul>
+<li>如果系统版本是OS X 10.9时请清除缓存</li>
+</ul>
+
 
 <pre class="prettyprint">dscacheutil -flushcache;sudo killall -HUP mDNSResponder</pre>
 
 
 <h2>Windows 解决方法</h2>
 
-<p>直接编辑  C:\WINDOWS\system32\drivers\etc\hosts</p>
+<ul>
+<li>直接编辑  C:\WINDOWS\system32\drivers\etc\hosts</li>
+<li>贴上如下代码</li>
+</ul>
 
-<p>贴上如下代码</p>
 
 <pre class="prettyprint">
 * ### Host Database#
@@ -127,15 +136,11 @@ fe80::1%lo0 localhost
             <div id="disqus_thread"></div>
         </div>-->
     </div>
-
-    <!--
-     |  社交平台
-    -->
-    <div class="sidenav-social">
-        <iframe width="100%" height="95" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=95&fansRow=1&ptype=1&speed=0&skin=5&isTitle=0&noborder=0&isWeibo=0&isFans=0&uid=1787907831&verifier=bfb94dac&dpc=1"></iframe>
+        <div class="sidenav">
+    <div class="header_profile"><img src="../images/allanphoto/header.jpg"></div>
+    <div class="info_profile">Allan Chan <a href="http://weibo.com/kakasir/home?wvr=5"><img src="../images/allanphoto/facebook_like_btn.jpg"></a></div>
     </div>
-
-    <div class="sidenav">
+        <div class="sidenav">
         <h2>Blog</h2>
         <ul class="artical-list">
         
@@ -148,8 +153,11 @@ fe80::1%lo0 localhost
         <h2>Tag</h2>
         <ul class="artical-list">
         
+            <li><a href="/mac-clear-svn-files">Mac Clear SVN Command</a></li>
+        
         </ul>
 
+    </div>
     </div>
 </div>
 

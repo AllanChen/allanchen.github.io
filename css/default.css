@@ -52,17 +52,17 @@ pre code{background-color:transparent;border:none;padding:0;word-wrap:normal;}
 pre ol{margin-left:25px;list-style-type:decimal;}
 
 /************layout style*****************/
-#content {width:1060px;margin:90px auto 60px;min-height:400px;height:auto !important;height:400px; }
-
+#content {width:100%;margin:auto auto 60px;min-height:400px;height:auto !important;height:400px;}
+.content-box{width:1060px;margin:auto auto 60px;min-height:400px;height:auto !important;height:400px; }
 
 /****************entry style**************/
-.sidenav { width:240px; background:#fff; float:right; padding:20px; margin-bottom:50px; box-shadow:0 1px 4px #ccc; }
-.sidenav-social { width:240px; background:#fff; float:right; padding:20px; margin-bottom:50px; box-shadow:0 1px 4px #ccc; }
+.sidenav { width:240px; background:#fff; float:right; padding:20px; margin-bottom:50px; /*box-shadow:0 1px 4px #ccc;*/ }
+.sidenav-social { width:240px; background:#fff; float:right; padding:20px; margin-bottom:50px; /*box-shadow:0 1px 4px #ccc;*/ }
 .sidenav h2 { font-size:18px; color:#333; margin-bottom:15px; }
 .sidenav ul { margin-bottom:50px; }
 .sidenav li { margin-bottom:12px; word-break: break-all;}
 .sidenav a { color:#555; font-size:14px; display:block;}
-.entry{margin-bottom:80px;width:680px; float:left; background:#fff; padding:30px; box-shadow:0 2px 6px #ccc; }
+.entry{margin-bottom:80px;width:680px; float:left; background:#fff; padding:30px; /*box-shadow:0 2px 6px #ccc;*/ }
 .entry ul{margin-bottom:25px;margin-left:25px;}
 .entry p+ul {margin-top:-20px;}
 .entry ul li{margin-bottom:5px;list-style:disc;line-height:1.8em;}
@@ -147,6 +147,22 @@ h3.about {color:#777;margin-top:20px;font-size:22px;margin-bottom:10px}
 .home-contact a { width:30px; display:inline-block; }
 .home-contact img { width:18px; }
 
+/**************内容页**************/
+.post_photo{background-image:url("../images/allanphoto/inside.top.photo.jpg");height: 255px;background-position: center;
+    overflow: hidden;}
+.post_photo_white{width: 1060px;background-color: white;height: 74px;margin-top: 206px;margin-left: auto;margin-right: auto;}
+.header_profile{float: left;}
+.info_profile{
+    height: 66px;
+    float: left;
+    font-size: 13px;
+    width: 72px;
+    padding-left: 13px;
+    line-height: 30px;
+    color:#8cb8e3;
+}
+.info_profile a{text-decoration: none;color:#8cb8e3}
+.info_profile a:hover{text-decoration-line: none;}
 @media screen and (max-width: 750px){
     body {font-size:14px;}
     #content {width:85%;margin:100px auto 50px; }

@@ -53,7 +53,7 @@ pre ol{margin-left:25px;list-style-type:decimal;}
 
 /************layout style*****************/
 #content {width:100%;margin:auto auto 60px;min-height:400px;height:auto !important;height:400px;}
-.content-box{width:1060px;margin:auto auto 60px;min-height:400px;height:auto !important;height:400px; }
+.content-box{max-width:1060px;margin:auto auto 60px;min-height:400px;height:auto !important;height:400px; }
 
 /****************entry style**************/
 .sidenav { width:240px; background:#fff; float:right; padding:20px; margin-bottom:50px; /*box-shadow:0 1px 4px #ccc;*/ }
@@ -62,6 +62,10 @@ pre ol{margin-left:25px;list-style-type:decimal;}
 .sidenav ul { margin-bottom:50px; }
 .sidenav li { margin-bottom:12px; word-break: break-all;}
 .sidenav a { color:#555; font-size:14px; display:block;}
+.sidenav-social h2 { font-size:18px; color:#333; margin-bottom:15px; }
+.sidenav-social ul { margin-bottom:50px; }
+.sidenav-social li { margin-bottom:12px; word-break: break-all;}
+
 .entry{margin-bottom:80px;width:680px; float:left; background:#fff; padding:30px; /*box-shadow:0 2px 6px #ccc;*/ }
 .entry ul{margin-bottom:25px;margin-left:25px;}
 .entry p+ul {margin-top:-20px;}
@@ -163,9 +167,40 @@ h3.about {color:#777;margin-top:20px;font-size:22px;margin-bottom:10px}
 }
 .info_profile a{text-decoration: none;color:#8cb8e3}
 .info_profile a:hover{text-decoration-line: none;}
+
+@media (max-width: 1300px){
+    .home-menu { position:absolute; }
+}
+
+@media (max-width: 1020px){
+    #menuIndex {display:none;}
+    .home-menu { position:absolute; top:0px;
+        left: 0px;}
+    .index-content .cate-bar ,
+    .index-content .artical-list,
+    .index-content .artical-cate { width:85%; }
+    .entry {float: none;
+        width: auto;
+        background: transparent;
+        margin-bottom: 33px;
+        box-shadow: 0 2px 6px #ccc;}
+    #content {width:85%;margin:auto auto 50px; }
+    .sidenav{float: left;
+        box-shadow: 0 1px 4px #ccc;
+        margin-left: 30px;
+        margin-right: auto;
+        width: 36%;
+        box-shadow:0 1px 4px #ccc;}
+    .sidenav-social{float: left;
+        box-shadow: 0 1px 4px #ccc;
+        margin-left: 95px;
+        margin-right: auto;
+        width: 25%;}
+}
+
 @media screen and (max-width: 750px){
     body {font-size:14px;}
-    #content {width:85%;margin:100px auto 50px; }
+    #content {width:85%;}
 
     h2{font-size:20px;}
     h3{font-size:16px;}
@@ -176,8 +211,7 @@ h3.about {color:#777;margin-top:20px;font-size:22px;margin-bottom:10px}
     .entry img{max-width:90%;}
     .entry pre ol li{margin-bottom:0;line-height:1em;}
     .entry pre code{line-height:1em;font-size:12px;}
-    .sidenav {display:none;}
-    .entry {float:none;width:auto;background:transparent;padding:0;box-shadow:none;}
+    .entry {float:none;width:auto;background:transparent;}
 
     .index-content .aside { position:relative; width:100%; height:300px; max-width:none; }
     .index-content .section { margin-left:0; padding-right:0; }
@@ -188,18 +222,6 @@ h3.about {color:#777;margin-top:20px;font-size:22px;margin-bottom:10px}
     .blog .aside,
     .project .aside,
     .opinion .aside {display:none;background-image:none;}
-}
 
-@media (max-width: 1020px){
-    #menuIndex {display:none;}
-    .home-menu { position:absolute; }
-    .index-content .cate-bar ,
-    .index-content .artical-list,
-    .index-content .artical-cate { width:85%; }
-    .sidenav {display:none;}
-    .entry {float:none;width:auto;background:transparent;padding:0;box-shadow:none;}
-    #content {width:85%;margin:100px auto 50px; }
-}
-@media (max-width: 1300px){
-    .home-menu { position:absolute; }
+    .sidenav-social{margin-left:75px;}
 }

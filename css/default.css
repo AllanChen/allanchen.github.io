@@ -198,7 +198,7 @@ h3.about {color:#777;margin-top:20px;font-size:22px;margin-bottom:10px}
         width: 25%;}
 }
 
-@media screen and (max-width: 750px){
+@media  (max-width: 750px){
     body {font-size:14px;}
     #content {width:85%;}
 
@@ -223,5 +223,24 @@ h3.about {color:#777;margin-top:20px;font-size:22px;margin-bottom:10px}
     .project .aside,
     .opinion .aside {display:none;background-image:none;}
 
-    .sidenav-social{margin-left:75px;}
+    .sidenav-social{margin-left:52px;}
+}
+
+@media screen and (max-width:400px){
+    #content{
+        width: 100%;}
+    .post_photo
+    {
+        height: 120px;
+    }
+    .entry{
+        margin-bottom: 0px;
+        margin-top:10px;
+        box-shadow: none;
+    }
+    .sidenav-social{margin-left: 75px;
+        margin-bottom: 20px;
+        width: 50%;}
+    .sidenav{
+        display: none;}
 }

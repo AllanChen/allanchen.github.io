@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd5a4894-d537-4e2f-b2d0-33c5d7373989" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/blog/2014-06-07-about-swift.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/about-swift/index.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/images/allanphoto/facebook_like_btn2.png" afterPath="$PROJECT_DIR$/_site/images/allanphoto/facebook_like_btn2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/atom.xml" afterPath="$PROJECT_DIR$/_site/atom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/css/default.css" afterPath="$PROJECT_DIR$/_site/css/default.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/default.css" afterPath="$PROJECT_DIR$/css/default.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/about-itunes-error-17/index.html" afterPath="$PROJECT_DIR$/_site/about-itunes-error-17/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/mac-clear-svn-files/index.html" afterPath="$PROJECT_DIR$/_site/mac-clear-svn-files/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="allanchen.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,10 +51,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="default.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/default.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="24" selection-start="743" selection-end="743" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="14674">
+            <state line="523" column="23" selection-start="9423" selection-end="9423" vertical-scroll-proportion="0.17705736" vertical-offset="11364" max-vertical-offset="14608">
               <folding />
             </state>
           </provider>
@@ -70,10 +78,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2014-06-07-about-cocoapods-with-Xcode6-and-Yosemite.md" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="2014-06-07-about-cocoapods-with-Xcode6-and-Yosemite.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/blog/2014-06-07-about-cocoapods-with-Xcode6-and-Yosemite.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="10" selection-start="254" selection-end="254" vertical-scroll-proportion="0.22651222" vertical-offset="0" max-vertical-offset="777">
+            <state line="8" column="10" selection-start="254" selection-end="254" vertical-scroll-proportion="-7.04" vertical-offset="0" max-vertical-offset="682">
               <folding />
             </state>
           </provider>
@@ -97,10 +105,10 @@
         <option value="$PROJECT_DIR$/_posts/blog/2014-06-07-about-swift.md" />
         <option value="$PROJECT_DIR$/tag/index.md" />
         <option value="$PROJECT_DIR$/_layouts/post.html" />
-        <option value="$PROJECT_DIR$/css/default.css" />
         <option value="$PROJECT_DIR$/_layouts/default.html" />
         <option value="$PROJECT_DIR$/_layouts/home.html" />
         <option value="$PROJECT_DIR$/_posts/blog/2014-06-07-about-cocoapods-with-Xcode6-and-Yosemite.md" />
+        <option value="$PROJECT_DIR$/css/default.css" />
       </list>
     </option>
   </component>
@@ -155,6 +163,20 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="allanchen.github.io">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="allanchen.github.io">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="_site">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -391,13 +413,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/default.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="24" selection-start="743" selection-end="743" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="14674">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/post.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="44" column="23" selection-start="1545" selection-end="1545" vertical-scroll-proportion="-11.126437" vertical-offset="0" max-vertical-offset="1826">
@@ -421,7 +436,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/blog/2014-06-07-about-cocoapods-with-Xcode6-and-Yosemite.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="10" selection-start="254" selection-end="254" vertical-scroll-proportion="0.22651222" vertical-offset="0" max-vertical-offset="777">
+        <state line="8" column="10" selection-start="254" selection-end="254" vertical-scroll-proportion="-7.04" vertical-offset="0" max-vertical-offset="682">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/default.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="523" column="23" selection-start="9423" selection-end="9423" vertical-scroll-proportion="0.17705736" vertical-offset="11364" max-vertical-offset="14608">
           <folding />
         </state>
       </provider>

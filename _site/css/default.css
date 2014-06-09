@@ -521,7 +521,7 @@ h3.about {
         display: none;
     }
 }
-@media (max-width: 1020px) {
+@media (max-width: 1160px) {
     #menuIndex {
         display:none;
     }
@@ -621,10 +621,7 @@ h3.about {
         box-shadow: 0 1px 4px #ccc;
         padding: 18px;
     }
-    /* .blog .aside, .project .aside, .opinion .aside {
-        display:none;
-        background-image:none;
-    }*/
+
     .sidenav-social {
         margin-left:52px;
     }

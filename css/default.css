@@ -240,7 +240,8 @@ h3.about {color:#777;margin-top:20px;font-size:22px;margin-bottom:10px}
     }
     .sidenav-social{width: 50%;
         height: 67px;
-    margin: auto auto 20px auto}
+    margin: auto auto 20px auto;
+        float: none;}
     .sidenav{
         display: none;}
 }

@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd5a4894-d537-4e2f-b2d0-33c5d7373989" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/images/allanphoto/facebook_like_btn2.png" afterPath="$PROJECT_DIR$/_site/images/allanphoto/facebook_like_btn2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/atom.xml" afterPath="$PROJECT_DIR$/_site/atom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/css/default.css" afterPath="$PROJECT_DIR$/_site/css/default.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/default.css" afterPath="$PROJECT_DIR$/css/default.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="allanchen.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -59,7 +55,7 @@
       <file leaf-file-name="default.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/default.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="546" column="29" selection-start="9936" selection-end="9936" vertical-scroll-proportion="0.80266666" vertical-offset="11410" max-vertical-offset="14740">
+            <state line="553" column="19" selection-start="10124" selection-end="10124" vertical-scroll-proportion="0.5093333" vertical-offset="11784" max-vertical-offset="14740">
               <folding />
             </state>
           </provider>
@@ -456,7 +452,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/default.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="546" column="29" selection-start="9936" selection-end="9936" vertical-scroll-proportion="0.80266666" vertical-offset="11410" max-vertical-offset="14740">
+        <state line="553" column="19" selection-start="10124" selection-end="10124" vertical-scroll-proportion="0.5093333" vertical-offset="11784" max-vertical-offset="14740">
           <folding />
         </state>
       </provider>

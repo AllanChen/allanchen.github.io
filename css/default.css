@@ -545,7 +545,7 @@ h3.about {
         margin:auto auto 50px;
     }
     .post_photo{height:200px;}
-    .content-box{margin: 50px auto 60px}
+    .content-box{margin: 0px auto 60px}
     .sidenav {
         float: left;
         box-shadow: 0 1px 4px #ccc;

@@ -513,6 +513,12 @@ h3.about {
 .info_profile a:hover {
     text-decoration-line: none;
 }
+@media(max-width: 3000px)
+{
+    .show-on-index{
+        display: none;
+    }
+}
 @media (max-width: 1300px) {
     .home-menu {
         position:absolute;

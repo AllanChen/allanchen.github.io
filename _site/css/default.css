@@ -513,6 +513,12 @@ h3.about {
 .info_profile a:hover {
     text-decoration-line: none;
 }
+@media(max-width: 3000px)
+{
+    .show-on-index{
+        display: none;
+    }
+}
 @media (max-width: 1300px) {
     .home-menu {
         position:absolute;
@@ -545,7 +551,7 @@ h3.about {
         margin:auto auto 50px;
     }
     .post_photo{height:200px;}
-    .content-box{margin: 50px auto 60px}
+    .content-box{margin: 0px auto 60px}
     .sidenav {
         float: left;
         box-shadow: 0 1px 4px #ccc;

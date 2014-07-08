@@ -13,11 +13,10 @@ description: 如何创建一个自己的Pod
 * 创建一个Git的 [Repositories](https://github.com/new) 
 * 创建一个 Podspec 
 <pre class="prettyprint">pod spec create YOUR_PODSPEC_FILE_NAME</pre>
-* 添加如下内容
-* ![Podspec](http://mouapp.com/Mou_128.png)
-
-Podspec 文件解析：
-
+* 添加如下内容  [查看并复制](https://github.com/AllanChen/ACNetworkframework/blob/master/ACNetworkframework.podspec)
+ 
+![Podspec File](https://raw.githubusercontent.com/AllanChen/allanchen.github.io/master/images/privatepod/Screen%20Shot%202014-07-08%20at%2010.01.15.png)
+###Podspec 文件解析：
 1. s.name -- Pod 项目名字 ， 
 2. s.summary 一个简短的说明文档 （pod search命令就是根据这两项内容作为搜索文本的）
 3. s.homepage 库的主页，
@@ -30,6 +29,7 @@ Podspec 文件解析：
 10. s.source_files 项目的文件
 11. s.dependency 项目依赖的第三方库
 12. s.platform   支持的最低版本
+ 
 笔者在这个库中，用到的就是以上的一些属性。但是在PODSPEC 文件中，还有十分多的选项提供个大家去选择如
 
 		# s.screenshots  = "www.example.com/screenshots_1.gif","www.example.com/screenshots_2.gif"
@@ -49,26 +49,26 @@ Podspec 文件解析：
 		# s.dependency "JSONKit", "~> 1.4"
 
 各种选项的意思其实在字义的表面已经可以看出来，我在这里就不一一细说。
-
 创建好Podspec文件后，连同自己的代码一并上传到Git上面。
-本地的目录
-![Podspec](http://mouapp.com/Mou_128.png)
-Git上面的目录
-![Podspec](http://mouapp.com/Mou_128.png)
 
-`需要注意的是，Podspec文件必须在git目录中！！`
+#####本地的目录
+![Local file](https://raw.githubusercontent.com/AllanChen/allanchen.github.io/master/images/privatepod/Screen%20Shot%202014-07-08%20at%209.55.53.png)
 
+#####Git上面的目录
+![Git file](https://raw.githubusercontent.com/AllanChen/allanchen.github.io/master/images/privatepod/Screen%20Shot%202014-07-08%20at%209.56.15.png)
+
+###需要注意的是，Podspec文件必须在git目录中！！
 到这里，你已经很成功的创建了一个私有的Pod了。
 
 ###使用你的Pod吧
 
 在你使用该库的项目上创建Podfile 文件 ，添加如下内容，然后保存
-<pre class="prettyprint"> 
-	platform :ios 
+<pre class="prettyprint"> platform :ios 
 	po	d 'YOUR_POD_NAME', 
 </pre>
 
 <pre class="prettyprint">pod install</pre>
+![install Ing](https://raw.githubusercontent.com/AllanChen/allanchen.github.io/master/images/privatepod/Screen%20Shot%202014-07-08%20at%209.54.57.png)
 
-
+###And more?
 关于Pod的一些原理，大家可以看[这里](http://blog.devtang.com/blog/2014/05/25/use-cocoapod-to-manage-ios-lib-dependency/) 

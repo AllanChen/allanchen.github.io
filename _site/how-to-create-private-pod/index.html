@@ -57,53 +57,68 @@
 <ul>
 <li>创建一个Git的 <a href="https://github.com/new">Repositories</a></li>
 <li>创建一个 Podspec</li>
-<li><pre class="prettyprint">pod spec create YOUR_PODSPEC_FILE_NAME</pre></li>
-<li>添加如下内容</li>
-<li><img src="http://mouapp.com/Mou_128.png" alt="Podspec" /></li>
 </ul>
 
 
-<p>Podspec 文件解析：
-1. s.name -- Pod 项目名字 ，
-2. s.summary 一个简短的说明文档 （pod search命令就是根据这两项内容作为搜索文本的）
-3. s.homepage 库的主页，
-4. s.version 库代码的版本，
-5. s.license所采用的授权版本，
-6. s.author 是指作者。
-7. s.source 声明原代码的地址
-8. s.ios.deployment_target
-9. s.description 项目的描述
-10. s.source_files 项目的文件
-11. s.dependency 项目依赖的第三方库
-12. s.platform   支持的最低版本
-笔者在这个库中，用到的就是以上的一些属性。但是在PODSPEC 文件中，还有十分多的选项提供个大家去选择如</p>
+<pre class="prettyprint">pod spec create YOUR_PODSPEC_FILE_NAME</pre>
 
-<pre><code># s.screenshots  = "www.example.com/screenshots_1.gif","www.example.com/screenshots_2.gif"
-# s.platform     = :ios
-# s.platform     = :ios, "5.0"
-# s.ios.deployment_target = "5.0"
-# s.osx.deployment_target = "10.7"  
-# s.public_header_files = "Classes/**/*.h"
-# s.resource  = "icon.png"
-# s.resources = "Resources/*.png"
-# s.preserve_paths = "FilesToSave", "MoreFilesToSave"
-# s.frameworks = "SomeFramework", "AnotherFramework"
-# s.library   = "iconv"
-# s.libraries = "iconv", "xml2"
-# s.requires_arc = true
-# s.xcconfig = { "HEADER_SEARCH_PATHS" =&gt; "$(SDKROOT)/usr/include/libxml2" }
-# s.dependency "JSONKit", "~&gt; 1.4"
+
+<ul>
+<li>添加如下内容  <a href="https://github.com/AllanChen/ACNetworkframework/blob/master/ACNetworkframework.podspec">查看并复制</a></li>
+</ul>
+
+
+<p><img src="https://raw.githubusercontent.com/AllanChen/allanchen.github.io/master/images/privatepod/Screen%20Shot%202014-07-08%20at%2010.01.15.png" alt="Podspec File" /></p>
+
+<h3>Podspec 文件解析：</h3>
+
+<ol>
+<li>s.name -- Pod 项目名字 ，</li>
+<li>s.summary 一个简短的说明文档 （pod search命令就是根据这两项内容作为搜索文本的）</li>
+<li>s.homepage 库的主页，</li>
+<li>s.version 库代码的版本，</li>
+<li>s.license所采用的授权版本，</li>
+<li>s.author 是指作者。</li>
+<li>s.source 声明原代码的地址</li>
+<li>s.ios.deployment_target</li>
+<li>s.description 项目的描述</li>
+<li>s.source_files 项目的文件</li>
+<li>s.dependency 项目依赖的第三方库</li>
+<li>s.platform   支持的最低版本</li>
+</ol>
+
+
+<p>笔者在这个库中，用到的就是以上的一些属性。但是在PODSPEC 文件中，还有十分多的选项提供个大家去选择如</p>
+
+<pre><code>    # s.screenshots  = "www.example.com/screenshots_1.gif","www.example.com/screenshots_2.gif"
+    # s.platform     = :ios
+    # s.platform     = :ios, "5.0"
+    # s.ios.deployment_target = "5.0"
+    # s.osx.deployment_target = "10.7"  
+    # s.public_header_files = "Classes/**/*.h"
+    # s.resource  = "icon.png"
+    # s.resources = "Resources/*.png"
+    # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
+    # s.frameworks = "SomeFramework", "AnotherFramework"
+    # s.library   = "iconv"
+    # s.libraries = "iconv", "xml2"
+    # s.requires_arc = true
+    # s.xcconfig = { "HEADER_SEARCH_PATHS" =&gt; "$(SDKROOT)/usr/include/libxml2" }
+    # s.dependency "JSONKit", "~&gt; 1.4"
 </code></pre>
 
-<p>各种选项的意思其实在字义的表面已经可以看出来，我在这里就不一一细说。</p>
+<p>各种选项的意思其实在字义的表面已经可以看出来，我在这里就不一一细说。
+创建好Podspec文件后，连同自己的代码一并上传到Git上面。</p>
 
-<p>创建好Podspec文件后，连同自己的代码一并上传到Git上面。
-本地的目录
-<img src="http://mouapp.com/Mou_128.png" alt="Podspec" />
-Git上面的目录
-<img src="http://mouapp.com/Mou_128.png" alt="Podspec" /></p>
+<h5>本地的目录</h5>
 
-<p><code>需要注意的是，Podspec文件必须在git目录中！！</code></p>
+<p><img src="https://raw.githubusercontent.com/AllanChen/allanchen.github.io/master/images/privatepod/Screen%20Shot%202014-07-08%20at%209.55.53.png" alt="Local file" /></p>
+
+<h5>Git上面的目录</h5>
+
+<p><img src="https://raw.githubusercontent.com/AllanChen/allanchen.github.io/master/images/privatepod/Screen%20Shot%202014-07-08%20at%209.56.15.png" alt="Git file" /></p>
+
+<h3>需要注意的是，Podspec文件必须在git目录中！！</h3>
 
 <p>到这里，你已经很成功的创建了一个私有的Pod了。</p>
 
@@ -111,8 +126,7 @@ Git上面的目录
 
 <p>在你使用该库的项目上创建Podfile 文件 ，添加如下内容，然后保存</p>
 
-<pre class="prettyprint"> 
-    platform :ios 
+<pre class="prettyprint"> platform :ios 
     po  d 'YOUR_POD_NAME', 
 </pre>
 
@@ -121,6 +135,10 @@ Git上面的目录
 
 <pre class="prettyprint">pod install</pre>
 
+
+<p><img src="https://raw.githubusercontent.com/AllanChen/allanchen.github.io/master/images/privatepod/Screen%20Shot%202014-07-08%20at%209.54.57.png" alt="install Ing" /></p>
+
+<h3>And more?</h3>
 
 <p>关于Pod的一些原理，大家可以看<a href="http://blog.devtang.com/blog/2014/05/25/use-cocoapod-to-manage-ios-lib-dependency/">这里</a></p>
 

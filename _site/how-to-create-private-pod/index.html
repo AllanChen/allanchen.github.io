@@ -5,7 +5,7 @@
     * Author:         AllanChan
     -->
     <meta charset="utf-8" />
-    <title>About iTunes ERROR 17 | Allan's Blog</title>
+    <title>How to create Private Pod | Allan's Blog</title>
     <meta name="author" content="AllanChan" />
     <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" id="viewport" name="viewport">
     <meta name="renderer" content="webkit">
@@ -47,63 +47,82 @@
     </div>
     <div class="content-box">
         <div class="entry">
-            <h1 class="entry-title"><a href="/about-itunes-error-17" title="About iTunes ERROR 17">About iTunes ERROR 17</a></h1>
-            <p class="entry-date">2014-06-07</p>
-            <h2>Mac 解决方法</h2>
+            <h1 class="entry-title"><a href="/how-to-create-private-pod" title="How to create Private Pod">How to create Private Pod</a></h1>
+            <p class="entry-date">2014-07-07</p>
+            <p>对于一些IOS 开发者而言，管理第三方库的确是一件令人头疼的事情。而Cocoapod 恰恰是解决你这个烦恼的一个第三方管理库。
+尽管pod上有许许多多的第三方库提供给开发者使用，但是很多人还是喜欢把自己的一些库或者Helper使用到各个项目上面去，这样不单单是可以提高个人的开发效率。对于以后有新人的加入，项目的重构管理起来都是颇为省劲。下面我就介绍一下如何去制作一个“私有的POD”。</p>
 
-<pre class="prettyprint">nano /etc/hosts</pre>
-
+<h3>创建一个Pod</h3>
 
 <ul>
-<li>贴上如下代码</li>
+<li>创建一个Git的 <a href="https://github.com/new">Repositories</a></li>
+<li>创建一个 Podspec</li>
+<li><pre class="prettyprint">pod spec create YOUR_PODSPEC_FILE_NAME</pre></li>
+<li>添加如下内容</li>
+<li><img src="http://mouapp.com/Mou_128.png" alt="Podspec" /></li>
 </ul>
 
 
-<pre class="prettyprint">
-* ### Host Database#
-# localhost is used to configure the loopback interface
-# when the system is booting.  Do not change this entry.
-##
-127.0.0.1   localhost
-255.255.255.255 broadcasthost
-::1             localhost 
-fe80::1%lo0 localhost
-#127.0.0.1      osxdaily.com
-0.0.0.0     yahoo.com
-0.0.0.0     www.yahoo.com
+<p>Podspec 文件解析：
+1. s.name -- Pod 项目名字 ，
+2. s.summary 一个简短的说明文档 （pod search命令就是根据这两项内容作为搜索文本的）
+3. s.homepage 库的主页，
+4. s.version 库代码的版本，
+5. s.license所采用的授权版本，
+6. s.author 是指作者。
+7. s.source 声明原代码的地址
+8. s.ios.deployment_target
+9. s.description 项目的描述
+10. s.source_files 项目的文件
+11. s.dependency 项目依赖的第三方库
+12. s.platform   支持的最低版本
+笔者在这个库中，用到的就是以上的一些属性。但是在PODSPEC 文件中，还有十分多的选项提供个大家去选择如</p>
+
+<pre><code># s.screenshots  = "www.example.com/screenshots_1.gif","www.example.com/screenshots_2.gif"
+# s.platform     = :ios
+# s.platform     = :ios, "5.0"
+# s.ios.deployment_target = "5.0"
+# s.osx.deployment_target = "10.7"  
+# s.public_header_files = "Classes/**/*.h"
+# s.resource  = "icon.png"
+# s.resources = "Resources/*.png"
+# s.preserve_paths = "FilesToSave", "MoreFilesToSave"
+# s.frameworks = "SomeFramework", "AnotherFramework"
+# s.library   = "iconv"
+# s.libraries = "iconv", "xml2"
+# s.requires_arc = true
+# s.xcconfig = { "HEADER_SEARCH_PATHS" =&gt; "$(SDKROOT)/usr/include/libxml2" }
+# s.dependency "JSONKit", "~&gt; 1.4"
+</code></pre>
+
+<p>各种选项的意思其实在字义的表面已经可以看出来，我在这里就不一一细说。</p>
+
+<p>创建好Podspec文件后，连同自己的代码一并上传到Git上面。
+本地的目录
+<img src="http://mouapp.com/Mou_128.png" alt="Podspec" />
+Git上面的目录
+<img src="http://mouapp.com/Mou_128.png" alt="Podspec" /></p>
+
+<p><code>需要注意的是，Podspec文件必须在git目录中！！</code></p>
+
+<p>到这里，你已经很成功的创建了一个私有的Pod了。</p>
+
+<h3>使用你的Pod吧</h3>
+
+<p>在你使用该库的项目上创建Podfile 文件 ，添加如下内容，然后保存</p>
+
+<pre class="prettyprint"> 
+    platform :ios 
+    po  d 'YOUR_POD_NAME', 
 </pre>
 
 
-<ul>
-<li>如果系统版本是OS X 10.9时请清除缓存</li>
-</ul>
 
 
-<pre class="prettyprint">dscacheutil -flushcache;sudo killall -HUP mDNSResponder</pre>
+<pre class="prettyprint">pod install</pre>
 
 
-<h2>Windows 解决方法</h2>
-
-<ul>
-<li>直接编辑  C:\WINDOWS\system32\drivers\etc\hosts</li>
-<li>贴上如下代码</li>
-</ul>
-
-
-<pre class="prettyprint">
-* ### Host Database#
-# localhost is used to configure the loopback interface
-# when the system is booting.  Do not change this entry.
-##
-127.0.0.1   localhost
-255.255.255.255 broadcasthost
-::1             localhost 
-fe80::1%lo0 localhost
-#127.0.0.1      osxdaily.com
-0.0.0.0     yahoo.com
-0.0.0.0     www.yahoo.com
-</pre>
-
+<p>关于Pod的一些原理，大家可以看<a href="http://blog.devtang.com/blog/2014/05/25/use-cocoapod-to-manage-ios-lib-dependency/">这里</a></p>
 
                 <div id="disqus_thread"></div>
                 <script type="text/javascript">

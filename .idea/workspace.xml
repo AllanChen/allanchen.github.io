@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd5a4894-d537-4e2f-b2d0-33c5d7373989" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/atom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/atom.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/about-cocoapods-with-Xcode6-and-Yosemite/index.html" afterPath="$PROJECT_DIR$/_site/about-cocoapods-with-Xcode6-and-Yosemite/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/about-itunes-error-17/index.html" afterPath="$PROJECT_DIR$/_site/about-itunes-error-17/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/mac-clear-svn-files/index.html" afterPath="$PROJECT_DIR$/_site/mac-clear-svn-files/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/post.html" afterPath="$PROJECT_DIR$/_layouts/post.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/js/post.js" afterPath="$PROJECT_DIR$/_site/js/post.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/post.js" afterPath="$PROJECT_DIR$/js/post.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="bd5a4894-d537-4e2f-b2d0-33c5d7373989" name="Default" comment="" />
     <ignored path="allanchen.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -54,7 +44,7 @@
       <file leaf-file-name="post.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/post.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="181" column="0" selection-start="6428" selection-end="6428" vertical-scroll-proportion="4.582069" vertical-offset="660" max-vertical-offset="4862">
+            <state line="41" column="37" selection-start="1522" selection-end="1522" vertical-scroll-proportion="0.12137931" vertical-offset="814" max-vertical-offset="4862">
               <folding />
             </state>
           </provider>
@@ -89,8 +79,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="79" />
-    <option name="y" value="22" />
+    <option name="x" value="63" />
+    <option name="y" value="534" />
     <option name="width" value="1568" />
     <option name="height" value="1021" />
   </component>
@@ -177,7 +167,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="79" y="22" width="1568" height="1021" extended-state="0" />
+    <frame x="63" y="534" width="1568" height="1021" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -531,7 +521,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/post.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="181" column="0" selection-start="6428" selection-end="6428" vertical-scroll-proportion="4.582069" vertical-offset="660" max-vertical-offset="4862">
+        <state line="41" column="37" selection-start="1522" selection-end="1522" vertical-scroll-proportion="0.12137931" vertical-offset="814" max-vertical-offset="4862">
           <folding />
         </state>
       </provider>

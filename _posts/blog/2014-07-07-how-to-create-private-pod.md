@@ -64,7 +64,7 @@ description: 如何创建一个自己的Pod,对于一些IOS 开发者而言，�
 
 在你使用该库的项目上创建Podfile 文件 ，添加如下内容，然后保存
 <pre class="prettyprint"> platform :ios 
-	po	d 'YOUR_POD_NAME', 
+	pod 'YOUR_POD_NAME', :git => 'https://github.com/YOUR_POD_URL
 </pre>
 
 <pre class="prettyprint">pod install</pre>

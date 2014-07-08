@@ -2,7 +2,7 @@
 layout:     post
 title:      How to create Private Pod
 category:   blog
-description: 如何创建一个自己的Pod
+description: 如何创建一个自己的Pod,对于一些IOS 开发者而言，管理第三方库的确是一件令人头疼的事情。而Cocoapod 恰恰是解决你这个烦恼的一个第三方管理库。
 ---
 
 对于一些IOS 开发者而言，管理第三方库的确是一件令人头疼的事情。而Cocoapod 恰恰是解决你这个烦恼的一个第三方管理库。

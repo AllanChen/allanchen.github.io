@@ -5,14 +5,14 @@
     * Author:         AllanChan
     -->
     <meta charset="utf-8" />
-    <title>Cocoapods with Xcode 6 and Yosemite | Allan's Blog</title>
+    <title>About iTunes ERROR 17 | Your awesome title</title>
     <meta name="author" content="AllanChan" />
     <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" id="viewport" name="viewport">
     <meta name="renderer" content="webkit">
     <meta name="description" content="Allan's Blog" />
     <link rel="stylesheet" href="/css/default.css" type="text/css" />
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-    <link rel="alternate" type="application/atom+xml" title="Recent Entries" href="/atom.xml" />
+    <link rel="alternate" type="application/atom+xml" title="Recent Entries" href="" />
     <script src="/js/jquery-1.7.1.min.js" type="text/javascript"></script>
 </head>
 <body>
@@ -47,28 +47,53 @@
     </div>
     <div class="content-box">
         <div class="entry">
-            <h1 class="entry-title"><a href="/about-cocoapods-with-Xcode6-and-Yosemite" title="Cocoapods with Xcode 6 and Yosemite">Cocoapods with Xcode 6 and Yosemite</a></h1>
+            <h1 class="entry-title"><a href="/blog/2014/06/07/about-itunes-error-17.html" title="About iTunes ERROR 17">About iTunes ERROR 17</a></h1>
             <p class="entry-date">2014-06-07</p>
-            <h4>COCOSPODS 就是其中一个不兼容，你的更新xcode，COCOSPODS 才可以继续用pod install</h4>
-
-<h4>具体步奏如下</h4>
+            <h2 id="mac-">Mac 解决方法</h2>
+<pre class="prettyprint">nano /etc/hosts</pre>
+<ul>
+  <li>贴上如下代码
+&lt;pre class="prettyprint"&gt;</li>
+  <li>
+    <h3 id="host-database">Host Database</h3>
+    <p># localhost is used to configure the loopback interface
+# when the system is booting.  Do not change this entry.
+##
+127.0.0.1	localhost
+255.255.255.255	broadcasthost
+::1             localhost 
+fe80::1%lo0	localhost
+#127.0.0.1      osxdaily.com
+0.0.0.0		yahoo.com
+0.0.0.0		www.yahoo.com</p>
+  </li>
+</ul>
+<p>&lt;/pre&gt;</p>
 
 <ul>
-<li>打开 Xcode 6</li>
-<li>Command + ,</li>
-<li>选择 Locations</li>
-<li>将 Command Line Tools version 变为 Xcode 6.0</li>
-<li><p>卸载 cocospods</p></li>
-<li><p><pre class="prettyprint">$ sudo gem uninstall cocoapods</pre></p></li>
-<li><p>安装 xcodeproj</p></li>
-<li><p><pre class="prettyprint">$ sudo gem install xcodeproj</pre></p></li>
-<li><p>安装 cocoapods</p></li>
-<li><p><pre class="prettyprint">$ sudo gem install cocoapods</pre></p></li>
-<li>Run pod --version to verify that it worked</li>
+  <li>如果系统版本是OS X 10.9时请清除缓存
+&lt;pre class="prettyprint"&gt;dscacheutil -flushcache;sudo killall -HUP mDNSResponder&lt;/pre&gt;
+##Windows 解决方法</li>
+  <li>直接编辑  C:\WINDOWS\system32\drivers\etc\hosts </li>
+  <li>贴上如下代码
+&lt;pre class="prettyprint"&gt;</li>
+  <li>
+    <h3 id="host-database-1">Host Database</h3>
+    <p># localhost is used to configure the loopback interface
+# when the system is booting.  Do not change this entry.
+##
+127.0.0.1	localhost
+255.255.255.255	broadcasthost
+::1             localhost 
+fe80::1%lo0	localhost
+#127.0.0.1      osxdaily.com
+0.0.0.0		yahoo.com
+0.0.0.0		www.yahoo.com</p>
+  </li>
 </ul>
+<p>&lt;/pre&gt;</p>
 
 
-<h4>执行上面的命令之后，可能你还会失败。但是不要紧，把你Terminal的窗口关掉重新cd到你的项目在执行pod install就可以了。</h4>
 
                 <div id="disqus_thread"></div>
                 <script type="text/javascript">
@@ -107,18 +132,18 @@
         <h2>Blog</h2>
         <ul class="artical-list">
         
-            <li><a href="/how-to-create-private-pod">How to create Private Pod</a></li>
+            <li><a href="/blog/2014/07/07/how-to-create-private-pod.html">How to create Private Pod</a></li>
         
-            <li><a href="/about-itunes-error-17">About iTunes ERROR 17</a></li>
+            <li><a href="/blog/2014/06/07/about-itunes-error-17.html">About iTunes ERROR 17</a></li>
         
-            <li><a href="/about-cocoapods-with-Xcode6-and-Yosemite">Cocoapods with Xcode 6 and Yosemite</a></li>
+            <li><a href="/blog/2014/06/07/about-cocoapods-with-Xcode6-and-Yosemite.html">Cocoapods with Xcode 6 and Yosemite</a></li>
         
         </ul>
 
         <h2>Tag</h2>
         <ul class="artical-list">
         
-            <li><a href="/mac-clear-svn-files">Mac Clear SVN Command</a></li>
+            <li><a href="/tag/2014/05/30/mac-clear-svn-files.html">Mac Clear SVN Command</a></li>
         
         </ul>
     </div>

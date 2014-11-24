@@ -5,14 +5,14 @@
     * Author:         AllanChan
     -->
     <meta charset="utf-8" />
-    <title>How to create Private Pod | Allan's Blog</title>
+    <title>How to create Private Pod | Your awesome title</title>
     <meta name="author" content="AllanChan" />
     <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" id="viewport" name="viewport">
     <meta name="renderer" content="webkit">
     <meta name="description" content="Allan's Blog" />
     <link rel="stylesheet" href="/css/default.css" type="text/css" />
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-    <link rel="alternate" type="application/atom+xml" title="Recent Entries" href="/atom.xml" />
+    <link rel="alternate" type="application/atom+xml" title="Recent Entries" href="" />
     <script src="/js/jquery-1.7.1.min.js" type="text/javascript"></script>
 </head>
 <body>
@@ -47,100 +47,80 @@
     </div>
     <div class="content-box">
         <div class="entry">
-            <h1 class="entry-title"><a href="/how-to-create-private-pod" title="How to create Private Pod">How to create Private Pod</a></h1>
+            <h1 class="entry-title"><a href="/blog/2014/07/07/how-to-create-private-pod.html" title="How to create Private Pod">How to create Private Pod</a></h1>
             <p class="entry-date">2014-07-07</p>
             <p>对于一些IOS 开发者而言，管理第三方库的确是一件令人头疼的事情。而Cocoapod 恰恰是解决你这个烦恼的一个第三方管理库。
 尽管pod上有许许多多的第三方库提供给开发者使用，但是很多人还是喜欢把自己的一些库或者Helper使用到各个项目上面去，这样不单单是可以提高个人的开发效率。对于以后有新人的加入，项目的重构管理起来都是颇为省劲。下面我就介绍一下如何去制作一个“私有的POD”。</p>
 
-<h3>创建一个Pod</h3>
+<h3 id="pod">创建一个Pod</h3>
 
 <ul>
-<li>创建一个Git的 <a href="https://github.com/new">Repositories</a></li>
-<li>创建一个 Podspec</li>
+  <li>创建一个Git的 <a href="https://github.com/new">Repositories</a> </li>
+  <li>创建一个 Podspec 
+&lt;pre class="prettyprint"&gt;pod spec create YOUR_PODSPEC_FILE_NAME&lt;/pre&gt;</li>
+  <li>添加如下内容  <a href="https://github.com/AllanChen/ACNetworkframework/blob/master/ACNetworkframework.podspec">查看并复制</a></li>
 </ul>
 
-
-<pre class="prettyprint">pod spec create YOUR_PODSPEC_FILE_NAME</pre>
-
-
-<ul>
-<li>添加如下内容  <a href="https://github.com/AllanChen/ACNetworkframework/blob/master/ACNetworkframework.podspec">查看并复制</a></li>
-</ul>
-
-
-<p><img src="https://raw.githubusercontent.com/AllanChen/allanchen.github.io/master/images/privatepod/Screen%20Shot%202014-07-08%20at%2010.01.15.png" alt="Podspec File" /></p>
-
-<h3>Podspec 文件解析：</h3>
-
-<ol>
-<li>s.name -- Pod 项目名字 ，</li>
-<li>s.summary 一个简短的说明文档 （pod search命令就是根据这两项内容作为搜索文本的）</li>
-<li>s.homepage 库的主页，</li>
-<li>s.version 库代码的版本，</li>
-<li>s.license所采用的授权版本，</li>
-<li>s.author 是指作者。</li>
-<li>s.source 声明原代码的地址</li>
-<li>s.ios.deployment_target</li>
-<li>s.description 项目的描述</li>
-<li>s.source_files 项目的文件</li>
-<li>s.dependency 项目依赖的第三方库</li>
-<li>s.platform   支持的最低版本</li>
-</ol>
-
+<p><img src="https://raw.githubusercontent.com/AllanChen/allanchen.github.io/master/images/privatepod/Screen%20Shot%202014-07-08%20at%2010.01.15.png" alt="Podspec File" />
+###Podspec 文件解析：
+1. s.name – Pod 项目名字 ， 
+2. s.summary 一个简短的说明文档 （pod search命令就是根据这两项内容作为搜索文本的）
+3. s.homepage 库的主页，
+4. s.version 库代码的版本，
+5. s.license所采用的授权版本，
+6. s.author 是指作者。
+7. s.source 声明原代码的地址
+8. s.ios.deployment_target
+9. s.description 项目的描述
+10. s.source_files 项目的文件
+11. s.dependency 项目依赖的第三方库
+12. s.platform   支持的最低版本</p>
 
 <p>笔者在这个库中，用到的就是以上的一些属性。但是在PODSPEC 文件中，还有十分多的选项提供个大家去选择如</p>
 
-<pre><code>    # s.screenshots  = "www.example.com/screenshots_1.gif","www.example.com/screenshots_2.gif"
-    # s.platform     = :ios
-    # s.platform     = :ios, "5.0"
-    # s.ios.deployment_target = "5.0"
-    # s.osx.deployment_target = "10.7"  
-    # s.public_header_files = "Classes/**/*.h"
-    # s.resource  = "icon.png"
-    # s.resources = "Resources/*.png"
-    # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
-    # s.frameworks = "SomeFramework", "AnotherFramework"
-    # s.library   = "iconv"
-    # s.libraries = "iconv", "xml2"
-    # s.requires_arc = true
-    # s.xcconfig = { "HEADER_SEARCH_PATHS" =&gt; "$(SDKROOT)/usr/include/libxml2" }
-    # s.dependency "JSONKit", "~&gt; 1.4"
+<pre><code>	# s.screenshots  = "www.example.com/screenshots_1.gif","www.example.com/screenshots_2.gif"
+	# s.platform     = :ios
+	# s.platform     = :ios, "5.0"
+	# s.ios.deployment_target = "5.0"
+	# s.osx.deployment_target = "10.7"  
+	# s.public_header_files = "Classes/**/*.h"
+	# s.resource  = "icon.png"
+	# s.resources = "Resources/*.png"
+	# s.preserve_paths = "FilesToSave", "MoreFilesToSave"
+	# s.frameworks = "SomeFramework", "AnotherFramework"
+	# s.library   = "iconv"
+	# s.libraries = "iconv", "xml2"
+	# s.requires_arc = true
+	# s.xcconfig = { "HEADER_SEARCH_PATHS" =&gt; "$(SDKROOT)/usr/include/libxml2" }
+	# s.dependency "JSONKit", "~&gt; 1.4"
 </code></pre>
 
 <p>各种选项的意思其实在字义的表面已经可以看出来，我在这里就不一一细说。
 创建好Podspec文件后，连同自己的代码一并上传到Git上面。</p>
 
-<h5>本地的目录</h5>
-
+<h5 id="section">本地的目录</h5>
 <p><img src="https://raw.githubusercontent.com/AllanChen/allanchen.github.io/master/images/privatepod/Screen%20Shot%202014-07-08%20at%209.55.53.png" alt="Local file" /></p>
 
-<h5>Git上面的目录</h5>
-
+<h5 id="git">Git上面的目录</h5>
 <p><img src="https://raw.githubusercontent.com/AllanChen/allanchen.github.io/master/images/privatepod/Screen%20Shot%202014-07-08%20at%209.56.15.png" alt="Git file" /></p>
 
-<h3>需要注意的是，Podspec文件必须在git目录中！！</h3>
-
+<h3 id="podspecgit">需要注意的是，Podspec文件必须在git目录中！！</h3>
 <p>到这里，你已经很成功的创建了一个私有的Pod了。</p>
 
-<h3>使用你的Pod吧</h3>
+<h3 id="pod-1">使用你的Pod吧</h3>
 
-<p>在你使用该库的项目上创建Podfile 文件 ，添加如下内容，然后保存</p>
-
-<pre class="prettyprint"> platform :ios 
-    pod 'YOUR_POD_NAME', :git => 'https://github.com/YOUR_POD_URL
-</pre>
-
-
-
+<p>在你使用该库的项目上创建Podfile 文件 ，添加如下内容，然后保存
+&lt;pre class="prettyprint"&gt; platform :ios 
+	pod ‘YOUR_POD_NAME’, :git =&gt; ‘https://github.com/YOUR_POD_URL
+&lt;/pre&gt;</p>
 
 <pre class="prettyprint">pod install</pre>
-
-
 <p><img src="https://raw.githubusercontent.com/AllanChen/allanchen.github.io/master/images/privatepod/Screen%20Shot%202014-07-08%20at%209.54.57.png" alt="install Ing" /></p>
 
-<h3>And more?</h3>
+<h3 id="and-more">And more?</h3>
+<p>关于Pod的一些原理，大家可以看<a href="http://blog.devtang.com/blog/2014/05/25/use-cocoapod-to-manage-ios-lib-dependency/">这里</a> </p>
 
-<p>关于Pod的一些原理，大家可以看<a href="http://blog.devtang.com/blog/2014/05/25/use-cocoapod-to-manage-ios-lib-dependency/">这里</a></p>
+
 
                 <div id="disqus_thread"></div>
                 <script type="text/javascript">
@@ -179,18 +159,18 @@
         <h2>Blog</h2>
         <ul class="artical-list">
         
-            <li><a href="/how-to-create-private-pod">How to create Private Pod</a></li>
+            <li><a href="/blog/2014/07/07/how-to-create-private-pod.html">How to create Private Pod</a></li>
         
-            <li><a href="/about-itunes-error-17">About iTunes ERROR 17</a></li>
+            <li><a href="/blog/2014/06/07/about-itunes-error-17.html">About iTunes ERROR 17</a></li>
         
-            <li><a href="/about-cocoapods-with-Xcode6-and-Yosemite">Cocoapods with Xcode 6 and Yosemite</a></li>
+            <li><a href="/blog/2014/06/07/about-cocoapods-with-Xcode6-and-Yosemite.html">Cocoapods with Xcode 6 and Yosemite</a></li>
         
         </ul>
 
         <h2>Tag</h2>
         <ul class="artical-list">
         
-            <li><a href="/mac-clear-svn-files">Mac Clear SVN Command</a></li>
+            <li><a href="/tag/2014/05/30/mac-clear-svn-files.html">Mac Clear SVN Command</a></li>
         
         </ul>
     </div>

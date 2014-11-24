@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Your awesome title</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-</description>
-    <link>http://yourdomain.com/</link>
-    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 24 Nov 2014 10:48:53 +0800</pubDate>
-    <lastBuildDate>Mon, 24 Nov 2014 10:48:53 +0800</lastBuildDate>
+    <title>Allan&#39;s blog</title>
+    <description></description>
+    <link>http://www.allanhost.com/</link>
+    <atom:link href="http://www.allanhost.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 24 Nov 2014 11:00:41 +0800</pubDate>
+    <lastBuildDate>Mon, 24 Nov 2014 11:00:41 +0800</lastBuildDate>
     <generator>Jekyll v2.5.2</generator>
     
       <item>
@@ -28,8 +27,8 @@
 
 </description>
         <pubDate>Mon, 24 Nov 2014 18:45:06 +0800</pubDate>
-        <link>http://yourdomain.com/jekyll/update/2014/11/24/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2014/11/24/welcome-to-jekyll.html</guid>
+        <link>http://www.allanhost.com/jekyll/update/2014/11/24/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://www.allanhost.com/jekyll/update/2014/11/24/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
@@ -112,8 +111,8 @@
 &lt;p&gt;关于Pod的一些原理，大家可以看&lt;a href=&quot;http://blog.devtang.com/blog/2014/05/25/use-cocoapod-to-manage-ios-lib-dependency/&quot;&gt;这里&lt;/a&gt; &lt;/p&gt;
 </description>
         <pubDate>Mon, 07 Jul 2014 00:00:00 +0800</pubDate>
-        <link>http://yourdomain.com/blog/2014/07/07/how-to-create-private-pod.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/blog/2014/07/07/how-to-create-private-pod.html</guid>
+        <link>http://www.allanhost.com/blog/2014/07/07/how-to-create-private-pod.html</link>
+        <guid isPermaLink="true">http://www.allanhost.com/blog/2014/07/07/how-to-create-private-pod.html</guid>
         
         
         <category>blog</category>
@@ -141,8 +140,8 @@ Geek们真的愿意去用吗？&lt;/p&gt;
 
 </description>
         <pubDate>Fri, 27 Jun 2014 00:00:00 +0800</pubDate>
-        <link>http://yourdomain.com/2014/06/27/XIB-VS-CODE.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/2014/06/27/XIB-VS-CODE.html</guid>
+        <link>http://www.allanhost.com/2014/06/27/XIB-VS-CODE.html</link>
+        <guid isPermaLink="true">http://www.allanhost.com/2014/06/27/XIB-VS-CODE.html</guid>
         
         
       </item>
@@ -194,8 +193,8 @@ fe80::1%lo0	localhost
 &lt;p&gt;&amp;lt;/pre&amp;gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 07 Jun 2014 00:00:00 +0800</pubDate>
-        <link>http://yourdomain.com/blog/2014/06/07/about-itunes-error-17.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/blog/2014/06/07/about-itunes-error-17.html</guid>
+        <link>http://www.allanhost.com/blog/2014/06/07/about-itunes-error-17.html</link>
+        <guid isPermaLink="true">http://www.allanhost.com/blog/2014/06/07/about-itunes-error-17.html</guid>
         
         
         <category>blog</category>
@@ -237,8 +236,8 @@ fe80::1%lo0	localhost
 &lt;h4 id=&quot;terminalcdpod-install&quot;&gt;执行上面的命令之后，可能你还会失败。但是不要紧，把你Terminal的窗口关掉重新cd到你的项目在执行pod install就可以了。&lt;/h4&gt;
 </description>
         <pubDate>Sat, 07 Jun 2014 00:00:00 +0800</pubDate>
-        <link>http://yourdomain.com/blog/2014/06/07/about-cocoapods-with-Xcode6-and-Yosemite.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/blog/2014/06/07/about-cocoapods-with-Xcode6-and-Yosemite.html</guid>
+        <link>http://www.allanhost.com/blog/2014/06/07/about-cocoapods-with-Xcode6-and-Yosemite.html</link>
+        <guid isPermaLink="true">http://www.allanhost.com/blog/2014/06/07/about-cocoapods-with-Xcode6-and-Yosemite.html</guid>
         
         
         <category>blog</category>
@@ -255,8 +254,8 @@ fe80::1%lo0	localhost
 
 </description>
         <pubDate>Fri, 30 May 2014 00:00:00 +0800</pubDate>
-        <link>http://yourdomain.com/tag/2014/05/30/mac-clear-svn-files.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/tag/2014/05/30/mac-clear-svn-files.html</guid>
+        <link>http://www.allanhost.com/tag/2014/05/30/mac-clear-svn-files.html</link>
+        <guid isPermaLink="true">http://www.allanhost.com/tag/2014/05/30/mac-clear-svn-files.html</guid>
         
         
         <category>tag</category>

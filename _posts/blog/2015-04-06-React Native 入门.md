@@ -21,8 +21,7 @@ description: ReactNative 入门
 * react-native init AwesomeProject
 
 #####安装成功之后的画面：
-![Resize icon][2]
-[2]: http://resizesafari.com/favicon.ico "Title"
+![安装成功](https://github.com/AllanChen/allanchen.github.io/blob/master/images/react/1.png)
 
 #####至此，你已经成功的安装了所有React-Native所需要的环境和创建了一个React-Native的项目，在Xcode直接Command+R就可以运行你刚刚创建的项目了！！
 
@@ -30,16 +29,14 @@ description: ReactNative 入门
 
 #####在成创建项目之后，很多朋友来问我怎么运行官方的Demo，怎么React-Native的学习成本太TMD高了吧，又会JS又要学OC这不是折腾吗！！！
 #####对于这个问题，我可以保证跟你说这是值得的！！废话不多说，直接上官方的Demo吧！！[Demo](https://github.com/facebook/react-native)下载地址,路径是Examples目录下面。在下载项目后，目录结构就会像这样
-![Resize icon][2]
-[2]: http://resizesafari.com/favicon.ico "Title"
+![目录结构](https://github.com/AllanChen/allanchen.github.io/blob/master/images/react/2.png)
 #####2048，Movies，SampleApp，TicTacToe 这三个项目都可以直接通过打开Xcode 然后Command+R 直接运行即可，这三个项目简单的展示了React-Native 而UIExplorer则是所有控件的操作。
 运行UIExplorer项目：
 
 1. 在“终端”下退出你之前在运行的任何项目(直接Command+q)
-2. 在“终端” cd 到UIExplorer目录下运行 - npm start(如图)![Resize icon][2]
-[2]: http://resizesafari.com/favicon.ico "Title" 
+2. 在“终端” cd 到UIExplorer目录下运行 - npm start(如图)![npm start](https://github.com/AllanChen/allanchen.github.io/blob/master/images/react/4.png)
 3. 启动服务之后，在Xcode上运行(Command+R)(如图)
-
+![npm start](https://github.com/AllanChen/allanchen.github.io/blob/master/images/react/3.png)
 #####到此，你已经学会了如何去安装，创建React-Native的环境和项目了。
 
 #####总结：很多朋友问，你由始至终都没有对React-Native表态，你会不会用它来做实际的羡慕啊，学这个来由什么用等等的问题。现在我来一一回答。

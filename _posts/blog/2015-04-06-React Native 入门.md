@@ -43,7 +43,7 @@ description: ReactNative 入门
 1. 在“终端”下退出你之前在运行的任何项目(直接Command+q)
 2. 在“终端” cd 到UIExplorer目录下运行 - npm start(如图)![npm start](../../../../images/react/4.png)
 3. 启动服务之后，在Xcode上运行(Command+R)(如图)
-![npm start](../../../../images/react/3.png)
+![启动](../../../../images/react/3.png)
 
 #####到此，你已经学会了如何去安装，创建React-Native的环境和项目了。
 

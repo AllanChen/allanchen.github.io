@@ -5,8 +5,8 @@
     <description></description>
     <link>http://www.allanhost.com/</link>
     <atom:link href="http://www.allanhost.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 19 Apr 2015 09:34:28 +0800</pubDate>
-    <lastBuildDate>Sun, 19 Apr 2015 09:34:28 +0800</lastBuildDate>
+    <pubDate>Mon, 06 Jul 2015 16:44:13 +0800</pubDate>
+    <lastBuildDate>Mon, 06 Jul 2015 16:44:13 +0800</lastBuildDate>
     <generator>Jekyll v2.5.2</generator>
     
       <item>
@@ -40,8 +40,6 @@
 &lt;p&gt;&lt;img src=&quot;../../../../images/react/1.png&quot; alt=&quot;安装成功&quot; /&gt;&lt;/p&gt;
 
 &lt;h5 id=&quot;react-nativereact-nativexcodecommandr&quot;&gt;至此，你已经成功的安装了所有React-Native所需要的环境和创建了一个React-Native的项目，在Xcode直接Command+R就可以运行你刚刚创建的项目了！！&lt;/h5&gt;
-
-&lt;p&gt;——————————————————————————————————————————————————————————————————————————————————————————————&lt;/p&gt;
 
 &lt;h5 id=&quot;demoreact-nativetmdjsoc&quot;&gt;在成创建项目之后，很多朋友来问我怎么运行官方的Demo，怎么React-Native的学习成本太TMD高了吧，又会JS又要学OC这不是折腾吗！！！&lt;/h5&gt;
 

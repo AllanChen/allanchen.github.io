@@ -240,9 +240,9 @@ pre ol {
     margin-bottom:80px;
     width:680px;
     float:left;
-    background:#fff;
+    background:#F0F0F0;
     padding:30px;
-    /*box-shadow:0 2px 6px #ccc;*/
+    box-shadow:0 2px 6px #ccc;
 }
 .entry ul {
     margin-bottom:25px;

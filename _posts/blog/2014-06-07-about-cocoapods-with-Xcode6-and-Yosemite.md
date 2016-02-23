@@ -4,9 +4,9 @@ title:      Cocoapods with Xcode 6 and Yosemite
 category:   blog
 description: 所以说NO ZUO NO DIE 对于一些急着体验的Yosemite系统的朋友来说，在新的系统上有太多的不兼容了，不过对于苹果的设计。我个人还是给予满分。
 ---
-####COCOSPODS 就是其中一个不兼容，你的更新xcode，COCOSPODS 才可以继续用pod install
+COCOSPODS 就是其中一个不兼容，你的更新xcode，COCOSPODS 才可以继续用pod install
 
-####具体步奏如下
+具体步奏如下
 
 * 打开 Xcode 6
 * Command + ,

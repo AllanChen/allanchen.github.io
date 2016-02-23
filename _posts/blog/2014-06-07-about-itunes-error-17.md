@@ -34,6 +34,7 @@ sudo killall -HUP mDNSResponder
 ##Windows 解决方法
 * 直接编辑  C:\WINDOWS\system32\drivers\etc\hosts 
 * 贴上如下代码
+
 <pre class="prettyprint">
 * ### Host Database#
 # localhost is used to configure the loopback interface
@@ -46,4 +47,5 @@ fe80::1%lo0	localhost
 #127.0.0.1      osxdaily.com
 0.0.0.0		yahoo.com
 0.0.0.0		www.yahoo.com
+
 </pre>

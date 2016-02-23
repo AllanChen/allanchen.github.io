@@ -20,7 +20,8 @@ COCOSPODS 就是其中一个不兼容，你的更新xcode，COCOSPODS 才可以�
 * <pre class="prettyprint">$ sudo gem install xcodeproj</pre> 
 * 安装 cocoapods 
  
-* <pre class="prettyprint">$ sudo gem install cocoapods</pre>
+<pre class="prettyprint">
+$ sudo gem install cocoapods</pre>
 * Run pod --version to verify that it worked
 
 执行上面的命令之后，可能你还会失败。但是不要紧，把你Terminal的窗口关掉重新cd到你的项目在执行pod install就可以了。

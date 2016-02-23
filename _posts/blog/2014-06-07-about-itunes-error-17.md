@@ -25,7 +25,11 @@ fe80::1%lo0	localhost
 </pre>
 
 * 如果系统版本是OS X 10.9时请清除缓存
-<pre class="prettyprint">dscacheutil -flushcache;sudo killall -HUP mDNSResponder</pre>
+
+<pre class="prettyprint">
+dscacheutil -flushcache;
+sudo killall -HUP mDNSResponder
+</pre>
 ##Windows 解决方法
 * 直接编辑  C:\WINDOWS\system32\drivers\etc\hosts 
 * 贴上如下代码

@@ -18,17 +18,17 @@ description: 如何创建一个自己的Pod,对于一些IOS 开发者而言，�
 ![Podspec File](https://raw.githubusercontent.com/AllanChen/allanchen.github.io/master/images/privatepod/Screen%20Shot%202014-07-08%20at%2010.01.15.png)
 Podspec 文件解析：
 1. s.name -- Pod 项目名字  
-2. s.summary 一个简短的说明文档 （pod search命令就是根据这两项内容作为搜索文本的）
-3. s.homepage 库的主页，
-4. s.version 库代码的版本，
-5. s.license所采用的授权版本，
-6. s.author 是指作者。
-7. s.source 声明原代码的地址
-8. s.ios.deployment_target
-9. s.description 项目的描述
-10. s.source_files 项目的文件
-11. s.dependency 项目依赖的第三方库
-12. s.platform   支持的最低版本
+2. s.summary 一个简短的说明文档 （pod search命令就是根据这两项内容作为搜索文本的）  
+3. s.homepage 库的主页，  
+4. s.version 库代码的版本，  
+5. s.license所采用的授权版本，  
+6. s.author 是指作者。  
+7. s.source 声明原代码的地址  
+8. s.ios.deployment_target  
+9. s.description 项目的描述  
+10. s.source_files 项目的文件  
+11. s.dependency 项目依赖的第三方库  
+12. s.platform   支持的最低版本  
  
 笔者在这个库中，用到的就是以上的一些属性。但是在PODSPEC 文件中，还有十分多的选项提供个大家去选择如
 

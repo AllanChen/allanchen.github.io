@@ -17,7 +17,7 @@ description: 如何创建一个自己的Pod,对于一些IOS 开发者而言，�
  
 ![Podspec File](https://raw.githubusercontent.com/AllanChen/allanchen.github.io/master/images/privatepod/Screen%20Shot%202014-07-08%20at%2010.01.15.png)
 Podspec 文件解析：
-1. s.name -- Pod 项目名字 ，
+1. s.name -- Pod 项目名字
 2. s.summary 一个简短的说明文档 （pod search命令就是根据这两项内容作为搜索文本的）
 3. s.homepage 库的主页，
 4. s.version 库代码的版本，

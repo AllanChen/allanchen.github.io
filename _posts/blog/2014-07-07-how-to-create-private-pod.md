@@ -12,7 +12,9 @@ description: 如何创建一个自己的Pod,对于一些IOS 开发者而言，�
 
 * 创建一个Git的 [Repositories](https://github.com/new) 
 * 创建一个 Podspec  
+
 <pre class="prettyprint">pod spec create YOUR_PODSPEC_FILE_NAME</pre>  
+
 * 添加如下内容  [查看并复制](https://github.com/AllanChen/ACNetworkframework/blob/master/ACNetworkframework.podspec)
  
 ![Podspec File](https://raw.githubusercontent.com/AllanChen/allanchen.github.io/master/images/privatepod/Screen%20Shot%202014-07-08%20at%2010.01.15.png)

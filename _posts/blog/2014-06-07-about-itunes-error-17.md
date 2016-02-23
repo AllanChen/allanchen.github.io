@@ -32,8 +32,8 @@ sudo killall -HUP mDNSResponder
 </pre>
 
 ##Windows 解决方法
-直接编辑  C:\WINDOWS\system32\drivers\etc\hosts 
 
+直接编辑  C:\WINDOWS\system32\drivers\etc\hosts 
 贴上如下代码
 
 <pre class="prettyprint">

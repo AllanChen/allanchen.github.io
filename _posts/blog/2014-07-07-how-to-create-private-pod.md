@@ -51,16 +51,16 @@ description: 如何创建一个自己的Pod,对于一些IOS 开发者而言，�
 各种选项的意思其实在字义的表面已经可以看出来，我在这里就不一一细说。
 创建好Podspec文件后，连同自己的代码一并上传到Git上面。
 
-#####本地的目录
+##### 本地的目录
 ![Local file](https://raw.githubusercontent.com/AllanChen/allanchen.github.io/master/images/privatepod/Screen%20Shot%202014-07-08%20at%209.55.53.png)
 
-#####Git上面的目录
+##### Git上面的目录
 ![Git file](https://raw.githubusercontent.com/AllanChen/allanchen.github.io/master/images/privatepod/Screen%20Shot%202014-07-08%20at%209.56.15.png)
 
-###需要注意的是，Podspec文件必须在git目录中！！
+### 需要注意的是，Podspec文件必须在git目录中！！
 到这里，你已经很成功的创建了一个私有的Pod了。
 
-###使用你的Pod吧
+### 使用你的Pod吧
 
 在你使用该库的项目上创建Podfile 文件 ，添加如下内容，然后保存
 <pre class="prettyprint"> platform :ios 

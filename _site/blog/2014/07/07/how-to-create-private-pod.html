@@ -52,7 +52,7 @@
             <p>对于一些IOS 开发者而言，管理第三方库的确是一件令人头疼的事情。而Cocoapod 恰恰是解决你这个烦恼的一个第三方管理库。
 尽管pod上有许许多多的第三方库提供给开发者使用，但是很多人还是喜欢把自己的一些库或者Helper使用到各个项目上面去，这样不单单是可以提高个人的开发效率。对于以后有新人的加入，项目的重构管理起来都是颇为省劲。下面我就介绍一下如何去制作一个“私有的POD”。</p>
 
-<h3 id="pod">创建一个Pod</h3>
+<p>###创建一个Pod</p>
 
 <ul>
   <li>创建一个Git的 <a href="https://github.com/new">Repositories</a> </li>
@@ -78,7 +78,7 @@
 
 <p>笔者在这个库中，用到的就是以上的一些属性。但是在PODSPEC 文件中，还有十分多的选项提供个大家去选择如</p>
 
-<pre><code>	# s.screenshots  = "www.example.com/screenshots_1.gif","www.example.com/screenshots_2.gif"
+<div class="highlighter-rouge"><pre class="highlight"><code>	# s.screenshots  = "www.example.com/screenshots_1.gif","www.example.com/screenshots_2.gif"
 	# s.platform     = :ios
 	# s.platform     = :ios, "5.0"
 	# s.ios.deployment_target = "5.0"
@@ -94,20 +94,21 @@
 	# s.xcconfig = { "HEADER_SEARCH_PATHS" =&gt; "$(SDKROOT)/usr/include/libxml2" }
 	# s.dependency "JSONKit", "~&gt; 1.4"
 </code></pre>
+</div>
 
 <p>各种选项的意思其实在字义的表面已经可以看出来，我在这里就不一一细说。
 创建好Podspec文件后，连同自己的代码一并上传到Git上面。</p>
 
-<h5 id="section">本地的目录</h5>
-<p><img src="https://raw.githubusercontent.com/AllanChen/allanchen.github.io/master/images/privatepod/Screen%20Shot%202014-07-08%20at%209.55.53.png" alt="Local file" /></p>
+<p>#####本地的目录
+<img src="https://raw.githubusercontent.com/AllanChen/allanchen.github.io/master/images/privatepod/Screen%20Shot%202014-07-08%20at%209.55.53.png" alt="Local file" /></p>
 
-<h5 id="git">Git上面的目录</h5>
-<p><img src="https://raw.githubusercontent.com/AllanChen/allanchen.github.io/master/images/privatepod/Screen%20Shot%202014-07-08%20at%209.56.15.png" alt="Git file" /></p>
+<p>#####Git上面的目录
+<img src="https://raw.githubusercontent.com/AllanChen/allanchen.github.io/master/images/privatepod/Screen%20Shot%202014-07-08%20at%209.56.15.png" alt="Git file" /></p>
 
-<h3 id="podspecgit">需要注意的是，Podspec文件必须在git目录中！！</h3>
-<p>到这里，你已经很成功的创建了一个私有的Pod了。</p>
+<p>###需要注意的是，Podspec文件必须在git目录中！！
+到这里，你已经很成功的创建了一个私有的Pod了。</p>
 
-<h3 id="pod-1">使用你的Pod吧</h3>
+<p>###使用你的Pod吧</p>
 
 <p>在你使用该库的项目上创建Podfile 文件 ，添加如下内容，然后保存
 &lt;pre class="prettyprint"&gt; platform :ios 
@@ -117,8 +118,8 @@
 <pre class="prettyprint">pod install</pre>
 <p><img src="https://raw.githubusercontent.com/AllanChen/allanchen.github.io/master/images/privatepod/Screen%20Shot%202014-07-08%20at%209.54.57.png" alt="install Ing" /></p>
 
-<h3 id="and-more">And more?</h3>
-<p>关于Pod的一些原理，大家可以看<a href="http://blog.devtang.com/blog/2014/05/25/use-cocoapod-to-manage-ios-lib-dependency/">这里</a> </p>
+<p>###And more?
+关于Pod的一些原理，大家可以看<a href="http://blog.devtang.com/blog/2014/05/25/use-cocoapod-to-manage-ios-lib-dependency/">这里</a> </p>
 
 
 
@@ -149,11 +150,11 @@
         <h2>Blog</h2>
         <ul class="artical-list">
         
-            <li><a href="/blog/2015/04/06/React%20Native%20%E5%85%A5%E9%97%A8.html">ReacNative 入门</a></li>
+            <li><a href="/blog/2015/04/06/React-Native-%E5%85%A5%E9%97%A8.html">ReacNative 入门</a></li>
         
             <li><a href="/blog/2015/01/24/%E7%9F%A5%E8%AF%86%E4%BB%BD%E5%AD%90%E5%92%8C%E4%BC%AA%E7%9F%A5%E8%AF%86%E4%BB%BD%E5%AD%90.html">知识份子与伪知识份子的区别</a></li>
         
-            <li><a href="/blog/2014/11/24/Say%20No.html">Say No</a></li>
+            <li><a href="/blog/2014/11/24/Say-No.html">Say No</a></li>
         
             <li><a href="/blog/2014/07/07/how-to-create-private-pod.html">How to create Private Pod</a></li>
         

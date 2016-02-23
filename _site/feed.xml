@@ -5,49 +5,45 @@
     <description></description>
     <link>http://www.allanhost.com/</link>
     <atom:link href="http://www.allanhost.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 06 Jul 2015 16:50:07 +0800</pubDate>
-    <lastBuildDate>Mon, 06 Jul 2015 16:50:07 +0800</lastBuildDate>
-    <generator>Jekyll v2.5.2</generator>
+    <pubDate>Tue, 23 Feb 2016 11:00:22 +0800</pubDate>
+    <lastBuildDate>Tue, 23 Feb 2016 11:00:22 +0800</lastBuildDate>
+    <generator>Jekyll v3.1.2</generator>
     
       <item>
         <title>ReacNative 入门</title>
-        <description>&lt;h5 id=&quot;app-app-&quot;&gt;做过App 开发的程序猿都知道，开发App 最痛苦的不是开发的过程，是编译的过程，调试的过程。&lt;/h5&gt;
+        <description>&lt;p&gt;#####做过App 开发的程序猿都知道，开发App 最痛苦的不是开发的过程，是编译的过程，调试的过程。&lt;/p&gt;
 
-&lt;h5 id=&quot;google-&quot;&gt;基于这个问题的争论，本人在这里不做太详细的描述。给位可以在Google 一下。&lt;/h5&gt;
+&lt;p&gt;#####基于这个问题的争论，本人在这里不做太详细的描述。给位可以在Google 一下。&lt;/p&gt;
 
-&lt;h5 id=&quot;react-native-google-httpfacebookgithubioreactdocsgetting-startedhtmlreact-native-httpwwwzhihucomquestion27852694&quot;&gt;关于React-Native 它是什么，来自于哪里，主要是干点什么，本人在这里也不做详细介绍Google 会给到你想要的答案！！或者点解&lt;a href=&quot;http://facebook.github.io/react/docs/getting-started.html&quot;&gt;这里&lt;/a&gt;(请自备梯子),而关于React-Native 的好处和坏处，点击&lt;a href=&quot;http://www.zhihu.com/question/27852694&quot;&gt;这里&lt;/a&gt;。&lt;/h5&gt;
+&lt;p&gt;#####关于React-Native 它是什么，来自于哪里，主要是干点什么，本人在这里也不做详细介绍Google 会给到你想要的答案！！或者点解&lt;a href=&quot;http://facebook.github.io/react/docs/getting-started.html&quot;&gt;这里&lt;/a&gt;(请自备梯子),而关于React-Native 的好处和坏处，点击&lt;a href=&quot;http://www.zhihu.com/question/27852694&quot;&gt;这里&lt;/a&gt;。&lt;/p&gt;
 
-&lt;h5 id=&quot;react-nativereact-nativedemoapp&quot;&gt;相信如果看完这两篇文章，各位都会多React-Native是什么，或者能做什么都会比较清楚了。下面我会教大家如何去安装React-Native开发环境和如何去运行它官方的Demo，之后在第二篇教程我会教大家如何去做一个简单的APP。&lt;/h5&gt;
+&lt;p&gt;#####相信如果看完这两篇文章，各位都会多React-Native是什么，或者能做什么都会比较清楚了。下面我会教大家如何去安装React-Native开发环境和如何去运行它官方的Demo，之后在第二篇教程我会教大家如何去做一个简单的APP。&lt;/p&gt;
 
-&lt;h5 id=&quot;section&quot;&gt;安装：&lt;/h5&gt;
-&lt;ol&gt;
-  &lt;li&gt;下载&lt;a href=&quot;https://developer.apple.com/xcode/downloads/&quot;&gt;Xcode&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;安装&lt;a href=&quot;http://brew.sh/&quot;&gt;Homebrew&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;安装 node (brew install node)&lt;/li&gt;
-  &lt;li&gt;安装 watchman (brew install –HEAD watchman)&lt;/li&gt;
-  &lt;li&gt;安装 flow (brew install flow)&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;#####安装：
+1. 下载&lt;a href=&quot;https://developer.apple.com/xcode/downloads/&quot;&gt;Xcode&lt;/a&gt;
+2. 安装&lt;a href=&quot;http://brew.sh/&quot;&gt;Homebrew&lt;/a&gt;
+3. 安装 node (brew install node)
+4. 安装 watchman (brew install –HEAD watchman)
+5. 安装 flow (brew install flow)&lt;/p&gt;
 
-&lt;h5 id=&quot;react-native-&quot;&gt;到这里，你已经成功安装了React-Native 所需要的环境。下面我们来尝试创建一个项目！！&lt;/h5&gt;
+&lt;p&gt;#####到这里，你已经成功安装了React-Native 所需要的环境。下面我们来尝试创建一个项目！！&lt;/p&gt;
 
-&lt;h5 id=&quot;cd--&quot;&gt;cd 到你项目摆放的目录 然后执行&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;npm install -g react-native-cli&lt;/li&gt;
-  &lt;li&gt;react-native init AwesomeProject&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;#####cd 到你项目摆放的目录 然后执行
+* npm install -g react-native-cli
+* react-native init AwesomeProject&lt;/p&gt;
 
-&lt;h5 id=&quot;section-1&quot;&gt;安装成功之后的画面：&lt;/h5&gt;
-&lt;p&gt;&lt;img src=&quot;../../../../images/react/1.png&quot; alt=&quot;安装成功&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;#####安装成功之后的画面：
+&lt;img src=&quot;../../../../images/react/1.png&quot; alt=&quot;安装成功&quot; /&gt;&lt;/p&gt;
 
-&lt;h5 id=&quot;react-nativereact-nativexcodecommandr&quot;&gt;至此，你已经成功的安装了所有React-Native所需要的环境和创建了一个React-Native的项目，在Xcode直接Command+R就可以运行你刚刚创建的项目了！！&lt;/h5&gt;
+&lt;p&gt;#####至此，你已经成功的安装了所有React-Native所需要的环境和创建了一个React-Native的项目，在Xcode直接Command+R就可以运行你刚刚创建的项目了！！&lt;/p&gt;
 
-&lt;h5 id=&quot;demoreact-nativetmdjsoc&quot;&gt;在成创建项目之后，很多朋友来问我怎么运行官方的Demo，怎么React-Native的学习成本太TMD高了吧，又会JS又要学OC这不是折腾吗！！！&lt;/h5&gt;
+&lt;p&gt;#####在成创建项目之后，很多朋友来问我怎么运行官方的Demo，怎么React-Native的学习成本太TMD高了吧，又会JS又要学OC这不是折腾吗！！！&lt;/p&gt;
 
-&lt;h5 id=&quot;demodemohttpsgithubcomfacebookreact-nativeexamples&quot;&gt;对于这个问题，我可以保证跟你说这是值得的！！废话不多说，直接上官方的Demo吧！！&lt;a href=&quot;https://github.com/facebook/react-native&quot;&gt;Demo&lt;/a&gt;下载地址,路径是Examples目录下面。在下载项目后，目录结构就会像这样&lt;/h5&gt;
-&lt;p&gt;&lt;img src=&quot;../../../../images/react/2.png&quot; alt=&quot;目录结构&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;#####对于这个问题，我可以保证跟你说这是值得的！！废话不多说，直接上官方的Demo吧！！&lt;a href=&quot;https://github.com/facebook/react-native&quot;&gt;Demo&lt;/a&gt;下载地址,路径是Examples目录下面。在下载项目后，目录结构就会像这样
+&lt;img src=&quot;../../../../images/react/2.png&quot; alt=&quot;目录结构&quot; /&gt;&lt;/p&gt;
 
-&lt;h5 id=&quot;moviessampleapptictactoe-xcode-commandr-react-native-uiexplorer&quot;&gt;2048，Movies，SampleApp，TicTacToe 这三个项目都可以直接通过打开Xcode 然后Command+R 直接运行即可，这三个项目简单的展示了React-Native 而UIExplorer则是所有控件的操作。&lt;/h5&gt;
-&lt;p&gt;运行UIExplorer项目：&lt;/p&gt;
+&lt;p&gt;#####2048，Movies，SampleApp，TicTacToe 这三个项目都可以直接通过打开Xcode 然后Command+R 直接运行即可，这三个项目简单的展示了React-Native 而UIExplorer则是所有控件的操作。
+运行UIExplorer项目：&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;在“终端”下退出你之前在运行的任何项目(直接Command+q)&lt;/li&gt;
@@ -56,9 +52,9 @@
 &lt;img src=&quot;../../../../images/react/3.png&quot; alt=&quot;启动&quot; /&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h5 id=&quot;react-native&quot;&gt;到此，你已经学会了如何去安装，创建React-Native的环境和项目了。&lt;/h5&gt;
+&lt;p&gt;#####到此，你已经学会了如何去安装，创建React-Native的环境和项目了。&lt;/p&gt;
 
-&lt;h5 id=&quot;react-native-1&quot;&gt;总结：很多朋友问，你由始至终都没有对React-Native表态，你会不会用它来做实际的羡慕啊，学这个来由什么用等等的问题。现在我来一一回答。&lt;/h5&gt;
+&lt;p&gt;#####总结：很多朋友问，你由始至终都没有对React-Native表态，你会不会用它来做实际的羡慕啊，学这个来由什么用等等的问题。现在我来一一回答。&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;首先我是非常支持React-Native的，我不是一个新技术控，但React-Native确实令我眼前一亮它的思想不是”Write once, run anywhere”而是”Learn once, write anywhere”。&lt;/li&gt;
@@ -67,8 +63,8 @@
 &lt;/ol&gt;
 </description>
         <pubDate>Mon, 06 Apr 2015 00:00:00 +0800</pubDate>
-        <link>http://www.allanhost.com/blog/2015/04/06/React%20Native%20%E5%85%A5%E9%97%A8.html</link>
-        <guid isPermaLink="true">http://www.allanhost.com/blog/2015/04/06/React%20Native%20%E5%85%A5%E9%97%A8.html</guid>
+        <link>http://www.allanhost.com/blog/2015/04/06/React-Native-%E5%85%A5%E9%97%A8.html</link>
+        <guid isPermaLink="true">http://www.allanhost.com/blog/2015/04/06/React-Native-%E5%85%A5%E9%97%A8.html</guid>
         
         
         <category>blog</category>
@@ -77,27 +73,27 @@
     
       <item>
         <title>Happy New Year</title>
-        <description>&lt;h4 id=&quot;section&quot;&gt;2014年，这一年对于我来说意味着未来，同时也意味着失去。&lt;/h4&gt;
+        <description>&lt;p&gt;####2014年，这一年对于我来说意味着未来，同时也意味着失去。&lt;/p&gt;
 
-&lt;h4 id=&quot;section-1&quot;&gt;我的理想&lt;/h4&gt;
+&lt;h4 id=&quot;section&quot;&gt;我的理想&lt;/h4&gt;
 
 &lt;p&gt;它，始终在我心里颤动着。每每想到它，我都感觉我自己非常幸运，幸福。我很庆幸我自己能够从事这我自己喜欢的工作，我的理想可以通过我的努力去实现。仿佛每写一段Code 都离它更近一步了。我喜欢写程序，我为我自己是程序员而自豪！！！&lt;/p&gt;
 
-&lt;h4 id=&quot;section-2&quot;&gt;我的工作&lt;/h4&gt;
+&lt;h4 id=&quot;section-1&quot;&gt;我的工作&lt;/h4&gt;
 
 &lt;p&gt;告别了我从事4年的公司，感谢它让我成长让我成熟。不知不觉，我从一个职业的码农变成一个有思想的程序员，是它让我懂得思前想后，是它让我懂得大局观的重要性，是它让我知道原来我不是那么重要，是它让我知道我自己还是不够好，是它让我知道现实是如此的残酷。&lt;/p&gt;
 
-&lt;h4 id=&quot;section-3&quot;&gt;我的爱情&lt;/h4&gt;
+&lt;h4 id=&quot;section-2&quot;&gt;我的爱情&lt;/h4&gt;
 
 &lt;p&gt;2014年，我结束了一段长达5年的感情。同时也开始了一段新的感情，感谢我的前任让我明白我自己的自私，感谢她之前对我的包容和爱护，希望她能找到对她好的人，希望她幸福。— 同时也非常感谢我现任的女朋友，感谢她包容了我的自私，有时候一想到她我就会莫名其妙的笑起来。我想–“爱”大概就是这个样子了。她的性格跟我非常相似同时也正好弥补我自己的不足，慢慢地让我的性格变得更加好。&lt;/p&gt;
 
-&lt;h3 id=&quot;section-4&quot;&gt;我想，2014年就这么多了。&lt;/h3&gt;
+&lt;p&gt;###我想，2014年就这么多了。&lt;/p&gt;
 
-&lt;h3 id=&quot;section-5&quot;&gt;在这里感谢所有支持我的人和帮助过我的人，我爱你们。&lt;/h3&gt;
+&lt;p&gt;###在这里感谢所有支持我的人和帮助过我的人，我爱你们。&lt;/p&gt;
 
-&lt;h3 id=&quot;section-6&quot;&gt;再见了，2014&lt;/h3&gt;
+&lt;p&gt;###再见了，2014&lt;/p&gt;
 
-&lt;h2 id=&quot;section-7&quot;&gt;你好，2015&lt;/h2&gt;
+&lt;p&gt;##你好，2015&lt;/p&gt;
 </description>
         <pubDate>Tue, 24 Feb 2015 00:00:00 +0800</pubDate>
         <link>http://www.allanhost.com/life/2015/02/24/HappyNewYear.html</link>
@@ -110,31 +106,31 @@
     
       <item>
         <title>知识份子与伪知识份子的区别</title>
-        <description>&lt;h5 id=&quot;quora--marcus-geduld-&quot;&gt;【这是 Quora 上的一个问题，今天读到了 Marcus Geduld 写的答案，回想起关于「如何玩知乎？」的种种讨论，觉得甚为切题，译出以飨读者。──编者】&lt;/h5&gt;
+        <description>&lt;p&gt;#####【这是 Quora 上的一个问题，今天读到了 Marcus Geduld 写的答案，回想起关于「如何玩知乎？」的种种讨论，觉得甚为切题，译出以飨读者。──编者】&lt;/p&gt;
 
-&lt;h5 id=&quot;section&quot;&gt;我的定义：我就是知识分子。这不是说我比普通人聪明，而是说我过的是一种心智生活。&lt;/h5&gt;
+&lt;p&gt;#####我的定义：我就是知识分子。这不是说我比普通人聪明，而是说我过的是一种心智生活。&lt;/p&gt;
 
-&lt;h5 id=&quot;section-1&quot;&gt;我的想法有对有错，但我总在想各种事。我不停往脑袋里填各种新东西，不停地把各种符号在脑中挪来挪去。我的大部分时间都花在学习上。老实说，学习能让我体会到某种类似高潮的感觉。&lt;/h5&gt;
+&lt;p&gt;#####我的想法有对有错，但我总在想各种事。我不停往脑袋里填各种新东西，不停地把各种符号在脑中挪来挪去。我的大部分时间都花在学习上。老实说，学习能让我体会到某种类似高潮的感觉。&lt;/p&gt;
 
-&lt;h5 id=&quot;section-2&quot;&gt;伪知识分子注重的是社会姿态。他们要令别人认为自己很聪明，而且会用最高效的方法去达到这一点。&lt;/h5&gt;
+&lt;p&gt;#####伪知识分子注重的是社会姿态。他们要令别人认为自己很聪明，而且会用最高效的方法去达到这一点。&lt;/p&gt;
 
-&lt;h5 id=&quot;section-3&quot;&gt;知识分子会把一本书读完，因为他的目标是搞清楚这本书在讲什么。伪知识分子会去读摘要，因为他的目标是让别人认为他读过了那本书。要做到这一点，你其实并不需要真的把书从头到尾读完。读摘要更方便。&lt;/h5&gt;
+&lt;p&gt;#####知识分子会把一本书读完，因为他的目标是搞清楚这本书在讲什么。伪知识分子会去读摘要，因为他的目标是让别人认为他读过了那本书。要做到这一点，你其实并不需要真的把书从头到尾读完。读摘要更方便。&lt;/p&gt;
 
-&lt;h5 id=&quot;section-4&quot;&gt;知识分子总想知道为什么。他有问不完的为什么。为什么会下雨？因为天上有云。为什么会有云？因为水分子的聚集。为什么水分子会聚集？等等等等。他永远不会厌倦。如果你问他为什么想知道这些，他会直楞楞地盯着你。因为对他来说，知识本身就是目的。知识会令他分泌多巴胺。「这很重要吗？」「有意义吗？」「但这有什么用呢？」，这些话他听不懂。&lt;/h5&gt;
+&lt;p&gt;#####知识分子总想知道为什么。他有问不完的为什么。为什么会下雨？因为天上有云。为什么会有云？因为水分子的聚集。为什么水分子会聚集？等等等等。他永远不会厌倦。如果你问他为什么想知道这些，他会直楞楞地盯着你。因为对他来说，知识本身就是目的。知识会令他分泌多巴胺。「这很重要吗？」「有意义吗？」「但这有什么用呢？」，这些话他听不懂。&lt;/p&gt;
 
-&lt;h5 id=&quot;section-5&quot;&gt;伪知识分子不问为什么。他只就那些能令他显得像聪明人的事情发问。事实上他很少发问，经常发表。&lt;/h5&gt;
+&lt;p&gt;#####伪知识分子不问为什么。他只就那些能令他显得像聪明人的事情发问。事实上他很少发问，经常发表。&lt;/p&gt;
 
-&lt;h5 id=&quot;section-6&quot;&gt;知识分子才不在乎什么「高端题目」。在不同时期和文化中，总有各种各样的东西是一个人「应该知道」的。政治在今天就是这样的话题。聪明人通常对政治问题如数家珍。知识分子或许恰好也对政治感兴趣，但如果他对意大利面的兴趣更大，就会去学做意大利面。他永远追随自己的脑袋。&lt;/h5&gt;
+&lt;p&gt;#####知识分子才不在乎什么「高端题目」。在不同时期和文化中，总有各种各样的东西是一个人「应该知道」的。政治在今天就是这样的话题。聪明人通常对政治问题如数家珍。知识分子或许恰好也对政治感兴趣，但如果他对意大利面的兴趣更大，就会去学做意大利面。他永远追随自己的脑袋。&lt;/p&gt;
 
-&lt;h5 id=&quot;section-7&quot;&gt;伪知识分子总是在寻找各种「高端话题」。他很关心一个人应该读什么书、应该看什么电影、应该知道哪些事。&lt;/h5&gt;
+&lt;p&gt;#####伪知识分子总是在寻找各种「高端话题」。他很关心一个人应该读什么书、应该看什么电影、应该知道哪些事。&lt;/p&gt;
 
-&lt;h5 id=&quot;section-8&quot;&gt;如果你对一个知识分子说：「我会告诉你这个问题的答案，但你不能把答案分享给任何人，甚至不能告诉别人你知道答案。」他会说：「好的，请讲。」&lt;/h5&gt;
+&lt;p&gt;#####如果你对一个知识分子说：「我会告诉你这个问题的答案，但你不能把答案分享给任何人，甚至不能告诉别人你知道答案。」他会说：「好的，请讲。」&lt;/p&gt;
 
-&lt;h5 id=&quot;section-9&quot;&gt;如果你对伪知识分子说这番话，他会说：「那算了。」&lt;/h5&gt;
+&lt;p&gt;#####如果你对伪知识分子说这番话，他会说：「那算了。」&lt;/p&gt;
 
-&lt;h5 id=&quot;quora&quot;&gt;伪知识分子如果上了 Quora，看到某些问题会说「这是个白痴问题」或「钓鱼帖，鉴定完毕」。他要把智识排出个座次，他关心提问的动机。&lt;/h5&gt;
+&lt;p&gt;#####伪知识分子如果上了 Quora，看到某些问题会说「这是个白痴问题」或「钓鱼帖，鉴定完毕」。他要把智识排出个座次，他关心提问的动机。&lt;/p&gt;
 
-&lt;h5 id=&quot;quora-1&quot;&gt;知识分子如果上了 Quora，他关心问题有没有回答的可能（至少是理论上有回答的可能）。他的兴趣不在于题主为什么问这个问题，而在于问题本身。他经常会发现，如果仔细研读所谓的「白痴问题」或是「钓鱼问题」，如果你严肃对待它们并试着回答，往往能写出罕见、复杂而精妙的答案。（翻译：李如一）&lt;/h5&gt;
+&lt;p&gt;#####知识分子如果上了 Quora，他关心问题有没有回答的可能（至少是理论上有回答的可能）。他的兴趣不在于题主为什么问这个问题，而在于问题本身。他经常会发现，如果仔细研读所谓的「白痴问题」或是「钓鱼问题」，如果你严肃对待它们并试着回答，往往能写出罕见、复杂而精妙的答案。（翻译：李如一）&lt;/p&gt;
 </description>
         <pubDate>Sat, 24 Jan 2015 00:00:00 +0800</pubDate>
         <link>http://www.allanhost.com/blog/2015/01/24/%E7%9F%A5%E8%AF%86%E4%BB%BD%E5%AD%90%E5%92%8C%E4%BC%AA%E7%9F%A5%E8%AF%86%E4%BB%BD%E5%AD%90.html</link>
@@ -147,17 +143,17 @@
     
       <item>
         <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
 
 &lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;Tom&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &#39;Hi, Tom&#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
 
@@ -177,25 +173,25 @@
         <title>Say No</title>
         <description>&lt;p&gt;文章转自 – &lt;a href=&quot;http://boz.com/articles/say-no.html&quot;&gt;http://boz.com/articles/say-no.html&lt;/a&gt;&lt;/p&gt;
 
-&lt;h4 id=&quot;i-joined-facebook-when-there-were-around-a-dozen-engineers-there-wasnt-any-formal-organizational-structure-back-then-but-co-founder-dustin-moskovitz-was-unquestionably-the-head-of-engineering-he-had-built-and-deployed-most-of-the-critical-technologies-himself-over-the-course-of-the-prior-two-years-he-was-always-around-and-happy-to-be-involved-in-any-technical-discussion-which-was-great-because-very-little-of-our-deployment-was-standard-by-any-stretch-of-the-imagination&quot;&gt;I joined Facebook when there were around a dozen engineers. There wasn’t any formal organizational structure back then but co-founder Dustin Moskovitz was unquestionably the head of engineering. He had built and deployed most of the critical technologies himself over the course of the prior two years. He was always around and happy to be involved in any technical discussion, which was great because very little of our deployment was standard by any stretch of the imagination.&lt;/h4&gt;
+&lt;p&gt;####I joined Facebook when there were around a dozen engineers. There wasn’t any formal organizational structure back then but co-founder Dustin Moskovitz was unquestionably the head of engineering. He had built and deployed most of the critical technologies himself over the course of the prior two years. He was always around and happy to be involved in any technical discussion, which was great because very little of our deployment was standard by any stretch of the imagination.&lt;/p&gt;
 
-&lt;h4 id=&quot;it-was-so-early-that-the-company-had-only-just-started-using-source-control-apparently-a-month-or-two-before-i-joined-they-would-simply-edit-files-live-on-the-harvard-server-and-shout-out-what-file-they-were-changing-to-avoid-conflicts-as-a-consequence-the-culture-of-engineering-when-i-joined-was-prone-to-frequent-interruptions-thankfully-we-were-small-enough-that-it-wasnt-a-major-problem-most-of-us-were-involved-in-every-major-change-anyways-back-then&quot;&gt;It was so early that the company had only just started using source control; apparently a month or two before I joined they would simply edit files live on the Harvard server and shout out what file they were changing to avoid conflicts. As a consequence, the culture of engineering when I joined was prone to frequent interruptions. Thankfully we were small enough that it wasn’t a major problem. Most of us were involved in every major change anyways back then.&lt;/h4&gt;
+&lt;p&gt;####It was so early that the company had only just started using source control; apparently a month or two before I joined they would simply edit files live on the Harvard server and shout out what file they were changing to avoid conflicts. As a consequence, the culture of engineering when I joined was prone to frequent interruptions. Thankfully we were small enough that it wasn’t a major problem. Most of us were involved in every major change anyways back then.&lt;/p&gt;
 
-&lt;h4 id=&quot;six-months-later-with-nearly-double-the-engineers-when-i-found-myself-challenged-by-some-problem-or-another-i-turned-and-walked-over-to-dustin-as-i-had-countless-times-before-but-before-i-could-even-say-anything-he-loudly-declared-not-right-now-i-was-shocked-in-fact-this-was-so-unusual-at-the-time-that-everyone-around-us-was-shocked-i-walked-slowly-back-to-my-desk&quot;&gt;Six months later (with nearly double the engineers) when I found myself challenged by some problem or another I turned and walked over to Dustin as I had countless times before. But before I could even say anything he loudly declared “not right now.” I was shocked. In fact, this was so unusual at the time that everyone around us was shocked. I walked slowly back to my desk.&lt;/h4&gt;
+&lt;p&gt;####Six months later (with nearly double the engineers) when I found myself challenged by some problem or another I turned and walked over to Dustin as I had countless times before. But before I could even say anything he loudly declared “not right now.” I was shocked. In fact, this was so unusual at the time that everyone around us was shocked. I walked slowly back to my desk.&lt;/p&gt;
 
-&lt;h4 id=&quot;this-was-a-watershed-moment-for-me-and-a-turning-point-for-our-engineering-team-just-as-we-had-once-gotten-so-big-that-we-could-no-longer-just-shout-out-what-file-we-were-editing-we-could-also-no-longer-just-interrupt-one-another-to-make-progress-we-now-had-to-work-hard-to-defend-our-productivity-that-work-was-hard-because-it-involved-doing-something-that-was-a-little-socially-awkward-it-involved-saying-no&quot;&gt;This was a watershed moment for me and a turning point for our engineering team. Just as we had once gotten so big that we could no longer just shout out what file we were editing we could also no longer just interrupt one another to make progress. We now had to work hard to defend our productivity. That work was hard because it involved doing something that was a little socially awkward: it involved saying no.&lt;/h4&gt;
+&lt;p&gt;####This was a watershed moment for me and a turning point for our engineering team. Just as we had once gotten so big that we could no longer just shout out what file we were editing we could also no longer just interrupt one another to make progress. We now had to work hard to defend our productivity. That work was hard because it involved doing something that was a little socially awkward: it involved saying no.&lt;/p&gt;
 
-&lt;h4 id=&quot;look-back-on-your-past-week-and-assemble-an-honest-accounting-of-your-attention-does-the-time-you-spent-in-each-area-mirror-the-importance-of-that-area-this-exercise-is-the-true-test-of-your-ability-to-prioritize-it-will-tell-you-whether-you-are-able-to-maintain-focus-on-the-important-or-whether-you-get-distracted-by-the-urgent&quot;&gt;Look back on your past week and assemble an honest accounting of your attention. Does the time you spent in each area mirror the importance of that area? This exercise is the true test of your ability to prioritize. It will tell you whether you are able to maintain focus on the important or whether you get distracted by the urgent.&lt;/h4&gt;
+&lt;p&gt;####Look back on your past week and assemble an honest accounting of your attention. Does the time you spent in each area mirror the importance of that area? This exercise is the true test of your ability to prioritize. It will tell you whether you are able to maintain focus on the important or whether you get distracted by the urgent.&lt;/p&gt;
 
-&lt;h4 id=&quot;this-is-not-a-theoretical-exercise-nor-a-pedantic-one-our-ability-to-make-the-most-of-our-time-is-the-determining-factor-not-only-on-how-much-we-can-accomplish-but-also-how-we-feel-about-it-have-you-ever-been-busy-for-an-entire-week-and-felt-like-you-got-nothing-meaningful-done-either-your-expectations-are-off-or-your-priorities-are-you-may-care-about-certain-things-more-than-you-had-been-willing-to-admit-or-perhaps-you-are-letting-the-squeaky-wheel-get-the-grease-rather-than-having-hard-conversations&quot;&gt;This is not a theoretical exercise nor a pedantic one. Our ability to make the most of our time is the determining factor not only on how much we can accomplish but also how we feel about it. Have you ever been busy for an entire week and felt like you got nothing meaningful done? Either your expectations are off or your priorities are. You may care about certain things more than you had been willing to admit, or perhaps you are letting the squeaky wheel get the grease rather than having hard conversations.&lt;/h4&gt;
+&lt;p&gt;####This is not a theoretical exercise nor a pedantic one. Our ability to make the most of our time is the determining factor not only on how much we can accomplish but also how we feel about it. Have you ever been busy for an entire week and felt like you got nothing meaningful done? Either your expectations are off or your priorities are. You may care about certain things more than you had been willing to admit, or perhaps you are letting the squeaky wheel get the grease rather than having hard conversations.&lt;/p&gt;
 
-&lt;h4 id=&quot;it-was-hard-for-me-to-get-shut-down-by-dustin-like-that-but-it-was-the-right-thing-for-him-to-do-and-doing-it-the-way-he-did-created-a-culture-where-it-was-okay-for-other-people-to-do-the-same-thing-this-isnt-a-license-to-be-rude-we-still-owe-it-to-one-another-to-make-time-for-collaboration-as-we-work-through-the-exercise-of-how-we-would-like-to-focus-our-own-time-we-also-need-to-decide-how-we-would-like-to-work-with-others-and-be-transparent-about-those-decisions-so-it-doesnt-create-an-undue-burden-for-them&quot;&gt;It was hard for me to get shut down by Dustin like that, but it was the right thing for him to do and doing it the way he did created a culture where it was okay for other people to do the same thing. This isn’t a license to be rude; we still owe it to one another to make time for collaboration. As we work through the exercise of how we would like to focus our own time we also need to decide how we would like to work with others and be transparent about those decisions so it doesn’t create an undue burden for them.&lt;/h4&gt;
+&lt;p&gt;####It was hard for me to get shut down by Dustin like that, but it was the right thing for him to do and doing it the way he did created a culture where it was okay for other people to do the same thing. This isn’t a license to be rude; we still owe it to one another to make time for collaboration. As we work through the exercise of how we would like to focus our own time we also need to decide how we would like to work with others and be transparent about those decisions so it doesn’t create an undue burden for them.&lt;/p&gt;
 
-&lt;h4 id=&quot;saying-yes-is-so-much-easier-than-saying-no-but-nobody-else-will-ever-value-your-time-as-much-as-you-do-so-you-need-to-be-a-responsible-steward-of-it-say-no-to-meetings-say-no-to-interruptions-say-no-to-things-that-are-urgent-but-not-important-prioritize-your-time-based-on-impact-be-transparent-about-those-priorities-with-those-around-you-and-stick-to-them-and-never-be-afraid-to-step-back-and-take-stock-time-spent-thinking-about-where-you-spend-your-time-is-an-investment-that-pays-for-itself&quot;&gt;Saying yes is so much easier than saying no, but nobody else will ever value your time as much as you do so you need to be a responsible steward of it. Say No to meetings. Say No to interruptions. Say No to things that are urgent but not important. Prioritize your time based on impact, be transparent about those priorities with those around you, and stick to them. And never be afraid to step back and take stock; time spent thinking about where you spend your time is an investment that pays for itself.&lt;/h4&gt;
+&lt;p&gt;####Saying yes is so much easier than saying no, but nobody else will ever value your time as much as you do so you need to be a responsible steward of it. Say No to meetings. Say No to interruptions. Say No to things that are urgent but not important. Prioritize your time based on impact, be transparent about those priorities with those around you, and stick to them. And never be afraid to step back and take stock; time spent thinking about where you spend your time is an investment that pays for itself.&lt;/p&gt;
 </description>
         <pubDate>Mon, 24 Nov 2014 00:00:00 +0800</pubDate>
-        <link>http://www.allanhost.com/blog/2014/11/24/Say%20No.html</link>
-        <guid isPermaLink="true">http://www.allanhost.com/blog/2014/11/24/Say%20No.html</guid>
+        <link>http://www.allanhost.com/blog/2014/11/24/Say-No.html</link>
+        <guid isPermaLink="true">http://www.allanhost.com/blog/2014/11/24/Say-No.html</guid>
         
         
         <category>blog</category>
@@ -207,7 +203,7 @@
         <description>&lt;p&gt;对于一些IOS 开发者而言，管理第三方库的确是一件令人头疼的事情。而Cocoapod 恰恰是解决你这个烦恼的一个第三方管理库。
 尽管pod上有许许多多的第三方库提供给开发者使用，但是很多人还是喜欢把自己的一些库或者Helper使用到各个项目上面去，这样不单单是可以提高个人的开发效率。对于以后有新人的加入，项目的重构管理起来都是颇为省劲。下面我就介绍一下如何去制作一个“私有的POD”。&lt;/p&gt;
 
-&lt;h3 id=&quot;pod&quot;&gt;创建一个Pod&lt;/h3&gt;
+&lt;p&gt;###创建一个Pod&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;创建一个Git的 &lt;a href=&quot;https://github.com/new&quot;&gt;Repositories&lt;/a&gt; &lt;/li&gt;
@@ -233,7 +229,7 @@
 
 &lt;p&gt;笔者在这个库中，用到的就是以上的一些属性。但是在PODSPEC 文件中，还有十分多的选项提供个大家去选择如&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;	# s.screenshots  = &quot;www.example.com/screenshots_1.gif&quot;,&quot;www.example.com/screenshots_2.gif&quot;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	# s.screenshots  = &quot;www.example.com/screenshots_1.gif&quot;,&quot;www.example.com/screenshots_2.gif&quot;
 	# s.platform     = :ios
 	# s.platform     = :ios, &quot;5.0&quot;
 	# s.ios.deployment_target = &quot;5.0&quot;
@@ -249,20 +245,21 @@
 	# s.xcconfig = { &quot;HEADER_SEARCH_PATHS&quot; =&amp;gt; &quot;$(SDKROOT)/usr/include/libxml2&quot; }
 	# s.dependency &quot;JSONKit&quot;, &quot;~&amp;gt; 1.4&quot;
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;p&gt;各种选项的意思其实在字义的表面已经可以看出来，我在这里就不一一细说。
 创建好Podspec文件后，连同自己的代码一并上传到Git上面。&lt;/p&gt;
 
-&lt;h5 id=&quot;section&quot;&gt;本地的目录&lt;/h5&gt;
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/AllanChen/allanchen.github.io/master/images/privatepod/Screen%20Shot%202014-07-08%20at%209.55.53.png&quot; alt=&quot;Local file&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;#####本地的目录
+&lt;img src=&quot;https://raw.githubusercontent.com/AllanChen/allanchen.github.io/master/images/privatepod/Screen%20Shot%202014-07-08%20at%209.55.53.png&quot; alt=&quot;Local file&quot; /&gt;&lt;/p&gt;
 
-&lt;h5 id=&quot;git&quot;&gt;Git上面的目录&lt;/h5&gt;
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/AllanChen/allanchen.github.io/master/images/privatepod/Screen%20Shot%202014-07-08%20at%209.56.15.png&quot; alt=&quot;Git file&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;#####Git上面的目录
+&lt;img src=&quot;https://raw.githubusercontent.com/AllanChen/allanchen.github.io/master/images/privatepod/Screen%20Shot%202014-07-08%20at%209.56.15.png&quot; alt=&quot;Git file&quot; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;podspecgit&quot;&gt;需要注意的是，Podspec文件必须在git目录中！！&lt;/h3&gt;
-&lt;p&gt;到这里，你已经很成功的创建了一个私有的Pod了。&lt;/p&gt;
+&lt;p&gt;###需要注意的是，Podspec文件必须在git目录中！！
+到这里，你已经很成功的创建了一个私有的Pod了。&lt;/p&gt;
 
-&lt;h3 id=&quot;pod-1&quot;&gt;使用你的Pod吧&lt;/h3&gt;
+&lt;p&gt;###使用你的Pod吧&lt;/p&gt;
 
 &lt;p&gt;在你使用该库的项目上创建Podfile 文件 ，添加如下内容，然后保存
 &amp;lt;pre class=&quot;prettyprint&quot;&amp;gt; platform :ios 
@@ -272,8 +269,8 @@
 &lt;pre class=&quot;prettyprint&quot;&gt;pod install&lt;/pre&gt;
 &lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/AllanChen/allanchen.github.io/master/images/privatepod/Screen%20Shot%202014-07-08%20at%209.54.57.png&quot; alt=&quot;install Ing&quot; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;and-more&quot;&gt;And more?&lt;/h3&gt;
-&lt;p&gt;关于Pod的一些原理，大家可以看&lt;a href=&quot;http://blog.devtang.com/blog/2014/05/25/use-cocoapod-to-manage-ios-lib-dependency/&quot;&gt;这里&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;###And more?
+关于Pod的一些原理，大家可以看&lt;a href=&quot;http://blog.devtang.com/blog/2014/05/25/use-cocoapod-to-manage-ios-lib-dependency/&quot;&gt;这里&lt;/a&gt; &lt;/p&gt;
 </description>
         <pubDate>Mon, 07 Jul 2014 00:00:00 +0800</pubDate>
         <link>http://www.allanhost.com/blog/2014/07/07/how-to-create-private-pod.html</link>
@@ -368,9 +365,9 @@ fe80::1%lo0	localhost
     
       <item>
         <title>Cocoapods with Xcode 6 and Yosemite</title>
-        <description>&lt;h4 id=&quot;cocospods-xcodecocospods-pod-install&quot;&gt;COCOSPODS 就是其中一个不兼容，你的更新xcode，COCOSPODS 才可以继续用pod install&lt;/h4&gt;
+        <description>&lt;p&gt;####COCOSPODS 就是其中一个不兼容，你的更新xcode，COCOSPODS 才可以继续用pod install&lt;/p&gt;
 
-&lt;h4 id=&quot;section&quot;&gt;具体步奏如下&lt;/h4&gt;
+&lt;p&gt;####具体步奏如下&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;打开 Xcode 6&lt;/li&gt;
@@ -398,7 +395,7 @@ fe80::1%lo0	localhost
   &lt;li&gt;Run pod –version to verify that it worked&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&quot;terminalcdpod-install&quot;&gt;执行上面的命令之后，可能你还会失败。但是不要紧，把你Terminal的窗口关掉重新cd到你的项目在执行pod install就可以了。&lt;/h4&gt;
+&lt;p&gt;####执行上面的命令之后，可能你还会失败。但是不要紧，把你Terminal的窗口关掉重新cd到你的项目在执行pod install就可以了。&lt;/p&gt;
 </description>
         <pubDate>Sat, 07 Jun 2014 00:00:00 +0800</pubDate>
         <link>http://www.allanhost.com/blog/2014/06/07/about-cocoapods-with-Xcode6-and-Yosemite.html</link>
@@ -411,7 +408,7 @@ fe80::1%lo0	localhost
     
       <item>
         <title>Mac Clear SVN Command</title>
-        <description>&lt;h3 id=&quot;mac-svn&quot;&gt;清除Mac 项目中的.SVN文件&lt;/h3&gt;
+        <description>&lt;p&gt;###清除Mac 项目中的.SVN文件&lt;/p&gt;
 
 &lt;p&gt;有时候因为一些SDK，和一些类库的不兼容。导致svn中的某些文件上传不了或者更新不了，这时候你就的清除这个文件下的svn文件，然后 iGnored&lt;/p&gt;
 

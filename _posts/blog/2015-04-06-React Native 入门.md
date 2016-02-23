@@ -2,7 +2,7 @@
 layout:     post
 title:      ReacNative 入门
 category:   blog
-description: ReactNative 入门
+description: 做过App 开发的程序猿都知道，开发App 最痛苦的不是开发的过程，是编译的过程，调试的过程。
 ---
 #####做过App 开发的程序猿都知道，开发App 最痛苦的不是开发的过程，是编译的过程，调试的过程。
 

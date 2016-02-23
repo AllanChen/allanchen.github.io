@@ -70,5 +70,5 @@ description: 如何创建一个自己的Pod,对于一些IOS 开发者而言，�
 <pre class="prettyprint">pod install</pre>
 ![install Ing](https://raw.githubusercontent.com/AllanChen/allanchen.github.io/master/images/privatepod/Screen%20Shot%202014-07-08%20at%209.54.57.png)
 
-###And more?
+### And more?
 关于Pod的一些原理，大家可以看[这里](http://blog.devtang.com/blog/2014/05/25/use-cocoapod-to-manage-ios-lib-dependency/) 

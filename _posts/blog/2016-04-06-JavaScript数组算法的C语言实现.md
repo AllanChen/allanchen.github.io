@@ -26,11 +26,17 @@ description: JavaScript数组算法的C语言实现。
 void init_arr (struct Arr* ,int);
 //判断数组是否为空
 boolean_t is_empty (struct Arr*);
+//判断数组是否是满
 boolean_t is_full  (struct Arr*);
+//追加元素
 boolean_t push (struct Arr* , int);
+//正向排序
 void sort (struct Arr*);
+//逆序
 void reverse(struct Arr*);
+//插入元素
 boolean_t insert(struct Arr*, int, int);
+//删除元素（通过坐标）
 boolean_t del(struct Arr*, int, int*);
 void show_arr(struct Arr*);
 boolean_t del_element(struct Arr *pArr, int element);

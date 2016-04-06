@@ -197,5 +197,5 @@ boolean_t del_element(struct Arr *pArr, int element){
     pArr->cnt --;
     return 1;
 }
-
 </pre>
+打印出来的结果是

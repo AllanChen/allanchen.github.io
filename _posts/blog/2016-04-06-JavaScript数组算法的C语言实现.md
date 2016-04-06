@@ -49,18 +49,21 @@ int main(int argc, const char * argv[]) {
     
     int val;
     
-    init_arr(&arr, 10);
-//    show_arr(&arr);
+    init_arr(&arr, 5);
+    show_arr(&arr);
     push(&arr, 1); 
     push(&arr, 2);
     push(&arr, 10);
     push(&arr, 20);
     push(&arr, 6);
-//    reverse(&arr);
-//    sort(&arr);
+    reverse(&arr);
     show_arr(&arr);
-//    insert(&arr, 3, 3);
-//    del(&arr, 3, &val);
+    sort(&arr);
+    show_arr(&arr);
+    insert(&arr, 3, 3);
+    show_arr(&arr);
+    del(&arr, 3, &val);
+    show_arr(&arr);
     del_element(&arr, 1);
     show_arr(&arr);
     return 0;

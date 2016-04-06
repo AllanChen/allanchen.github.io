@@ -68,7 +68,135 @@ int main(int argc, const char * argv[]) {
     show_arr(&arr);
     return 0;
 }
+void init_arr (struct Arr *pArr ,int legth){
+    pArr->pBase = (int *)malloc(sizeof(int ) * legth);
+    if (NULL == pArr->pBase) {
+        printf("动态内存分配失败！\n");
+        exit(-1);
+    }
+    else{
+        pArr->len = legth;
+        pArr->cnt = 0;
+    }
+    return;
+}
 
+boolean_t is_empty (struct Arr *pArr){
+    if (0 == pArr->cnt)
+        return 1;
+    else
+        return 0;
+}
+
+boolean_t is_full  (struct Arr *pArr){
+    if (pArr->cnt == pArr->len)
+        return 1;
+    else
+        return 0;
+}
+
+void show_arr(struct Arr *pArr){
+    if (is_empty(pArr)) {
+        printf("数组为空\n");
+    }
+    else{
+        for (int i=0; i<pArr->cnt; ++i) {
+            printf("%d\n",pArr->pBase[i]);
+        }
+        printf("\n");
+    }
+}
+
+boolean_t push (struct Arr *pArr , int val){
+    if (is_full(pArr)) {
+        return 0;
+    }
+    else{
+        pArr->pBase[pArr->cnt] = val;
+        (pArr->cnt)++;
+        return 1;
+    }
+}
+//最基本的冒泡算法
+void sort (struct Arr *pArr){
+    int i, j, t;
+    for (i = 0; i<pArr->cnt; ++i) {
+        for (j = i+1; j<pArr->cnt; ++j) {
+            if (pArr->pBase[i] > pArr->pBase[j]) {
+                t = pArr->pBase[i];
+                pArr->pBase[i] = pArr->pBase[j];
+                pArr->pBase[j] = t;
+            }
+        }
+    }
+}
+void reverse(struct Arr *pArr){
+    int t;
+    int i=0;
+    int j=pArr->cnt-1;
+    
+    while (i<j) {
+        t = pArr->pBase[i];
+        pArr->pBase[i] = pArr->pBase[j];
+        pArr->pBase[j] = t;
+        ++i;
+        --j;
+    }
+    return;
+}
+boolean_t insert(struct Arr *pArr, int pos, int val){
+    int i;
+    if (is_full(pArr)) {
+        return 0;
+    }
+    if (pos < 1 || pos>pArr->cnt+1) {
+        return 0;
+    }
+    for (i = pArr->cnt-1; i>=pos-1; --i) {
+        pArr->pBase[i+1] = pArr->pBase[i];
+    }
+    pArr->pBase[pos-1] = val;
+    (pArr->cnt)++;
+    return 1;
+
+}
+boolean_t del(struct Arr *pArr, int pos, int *val){
+    int i;
+    if (is_empty(pArr)) {
+        return 0;
+    }
+    
+    if (pos < 1 || pos > pArr->cnt) {
+        return 0;
+    }
+    
+    for (i=pos; i<pArr->cnt; ++i) {
+        pArr->pBase[i-1] = pArr->pBase[i];
+    }
+    
+    (pArr->cnt)--;
+    return 1;
+}
+
+boolean_t del_element(struct Arr *pArr, int element){
+
+    int i = 0;
+    int pos = 0;
+    int j = 0;
+    
+    for (i=0; i<pArr->cnt; ++i) {
+        if (element == pArr->pBase[i]) {
+            pos = i+1;
+        }
+    }
+    
+    for ( j = pos;j<pArr->cnt; ++j) {
+        pArr->pBase[j-1] = pArr->pBase[j];
+    }
+    
+    pArr->cnt --;
+    return 1;
+}
 </pre>
 
 打印出来的结果是   

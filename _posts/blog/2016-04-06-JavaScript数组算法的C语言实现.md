@@ -49,11 +49,10 @@ int main(int argc, const char * argv[]) {
     
     int val;
     
-    init_arr(&arr, 6);
+    init_arr(&arr, 10);
 //    show_arr(&arr);
-    push(&arr, 4); // 在尾部追加元素
-    push(&arr, 1);
-//    push(&arr, -1);
+    push(&arr, 1); 
+    push(&arr, 2);
     push(&arr, 10);
     push(&arr, 0);
     push(&arr, 6);

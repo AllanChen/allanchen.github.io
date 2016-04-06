@@ -199,3 +199,4 @@ boolean_t del_element(struct Arr *pArr, int element){
 }
 </pre>
 打印出来的结果是
+(../../../../images/js-c/Screen Shot 2016-04-06 at 3.54.53 PM.png)

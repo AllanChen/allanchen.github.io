@@ -54,7 +54,7 @@ int main(int argc, const char * argv[]) {
     push(&arr, 1); 
     push(&arr, 2);
     push(&arr, 10);
-    push(&arr, 0);
+    push(&arr, 20);
     push(&arr, 6);
 //    reverse(&arr);
 //    sort(&arr);

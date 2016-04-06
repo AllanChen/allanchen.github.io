@@ -117,7 +117,7 @@ boolean_t push (struct Arr *pArr , int val){
         return 1;
     }
 }
-
+//最基本的冒泡算法
 void sort (struct Arr *pArr){
     int i, j, t;
     for (i = 0; i<pArr->cnt; ++i) {

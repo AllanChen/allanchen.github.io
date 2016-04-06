@@ -24,6 +24,7 @@ description: JavaScript数组算法的C语言实现。
 #include <malloc/malloc.h>
 //初始化数组
 void init_arr (struct Arr* ,int);
+判断数组是否为空
 boolean_t is_empty (struct Arr*);
 boolean_t is_full  (struct Arr*);
 boolean_t push (struct Arr* , int);

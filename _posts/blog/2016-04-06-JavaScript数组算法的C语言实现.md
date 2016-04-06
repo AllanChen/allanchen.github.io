@@ -22,7 +22,7 @@ description: JavaScript数组算法的C语言实现。
 #include <stdio.h>
 #include <stdlib.h>
 #include <malloc/malloc.h>
-
+//初始化数组
 void init_arr (struct Arr* ,int);
 boolean_t is_empty (struct Arr*);
 boolean_t is_full  (struct Arr*);

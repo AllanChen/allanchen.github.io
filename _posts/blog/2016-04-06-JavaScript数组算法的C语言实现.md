@@ -1,3 +1,4 @@
+---
 layout:     post
 title:      JavaScript数组算法的C语言实现
 category:   blog

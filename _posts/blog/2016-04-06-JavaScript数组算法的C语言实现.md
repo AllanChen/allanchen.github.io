@@ -202,3 +202,4 @@ boolean_t del_element(struct Arr *pArr, int element){
 打印出来的结果是   
 ![打印结果](../../../../images/js-c/Screen Shot 2016-04-06 at 3.54.53 PM.png)
 
+可能很多人会问，js本来就是一门脚本语言无语要了解太多的C，我会用js不是已经够了吗？这里我只想说一句：“你丫真的是Too Young Too Simple”, 程序=算法+数据结构 所以了解算法还是必要的！！

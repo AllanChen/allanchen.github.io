@@ -156,7 +156,7 @@ boolean_t insert(struct Arr *pArr, int pos, int val){
         pArr->pBase[i+1] = pArr->pBase[i];
     }
     pArr->pBase[pos-1] = val;
-    ++ pArr->cnt;
+    (pArr->cnt)++;
     return 1;
 
 }

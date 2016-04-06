@@ -23,4 +23,37 @@ description: JavaScript数组算法的C语言实现。
 #include <stdlib.h>
 #include <malloc/malloc.h>
 
+void init_arr (struct Arr* ,int);
+boolean_t is_empty (struct Arr*);
+boolean_t is_full  (struct Arr*);
+boolean_t push (struct Arr* , int);
+void sort (struct Arr*);
+void reverse(struct Arr*);
+boolean_t insert(struct Arr*, int, int);
+boolean_t del(struct Arr*, int, int*);
+void show_arr(struct Arr*);
+boolean_t del_element(struct Arr *pArr, int element);
+
+int main(int argc, const char * argv[]) {
+    
+    struct Arr arr;
+    
+    int val;
+    
+    init_arr(&arr, 6);
+//    show_arr(&arr);
+    push(&arr, 4); // 在尾部追加元素
+    push(&arr, 1);
+//    push(&arr, -1);
+    push(&arr, 10);
+    push(&arr, 0);
+    push(&arr, 6);
+//    reverse(&arr);
+//    sort(&arr);
+    show_arr(&arr);
+//    insert(&arr, 3, 3);
+//    del(&arr, 3, &val);
+    del_element(&arr, 1);
+    show_arr(&arr);
+
 </pre>

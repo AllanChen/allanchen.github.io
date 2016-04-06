@@ -10,4 +10,17 @@ description: JavaScript数组算法的C语言实现。
 
 大家接触的最多的js数组的操作无非就是“初始化，为空判断，追加元素，排序，逆序，插入元素，删除元素”下面我就把这些js数组的操作用C语言实现。
 
+<pre class="prettyprint">
+//
+//  main.c
+//  CTest
+//
+//  Created by ChanAllan on 3/25/15.
+//  Copyright (c) 2015 ChanAllan. All rights reserved.
+//
 
+#include <stdio.h>
+#include <stdlib.h>
+#include <malloc/malloc.h>
+
+</pre>

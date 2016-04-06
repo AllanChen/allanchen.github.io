@@ -40,7 +40,9 @@ boolean_t insert(struct Arr*, int, int);
 boolean_t del(struct Arr*, int, int*);
 //删除元素（通过元素）
 boolean_t del_element(struct Arr *pArr, int element);
+//打印数组
 void show_arr(struct Arr*);
+
 int main(int argc, const char * argv[]) {
     
     struct Arr arr;

@@ -49,7 +49,7 @@ int main(int argc, const char * argv[]) {
     
     int val;
     
-    init_arr(&arr, 5);
+    init_arr(&arr, 6);
     show_arr(&arr);
     push(&arr, 1); 
     push(&arr, 2);
@@ -128,7 +128,6 @@ void sort (struct Arr *pArr){
                 pArr->pBase[j] = t;
             }
         }
-        show_arr(pArr);
     }
 }
 void reverse(struct Arr *pArr){

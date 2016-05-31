@@ -1,0 +1,26 @@
+---
+layout: post
+title: FFMPEG Command
+category: tag
+description: FFMPEG Nomal Command
+---
+
+### 缩小视频一半
+<pre class="prettyprint">
+ffmpeg -i input -vf scale=iw/2:-1 output
+</pre>
+
+### 视频指定大小
+<pre class="prettyprint">
+ffmpeg -i a.mov -vf scale=853:480 out.mp4
+</pre>
+
+### 视频变成图片
+<pre class="prettyprint">
+ffmpeg -i cut.mp4 -r 0.25 output_%04d.png
+</pre>
+
+### 视频剪切
+<pre class="prettyprint">
+ffmpeg -i movie.mp4 -ss 00:00:01 -t 00:00:22 -async 1 cut.mp4
+</pre>

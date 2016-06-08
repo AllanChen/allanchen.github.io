@@ -42,10 +42,12 @@ sudo rm /usr/bin/python-config
 
 7：重新建立新的命令符号链接
 将第6步删除的符号链接重新使用下面命令建立，它们都指向Python3.3了。
+<pre class="prettyprint">
 sudo ln -s /System/Library/Frameworks/Python.framework/Versions/3.3/bin/pydoc3.3 /usr/bin/pydoc
 sudo ln -s /System/Library/Frameworks/Python.framework/Versions/3.3/bin/python3.3 /usr/bin/python
 sudo ln -s /System/Library/Frameworks/Python.framework/Versions/3.3/bin/pythonw3.3 /usr/bin/pythonw
 sudo ln -s /System/Library/Frameworks/Python.framework/Versions/3.3/bin/python3.3m-config /usr/bin/python-config
+</pre>
 
 第8步：更新/root/.bash_profile文件中的路径
 cd ~

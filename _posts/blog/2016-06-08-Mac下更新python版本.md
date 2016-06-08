@@ -29,7 +29,7 @@ sudo rm /System/Library/Frameworks/Python.framework/Versions/Current
 sudo ln -s /System/Library/Frameworks/Python.framework/Versions/3.3 /System/Library/Frameworks/Python.framework/Versions/Current
 </pre>
 
-第6步：删除旧的命令符号链接
+6：删除旧的命令符号链接
 
 在/usr/bin目录下有4个python命令的符号链接，使用下面的命令先删除
 

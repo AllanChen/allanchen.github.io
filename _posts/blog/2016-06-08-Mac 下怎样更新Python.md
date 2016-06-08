@@ -20,3 +20,29 @@ sudo chown -R root:wheel /System/Library/Frameworks/Python.framework/Versions/3.
 sudo rm /System/Library/Frameworks/Python.framework/Versions/Current
 sudo ln -s /System/Library/Frameworks/Python.framework/Versions/3.3 /System/Library/Frameworks/Python.framework/Versions/Current
 
+第6步：删除旧的命令符号链接
+
+在/usr/bin目录下有4个python命令的符号链接，使用下面的命令先删除
+sudo rm /usr/bin/pydoc
+sudo rm /usr/bin/python
+sudo rm /usr/bin/pythonw
+sudo rm /usr/bin/python-config
+
+第7步：重新建立新的命令符号链接
+将第6步删除的符号链接重新使用下面命令建立，它们都指向Python3.3了。
+sudo ln -s /System/Library/Frameworks/Python.framework/Versions/3.3/bin/pydoc3.3 /usr/bin/pydoc
+sudo ln -s /System/Library/Frameworks/Python.framework/Versions/3.3/bin/python3.3 /usr/bin/python
+sudo ln -s /System/Library/Frameworks/Python.framework/Versions/3.3/bin/pythonw3.3 /usr/bin/pythonw
+sudo ln -s /System/Library/Frameworks/Python.framework/Versions/3.3/bin/python3.3m-config /usr/bin/python-config
+
+第8步：更新/root/.bash_profile文件中的路径
+cd ~
+ vim .bash_profile 
+
+在.bash_profile插入下面的内容即可
+
+#### Setting PATH for Python 3.3
+#### The orginal version is saved in .bash_profile.pysave
+PATH="/System/Library/Frameworks/Python.framework/Versions/3.3/bin:${PATH}"
+export PATH
+

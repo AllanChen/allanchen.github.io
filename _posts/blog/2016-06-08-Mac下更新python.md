@@ -1,5 +1,5 @@
 ---
-layout:     
+layout: post 
 title:Mac下怎样系统的更新Python版本
 category:Mac下怎样系统的更新Python版本
 description:Mac下怎样系统的更新Python版本

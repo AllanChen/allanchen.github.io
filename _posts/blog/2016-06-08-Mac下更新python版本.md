@@ -23,6 +23,7 @@ sudo chown -R root:wheel /System/Library/Frameworks/Python.framework/Versions/3.
 在 /System/Library/Frameworks/Python.framework/Versions/目录下有一个Current，这是一个目 录符号链接，指向当前的Python版本。原来指向2.7的，现在指向3.3。所以应先删除Current。然后重新建立Current符号链接，命令如 下：
 <pre class="prettyprint">
 sudo rm /System/Library/Frameworks/Python.framework/Versions/Current
+</pre>
 
 <pre class="prettyprint">
 sudo ln -s /System/Library/Frameworks/Python.framework/Versions/3.3 /System/Library/Frameworks/Python.framework/Versions/Current
@@ -31,10 +32,12 @@ sudo ln -s /System/Library/Frameworks/Python.framework/Versions/3.3 /System/Libr
 第6步：删除旧的命令符号链接
 
 在/usr/bin目录下有4个python命令的符号链接，使用下面的命令先删除
+<pre class="prettyprint">
 sudo rm /usr/bin/pydoc
 sudo rm /usr/bin/python
 sudo rm /usr/bin/pythonw
 sudo rm /usr/bin/python-config
+<pre>
 
 第7步：重新建立新的命令符号链接
 将第6步删除的符号链接重新使用下面命令建立，它们都指向Python3.3了。

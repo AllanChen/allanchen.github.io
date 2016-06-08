@@ -37,7 +37,7 @@ sudo rm /usr/bin/pydoc
 sudo rm /usr/bin/python
 sudo rm /usr/bin/pythonw
 sudo rm /usr/bin/python-config
-<pre>
+</pre>
 
 第7步：重新建立新的命令符号链接
 将第6步删除的符号链接重新使用下面命令建立，它们都指向Python3.3了。

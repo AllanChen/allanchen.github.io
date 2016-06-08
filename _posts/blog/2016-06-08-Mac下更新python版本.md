@@ -21,8 +21,10 @@ sudo chown -R root:wheel /System/Library/Frameworks/Python.framework/Versions/3.
 
 5:修改Python当前安装目录的符号链接
 在 /System/Library/Frameworks/Python.framework/Versions/目录下有一个Current，这是一个目 录符号链接，指向当前的Python版本。原来指向2.7的，现在指向3.3。所以应先删除Current。然后重新建立Current符号链接，命令如 下：
-
+<pre class="prettyprint">
 sudo rm /System/Library/Frameworks/Python.framework/Versions/Current
+
+<pre class="prettyprint">
 sudo ln -s /System/Library/Frameworks/Python.framework/Versions/3.3 /System/Library/Frameworks/Python.framework/Versions/Current
 
 第6步：删除旧的命令符号链接

@@ -50,8 +50,10 @@ sudo ln -s /System/Library/Frameworks/Python.framework/Versions/3.3/bin/python3.
 </pre>
 
 8：更新/root/.bash_profile文件中的路径
+<pre class="prettyprint">
 cd ~
  vim .bash_profile 
+ <pre>
 
 在.bash_profile插入下面的内容即可
 

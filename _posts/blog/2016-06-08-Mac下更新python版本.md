@@ -40,7 +40,7 @@ sudo rm /usr/bin/pythonw
 sudo rm /usr/bin/python-config
 </pre>
 
-第7步：重新建立新的命令符号链接
+7：重新建立新的命令符号链接
 将第6步删除的符号链接重新使用下面命令建立，它们都指向Python3.3了。
 sudo ln -s /System/Library/Frameworks/Python.framework/Versions/3.3/bin/pydoc3.3 /usr/bin/pydoc
 sudo ln -s /System/Library/Frameworks/Python.framework/Versions/3.3/bin/python3.3 /usr/bin/python

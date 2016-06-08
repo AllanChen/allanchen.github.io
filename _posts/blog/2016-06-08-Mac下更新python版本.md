@@ -32,6 +32,7 @@ sudo ln -s /System/Library/Frameworks/Python.framework/Versions/3.3 /System/Libr
 第6步：删除旧的命令符号链接
 
 在/usr/bin目录下有4个python命令的符号链接，使用下面的命令先删除
+
 <pre class="prettyprint">
 sudo rm /usr/bin/pydoc
 sudo rm /usr/bin/python

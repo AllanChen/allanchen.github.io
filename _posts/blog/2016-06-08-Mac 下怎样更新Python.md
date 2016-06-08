@@ -9,6 +9,7 @@ description: Mac下怎样系统的更新Python版本
 2:安装下载好的文件
 
 3:移动目录，系统的调用目录都在（/System/Library/Frameworks/Python.framework/Versions），把新装的python 移动的这个目录下面。
+
 <pre class="prettyprint">
 sudo mv /Library/Frameworks/Python.framework/Versions/3.3 /System/Library/Frameworks/Python.framework/Versions
 </pre>

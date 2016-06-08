@@ -14,3 +14,5 @@ sudo mv /Library/Frameworks/Python.framework/Versions/3.3 /System/Library/Framew
 4:改变Python安装目录的用户组为wheel
 sudo chown -R root:wheel /System/Library/Frameworks/Python.framework/Versions/3.3
 
+5:修改Python当前安装目录的符号链接
+

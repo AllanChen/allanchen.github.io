@@ -53,7 +53,7 @@ sudo ln -s /System/Library/Frameworks/Python.framework/Versions/3.3/bin/python3.
 <pre class="prettyprint">
 cd ~
  vim .bash_profile 
- <pre>
+</pre>
 
 在.bash_profile插入下面的内容即可
 

@@ -49,7 +49,7 @@ sudo ln -s /System/Library/Frameworks/Python.framework/Versions/3.3/bin/pythonw3
 sudo ln -s /System/Library/Frameworks/Python.framework/Versions/3.3/bin/python3.3m-config /usr/bin/python-config
 </pre>
 
-第8步：更新/root/.bash_profile文件中的路径
+8：更新/root/.bash_profile文件中的路径
 cd ~
  vim .bash_profile 
 

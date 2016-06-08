@@ -26,6 +26,7 @@ sudo rm /System/Library/Frameworks/Python.framework/Versions/Current
 
 <pre class="prettyprint">
 sudo ln -s /System/Library/Frameworks/Python.framework/Versions/3.3 /System/Library/Frameworks/Python.framework/Versions/Current
+</pre>
 
 第6步：删除旧的命令符号链接
 

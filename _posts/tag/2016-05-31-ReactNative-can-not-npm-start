@@ -10,7 +10,7 @@ description: ReactNative Can not run npm start
 npm install --save escape-string-regexp
 </pre>
 
-### React Native 初始化项目：
+### React Native 初始化已有项目：
 <pre class="prettyprint">
 npm install
 </pre>

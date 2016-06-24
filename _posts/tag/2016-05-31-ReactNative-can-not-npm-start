@@ -2,7 +2,7 @@
 layout: post
 title: ReactNative 的坑
 category: tag
-description: ReactNative Can not run npm start
+description: ReactNative 的坑
 ---
 
 ### 在开发ReactNative 的时候，初始化项目之后npm可能会出现一些不知名的错误，导致npm start 失败。这是运行下面这个命令：

@@ -9,3 +9,8 @@ description: ReactNative Can not run npm start
 <pre class="prettyprint">
 npm install --save escape-string-regexp
 </pre>
+
+### React Native 初始化项目：
+<pre class="prettyprint">
+npm install
+</pre>

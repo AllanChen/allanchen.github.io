@@ -28,5 +28,24 @@ Receiver类：
 
 <pre class="prettyprint">pod spec create YOUR_PODSPEC_FILE_NAME</pre>  
 
+Receiver类：
+<pre class="prettyprint">pod spec create YOUR_PODSPEC_FILE_NAME</pre>  
+
+<pre class="prettyprint">pod spec create YOUR_PODSPEC_FILE_NAME</pre>  
+
+Receiver类：
+<pre class="prettyprint">pod spec create YOUR_PODSPEC_FILE_NAME</pre>  
+
+<pre class="prettyprint">pod spec create YOUR_PODSPEC_FILE_NAME</pre>  
+
+Receiver类：
+<pre class="prettyprint">pod spec create YOUR_PODSPEC_FILE_NAME</pre>  
+
+<pre class="prettyprint">pod spec create YOUR_PODSPEC_FILE_NAME</pre>  
+
+Receiver类：
+<pre class="prettyprint">pod spec create YOUR_PODSPEC_FILE_NAME</pre>  
+
+
 
 

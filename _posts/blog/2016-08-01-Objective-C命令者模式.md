@@ -26,7 +26,14 @@ description: 命令模式(Command)，将一个请求封装为一个对象，从�
 Receiver类：
 <pre class="prettyprint">pod spec create YOUR_PODSPEC_FILE_NAME</pre>  
 
-<pre class="prettyprint">pod spec create YOUR_PODSPEC_FILE_NAME</pre>  
+<pre class="prettyprint">
+#import "Receiver.h"
+
+@implementation Receiver
+-(void)Action{
+    NSLog(@"执行请求！");
+}
+@end</pre>  
 
 Receiver类：
 <pre class="prettyprint">

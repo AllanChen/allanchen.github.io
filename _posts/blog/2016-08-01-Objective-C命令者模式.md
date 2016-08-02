@@ -33,10 +33,23 @@ Receiver类：
 
 <pre class="prettyprint">pod spec create YOUR_PODSPEC_FILE_NAME</pre>  
 
-ConcreteCommands ：
+ConcreteCommands 类：
 <pre class="prettyprint">pod spec create YOUR_PODSPEC_FILE_NAME</pre>  
 
-<pre class="prettyprint">pod spec create YOUR_PODSPEC_FILE_NAME</pre>  
+<pre class="prettyprint">
+#import "ConcreteCommands.h"
+#import "Receiver.h"
+
+@implementation ConcreteCommands
+-(ConcreteCommands*)MyInit:(Receiver *)receiver{
+    myReceiver = receiver;
+    return self;
+}
+-(void)Execute{
+    [myReceiver Action];
+}
+@end
+</pre>  
 
 Invoker类：
 <pre class="prettyprint">

@@ -25,4 +25,7 @@ description: 命令模式(Command)，将一个请求封装为一个对象，从�
 
 Receiver类接口
 
+<pre class="prettyprint">pod spec create YOUR_PODSPEC_FILE_NAME</pre>  
+
+
 

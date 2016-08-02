@@ -40,15 +40,6 @@ Receiver类：
 
 Receiver类：
 <pre class="prettyprint">
-1
-2
-3
-4
-5
-6
-7
-8
-9
 #import <Foundation/Foundation.h>
 
 @class Commands;

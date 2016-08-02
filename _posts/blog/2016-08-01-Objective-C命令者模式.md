@@ -19,7 +19,7 @@ description: 命令模式(Command)，将一个请求封装为一个对象，从�
 6. 把请求一个操作的对象与知道怎么执行一个操作的对象分隔开；
 
 **下面给出基本的类结构图。**
-
+![基本类图结构](../../../../images/command-pattern/command-pattern.png)
 
 **下面就根据上面的原理给出一个Demo:**
 

@@ -23,8 +23,7 @@ description: 命令模式(Command)，将一个请求封装为一个对象，从�
 
 **下面就根据上面的原理给出一个Demo:**
 
-Receiver类
-
+Receiver类：
 <pre class="prettyprint">pod spec create YOUR_PODSPEC_FILE_NAME</pre>  
 
 <pre class="prettyprint">pod spec create YOUR_PODSPEC_FILE_NAME</pre>  

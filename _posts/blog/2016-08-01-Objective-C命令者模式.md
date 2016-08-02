@@ -38,7 +38,7 @@ Receiver类：
 
 <pre class="prettyprint">pod spec create YOUR_PODSPEC_FILE_NAME</pre>  
 
-Receiver类：
+Invoker类：
 <pre class="prettyprint">
 #import <Foundation/Foundation.h>
 

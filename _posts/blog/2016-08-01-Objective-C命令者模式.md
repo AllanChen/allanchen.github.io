@@ -39,9 +39,40 @@ Receiver类：
 <pre class="prettyprint">pod spec create YOUR_PODSPEC_FILE_NAME</pre>  
 
 Receiver类：
-<pre class="prettyprint">pod spec create YOUR_PODSPEC_FILE_NAME</pre>  
+<pre class="prettyprint">
+1
+2
+3
+4
+5
+6
+7
+8
+9
+#import <Foundation/Foundation.h>
 
-<pre class="prettyprint">pod spec create YOUR_PODSPEC_FILE_NAME</pre>  
+@class Commands;
+@interface Invoker :NSObject{
+    Commands *myCommands;
+}
+-(void)SetCommands:(Commands*)commands;
+-(void)ExecuteCommand;
+@end
+</pre>  
+
+<pre class="prettyprint">
+#import "Invoker.h"
+#import "Commands.h"
+
+@implementation Invoker
+-(void)SetCommands:(Commands *)commands{
+    myCommands = commands;
+}
+-(void)ExecuteCommand{
+    [myCommands Execute];
+}
+@end
+</pre>  
 
 Main :
 <pre class="prettyprint">

@@ -29,7 +29,16 @@ Receiver类：
 <pre class="prettyprint">pod spec create YOUR_PODSPEC_FILE_NAME</pre>  
 
 Receiver类：
-<pre class="prettyprint">pod spec create YOUR_PODSPEC_FILE_NAME</pre>  
+<pre class="prettyprint">
+#import <Foundation/Foundation.h>
+
+@class Receiver;
+@interface Commands :NSObject{
+    Receiver *myReceiver;
+}
+-(Commands*)MyInit:(Receiver*)receiver;
+-(void)Execute;
+@end</pre>  
 
 <pre class="prettyprint">
 #import "Commands.h"

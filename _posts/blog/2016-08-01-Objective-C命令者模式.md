@@ -43,8 +43,26 @@ Receiver类：
 
 <pre class="prettyprint">pod spec create YOUR_PODSPEC_FILE_NAME</pre>  
 
-Main:
-<pre class="prettyprint">pod spec create YOUR_PODSPEC_FILE_NAME</pre>  
+Main :
+<pre class="prettyprint">
+#import <Foundation/Foundation.h>
+#import "Receiver.h"
+#import "Commands.h"
+#import "ConcreteCommands.h"
+#import "Invoker.h"
+
+int main(int argc,const char * argv[])
+{
+    @autoreleasepool{
+        Receiver *r = [[Receiver alloc]init];
+        Commands *c = [[ConcreteCommands alloc]MyInit:r];
+        Invoker *i = [[Invoker alloc]init];
+        [i SetCommands:c];
+        [i ExecuteCommand];
+    }
+    return 0;
+}
+</pre>  
 
 
 

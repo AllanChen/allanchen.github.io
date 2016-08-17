@@ -36,7 +36,7 @@ description: 在应用程序的开发当中，网络请求无疑是最常接触�
     } failure:^(NSURLSessionDataTask *task, NSError *error) {
         NSLog(@"postUserInfoOperation  - error = %@", error.localizedDescription);
     }];
-    [completionOperation addDependency:op2];
+    [completionOperation addDependency:postUserInfoOperation];
 
     [queue addOperations:@[updateOperation, postUserInfoOperation] waitUntilFinished:false];
     [[NSOperationQueue mainQueue] addOperation:completionOperation];  

@@ -86,7 +86,8 @@ body .hide {
 /***********default settings**********/
 body {
     font-family: "微软雅黑","Arial","Helvetica","sans-serif";
-    font-size:19px;
+
+    font-size:18px;
 }
 a {
     color:#4A75B5;

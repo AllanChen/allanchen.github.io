@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="wap-font-scale" content="no">
+	<title>爱宠医生 - 宠物医生在线问诊</title>
+	<link rel="stylesheet" href="css/website.css">
+</head>
+<body>
+<div id="fullpage">
+	<div class="section" id="section1">
+		<div class="bg"></div>
+		<div class="header">
+			<div class="header-inner">
+				<div class="head-info">
+					<a href="index.html" class="logo"><img src="images/header-logo.png" alt=""></a>
+				</div>
+			</div>
+		</div>
+		<div class="main">
+			<div class="section1-logo">
+				<h1 class="name">宠物医生</h1>
+				<h2 class="slogan">宠物医生在线问诊</h2>
+			</div>
+			<!-- 手机预览 -->
+			<div class="phone-preview"></div>
+			<!-- 手机预览 end -->			
+		</div>
+		<a href="https://www.5ichong.com/m-doctor.html" class="version">医生版</a>
+		<div class="arrow arrow-gray"></div>
+	</div>
+	<div class="section" id="section2">
+		<div class="bg"></div>
+		<div class="main">
+			<div class="intro">
+				<span class="f-icon f-icon-1"></span>
+				<h2 class="title">宠物的第一份<br>医疗健康档案</br>
+				<p class="info">√健康跟踪</p>
+				<p class="info">√连续不间断</p>
+				<p class="info">√医疗数据共享</p>
+			</div>
+			<div class="feature-media">
+				<span class="pup pup-1">√健康跟踪</span>
+				<span class="pup pup-2">√连续不间断</span>
+				<span class="pup pup-3">√医疗数据共享</span>
+			</div>
+		</div>
+		<div class="arrow"></div>
+	</div>
+	<div class="section" id="section3">
+		<div class="bg"></div>
+		<div class="main">
+			<div class="intro">
+				<span class="f-icon f-icon-2"></span>
+				<h2 class="title">微宠“名医团”<br />看病不再“烦”
+				<p class="info">√专业分诊</p>
+				<p class="info">√可视化问诊</p>
+				<p class="info">√权威二次诊疗意见</p>
+				<p class="info">√规范诊疗</p>
+			</div>
+			<div class="feature-media">
+				<span class="pup pup-1">医院信息</span>
+				<span class="pup pup-2">优惠券</span>
+				<span class="pup pup-3">专业评价</span>
+			</div>
+		</div>
+		<div class="arrow"></div>
+	</div>
+	<div class="section" id="section4">
+		<div class="bg"></div>
+		<div class="main">
+			<div class="intro">
+				<span class="f-icon f-icon-3"></span>
+				<h2 class="title">宠物医保<br />一键选购 </h2>
+				<p class="info">√系统直连</p>
+				<p class="info">√一站式服务</p>
+				<p class="info">√理赔无忧</p>
+			</div>
+			<div class="feature-media">
+				<span class="pup pup-1">病症自查</span>
+				<span class="pup pup-2">养护资讯</span>
+				<span class="pup pup-3">常见疾病</span>
+			</div>
+		</div>
+		<div class="arrow"></div>
+	</div>
+	
+</div>
+<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.slimscroll.min.js"></script>
+<script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('#fullpage').fullpage({
+			'verticalCentered': false,
+			'css3': true,
+			// anchors: ['page1', 'page2', 'page3', 'page4', 'page5'],
+			'navigation': true,
+			'navigationPosition': 'right',
+			'resize':true,
+			// 'scrollOverflow':true,
+			// 'continuousVertical':true,
+			'loopBottom':true
+		});
+		$(".arrow").click(function(){
+			$.fn.fullpage.moveSectionDown();
+		});
+	});
+
+	/*
+     * 判断终端系统改变下载版本
+     *
+     */
+    var browser = {
+        versions: function () {
+            var u = navigator.userAgent;
+            return {
+                mobile: u.toLowerCase().match(/iphone|ipad|ipod|android|mobile|blackberry|webos|incognito|webmate|bada|nokia|lg|skyfire/),
+                ios: !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/),
+                android: u.indexOf('Android') > -1,
+                iPhone: u.indexOf('iPhone') > -1,
+                iPad: u.indexOf('iPad') > -1
+            };
+        }()
+    };
+    
+	if (browser.versions.mobile) {
+	    var head = document.getElementsByTagName('head')[0],
+			    cssURL = './css/website-mobile.css',
+			    linkTag = document.createElement('link');
+			    linkTag.id = 'mobile-styles';
+			linkTag.href = cssURL;
+			linkTag.setAttribute('rel','stylesheet');
+			linkTag.setAttribute('type','text/css');
+		head.appendChild(linkTag);
+	}
+    var btn = $(".download-box"),
+    	btnAndroid = btn.find(".btn-android"),
+    	btnIos = btn.find(".btn-ios");
+    var QQAPP_URL = 'http://a.app.qq.com/o/simple.jsp?pkgname=com.petdoctor2345&g_f=991653';
+    if (browser.versions.iPhone || browser.versions.iPad || !!(/petdoctor2345ios/.test(navigator.userAgent.toLowerCase()))) {
+        btnIos.attr('href',QQAPP_URL).show();
+        btnAndroid.hide();
+    } else if (browser.versions.android) {
+        btnAndroid.attr('href',QQAPP_URL).show();
+        btnIos.hide();
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,94 @@
+@charset "UTF-8";
+/* pet doctor 官网Mobile styles
+* @Created   : 2016-04-21
+* @Update    : 2016-05-10
+* @Author    : Rambo
+**/
+/* extend */
+#section5 .union-member dd { zoom: 1; }
+#section5 .union-member dd:before { content: ""; display: table; }
+#section5 .union-member dd:after { content: ""; display: table; clear: both; }
+
+/* extend end */
+@media only screen and (max-width: 359px) { html { font-size: 10.66667px; } }
+@media only screen and (min-width: 360px) and (max-width: 374px) { html { font-size: 12px; } }
+@media only screen and (min-width: 375px) and (max-width: 399px) { html { font-size: 12.5px; } }
+@media only screen and (min-width: 400px) and (max-width: 413px) { html { font-size: 13.33333px; } }
+@media only screen and (min-width: 414px) { html { font-size: 13.8px; } }
+@media all and (orientation: landscape) { html { font-size: 8px; } }
+* { -webkit-text-size-adjust: none; }
+
+#fp-nav { display: none; }
+
+.header { display: none; }
+
+.section .main { width: 30rem; }
+.section .intro { position: static; margin: 2.92rem 0 1.25rem; width: auto; }
+.section .intro .f-icon { display: none; }
+.section .intro .title { font-size: 2.83rem; }
+.section .intro .info { font-size: 1.25rem; }
+.section .feature-media { position: relative; margin: 0 auto !important; top: auto !important; right: auto !important; left: auto !important; }
+.section .feature-media .pup { background: url(../images/pup-icons.png) no-repeat; background-size: 18.46rem 17.58rem; }
+.section .arrow { position: absolute; bottom: 20px; left: 50%; width: 32px; height: 24px; margin-left: -16px; cursor: pointer; background: url(../images/arrow.png) no-repeat; -webkit-animation: animateArrowDown 1.5s; animation: animateArrowDown 1.5s; -webkit-animation-iteration-count: infinite; animation-iteration-count: infinite; }
+.section .arrow-gray { background: url(../images/arrow-gray.png) no-repeat; }
+.section .version { position: absolute; right: 0.75rem; bottom: 0.75rem; z-index: 10; width: 4.58rem; height: 4.58rem; line-height: 4.58rem; border-radius: 4.58rem; overflow: hidden; display: block; background-color: #0063c8; color: #fff; font-size: 1.17rem; font-weight: bold; text-align: center; border: 0.13rem solid #3ca1fe; text-decoration: none; }
+
+.download-box { position: static; }
+
+.btn-android, .btn-ios { margin: 1rem auto 0; width: 11.79rem; height: 4.33rem; line-height: 4.33rem; padding-left: 4.58rem; font-size: 1.42rem; -moz-border-radius: 0.54rem; -webkit-border-radius: 0.54rem; border-radius: 0.54rem; }
+
+.btn-android { background: url(../images/m-android.png) no-repeat 1.83rem 50% #04ae00; background-size: 1.71rem 2.04rem; }
+.btn-android:active { background-color: #049b00; }
+
+.btn-ios { background: url(../images/m-ios.png) no-repeat 2.21rem 1.08rem #138be5; background-size: 1.54rem 2rem; margin-bottom: 0; }
+.btn-ios:active { background-color: #0579d0; }
+
+.qrcode { display: none; }
+
+#section1 .bg { background: url(../images/section1-bg.jpg) no-repeat center center; background-size: auto 100%; }
+#section1 .phone-preview { position: static; width: 11.25rem; height: 22.5rem; background: url(../images/section1-screen.png) no-repeat; background-size: 100% auto; margin: 0 auto; }
+#section1 .section1-logo { position: static; margin: 2.67rem auto 1.25rem; width: 14.38rem; height: 5.54rem; background: url(../images/m-logo.png) no-repeat; background-size: 14.38rem 5.54rem; text-indent: -9999em; }
+#section1 .section1-logo .name { display: none; }
+#section1 .section1-logo .slogan { display: none; }
+
+#section2 .bg { background: url(../images/section2-bg.png) repeat; background-size: 0.38rem 0.38rem; }
+#section2 .feature-media { background: url(../images/section2-screen.png) no-repeat; background-size: 100% auto; width: 16.29rem; height: 21.75rem; }
+#section2 .feature-media .pup-1 { width: 5.04rem; height: 5.04rem; background-position: 0 0; top: 2.63rem; right: -2.63rem; }
+#section2 .feature-media .pup-2 { width: 5.83rem; height: 5.83rem; background-position: 0 -5.46rem; top: 4.79rem; right: 7.46rem; }
+#section2 .feature-media .pup-3 { width: 5.88rem; height: 5.88rem; background-position: 0 -11.71rem; top: 12.21rem; right: -1.25rem; }
+
+#section3 .bg { background: url(../images/section3-bg.png) repeat; background-size: 0.38rem 0.38rem; }
+#section3 .intro { left: auto; right: 0; }
+#section3 .feature-media { background: url(../images/section3-screen.png) no-repeat; background-size: 100% auto; width: 17.21rem; height: 21.75rem; }
+#section3 .feature-media .pup-1 { width: 5.17rem; height: 5.17rem; background-position: -6.3rem 0; top: 3.58rem; left: -1.96rem; }
+#section3 .feature-media .pup-2 { width: 5.88rem; height: 5.88rem; background-position: -6.3rem -5.59rem; top: 7.79rem; left: 7.79rem; }
+#section3 .feature-media .pup-3 { width: 5.63rem; height: 5.63rem; background-position: -6.3rem -11.88rem; top: 12.71rem; left: -2.42rem; }
+
+#section4 .bg { background: url(../images/section4-bg.png) repeat; background-size: 0.38rem 0.38rem; }
+#section4 .feature-media { background: url(../images/section4-screen.png) no-repeat; background-size: 100% auto; width: 16.17rem; height: 21.71rem; }
+#section4 .feature-media .pup-1 { width: 5.63rem; height: 5.63rem; background-position: -12.59rem 0; top: 3.5rem; left: -2.46rem; }
+#section4 .feature-media .pup-2 { width: 5.88rem; height: 5.88rem; background-position: -12.59rem -6.05rem; top: 6.5rem; left: 7.92rem; }
+#section4 .feature-media .pup-3 { width: 5.17rem; height: 5.17rem; background-position: -12.59rem -12.34rem; top: 13.29rem; left: -1.21rem; }
+
+#section5 .bg { background: url(../images/section5-bg.jpg) no-repeat 75% 0; background-size: auto 100%; }
+#section5 .section5-logo { position: static; margin: 2.67rem auto 1.25rem; width: 14.38rem; height: 5.54rem; background: url(../images/m-logo.png) no-repeat; background-size: 14.38rem 5.54rem; text-indent: -9999em; }
+#section5 .about { display: none; }
+#section5 .mobile-about { padding: 0.5rem 0.83rem; margin: 1.25rem 1.38rem 0.63rem; background-color: rgba(255, 255, 255, 0.62); font-size: 0.83rem; color: #999; display: block; -moz-border-radius: 0.42rem; -webkit-border-radius: 0.42rem; border-radius: 0.42rem; }
+#section5 .mobile-about dt { font-size: 0.92rem; color: #666; }
+#section5 .star-union-wrap { background-color: #fff; -moz-border-radius: 0.42rem; -webkit-border-radius: 0.42rem; border-radius: 0.42rem; padding: 0.5rem 0.83rem; margin: 1.25rem 1.38rem 0.63rem; display: block; }
+#section5 .star-union-about { padding: 0; }
+#section5 .star-union-about .star-union-logo { display: block; margin: 0 auto 0.42rem; float: none; width: 7.88rem; }
+#section5 .union-member { background: none; padding: 0.42rem 0 0 4.17rem; }
+#section5 .union-member dt { font-size: 0.75rem; color: #999; position: absolute; top: 0.83rem; left: 0; width: 4.17rem; text-align: right; white-space: nowrap; }
+#section5 .union-member dd a { float: left; margin: 0 0.38rem 0.83rem; }
+#section5 .union-member dd a img { width: 6.33rem; }
+#section5 .footer { width: 100%; background-color: #ebebeb; height: auto; }
+#section5 .footer-wrap { width: auto; }
+#section5 .footer-info { padding-top: 0.42rem; font-size: 0.75rem; }
+#section5 .footer-info p { line-height: 1.6; height: auto; }
+#section5 .footer-info p span { display: inline-block; }
+#section5 .footer-info a:hover { color: #999; }
+#section5 .footer-info .mr30 { margin-right: 1.25rem; }
+#section5 .footer-info .copyright { font-size: 0.67rem; }
+#section5 .footer .star-union-about { display: none; }
+#section5 .footer .union-member { display: none; }

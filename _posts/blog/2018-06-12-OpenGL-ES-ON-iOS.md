@@ -9,8 +9,7 @@ description: 在视频开发的过程中，从Buffer出来再渲染到GL 上面�
 
 
 ### YUV To RGB and Return UIImage
-<pre class="prettyprint lang-html">
-<code class="language-java">
+<pre class="prettyprint">
 #define clamp(a) (a>255?255:(a<0?0:a))
 
 
@@ -66,5 +65,4 @@ description: 在视频开发的过程中，从Buffer出来再渲染到GL 上面�
     
     return image;
 }
-</code>
 </pre>

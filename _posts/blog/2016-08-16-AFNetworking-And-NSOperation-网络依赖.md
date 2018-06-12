@@ -12,8 +12,7 @@ description: 在应用程序的开发当中，网络请求无疑是最常接触�
 > 所用框架：AFNetworking ~>2.4
 
 ### Demo
-<pre class="prettyprint lang-html">
-<code class="language-java">
+<pre class="prettyprint">
 - (void)updateUserInfoAndPostToServer{
     NSString *updateUserInfo = @"...";
     NSString *postUserInfo = @"...";
@@ -45,5 +44,4 @@ description: 在应用程序的开发当中，网络请求无疑是最常接触�
 
     //在这个请求完成之后，你就可以update 一下主线程上的UI 了。
 }
-</code>
 </pre>

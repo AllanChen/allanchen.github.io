@@ -13,7 +13,7 @@ description: 在应用程序的开发当中，网络请求无疑是最常接触�
 
 ### Demo
 <pre class="prettyprint lang-html">
-<code>
+<code class="language-java">
 - (void)updateUserInfoAndPostToServer{
     NSString *updateUserInfo = @"...";
     NSString *postUserInfo = @"...";

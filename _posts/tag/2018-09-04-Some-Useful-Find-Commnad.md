@@ -47,14 +47,14 @@ find . -type f -name tecmint.php
 Find all php files in a directory.
 
 <pre class="prettyprint">
-	find . -type f -name "*.php"
-	./tecmint.php
-	./login.php
-	./index.php
+find . -type f -name "*.php"
+./tecmint.php
+./login.php
+./index.php
 </pre>
 
 
-##Part II – Find Files Based on their Permissions
+## Part II – Find Files Based on their Permissions
 7. Find Files With 777 Permissions
 Find all the files whose permissions are 777.
 <pre class="prettyprint">
@@ -179,8 +179,8 @@ To find all .txt files of user Tecmint under /home directory.
 find /home -user tecmint -iname "*.txt"
 </pre>
 
-## Part IV – Find Files and Directories Ba
-sed on Date and Time
+## Part IV – Find Files and Directories Based on Date and Time
+
 26. Find Last 50 Days Modified Files
 To find all the files which are modified 50 days back.
 
@@ -220,7 +220,7 @@ find / -mmin -60
 To find all the files which are accessed in last 1 hour.
 
 <pre class="prettyprint">
-	find / -amin -60
+find / -amin -60
 </pre>
 
 ## Part V – Find Files and Directories Based on Size
@@ -228,26 +228,26 @@ To find all the files which are accessed in last 1 hour.
 To find all 50MB files, use.
 
 <pre class="prettyprint">
-	find / -size 50M
+find / -size 50M
 </pre>
 
 33. Find Size between 50MB – 100MB
 To find all the files which are greater than 50MB and less than 100MB.
 <pre class="prettyprint">
-	find / -size +50M -size -100M
+find / -size +50M -size -100M
 </pre>
 
 34. Find and Delete 100MB Files
 To find all 100MB files and delete them using one single command.
 
 <pre class="prettyprint">
-	find / -size +100M -exec rm -rf {} \;
+find / -size +100M -exec rm -rf {} \;
 </pre>
 
 35. Find Specific Files and Delete
 Find all .mp3 files with more than 10MB and delete them using one single command.
 <pre class="prettyprint">
-	find / -type f -name *.mp3 -size +10M -exec rm {} \;
+find / -type f -name *.mp3 -size +10M -exec rm {} \;
 </pre>
 
 That’s it, We are ending this post here, In our next

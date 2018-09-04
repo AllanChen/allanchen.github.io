@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Useful Git Command
+title: Useful find Command
 category: tag
-description: Git 常用命令
+description: 35 条有用的find 命令
 ---
 
 ## Part I – Basic Find Commands for Finding Files with Names

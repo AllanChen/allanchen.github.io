@@ -8,13 +8,13 @@ description: 做过App 开发的程序猿都知道，开发App 最痛苦的不�
 
 基于这个问题的争论，本人在这里不做太详细的描述。给位可以在Google 一下。
 
-关于React-Native 它是什么，来自于哪里，主要是干点什么，本人在这里也不做详细介绍Google 会给到你想要的答案！！或者点解[这里](http://facebook.github.io/react/docs/getting-started.html)(请自备梯子),而关于React-Native 的好处和坏处，点击[这里](http://www.zhihu.com/question/27852694)。
+关于React-Native 它是什么，来自于哪里，主要是干点什么，本人在这里也不做详细介绍Google 会给到你想要的答案！！或者点解[这里](https://facebook.github.io/react/docs/getting-started.html)(请自备梯子),而关于React-Native 的好处和坏处，点击[这里](https://www.zhihu.com/question/27852694)。
 
 相信如果看完这两篇文章，各位都会多React-Native是什么，或者能做什么都会比较清楚了。下面我会教大家如何去安装React-Native开发环境和如何去运行它官方的Demo，之后在第二篇教程我会教大家如何去做一个简单的APP。
 
 安装：
 1. 下载[Xcode](https://developer.apple.com/xcode/downloads/)
-2. 安装[Homebrew](http://brew.sh/)
+2. 安装[Homebrew](https://brew.sh/)
 3. 安装 node (brew install node)
 4. 安装 watchman (brew install --HEAD watchman)
 5. 安装 flow (brew install flow)

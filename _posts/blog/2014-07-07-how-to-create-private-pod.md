@@ -72,4 +72,4 @@ Podspec 文件解析：
 ![install Ing](https://raw.githubusercontent.com/AllanChen/allanchen.github.io/master/images/privatepod/Screen%20Shot%202014-07-08%20at%209.54.57.png)
 
 ### And more?
-关于Pod的一些原理，大家可以看[这里](http://blog.devtang.com/blog/2014/05/25/use-cocoapod-to-manage-ios-lib-dependency/) 
+关于Pod的一些原理，大家可以看[这里](https://blog.devtang.com/blog/2014/05/25/use-cocoapod-to-manage-ios-lib-dependency/) 

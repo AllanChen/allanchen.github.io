@@ -3,7 +3,7 @@ title: Allan's blog
 email: allanchanni@gmail.com
 description: > #Just a Programmer
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://www.allanhost.com" # the base hostname & protocol for your site
+url: "https://www.allanhost.com" # the base hostname & protocol for your site
 twitter_username: allanchan
 github_username:  AllanChen
 

@@ -134,7 +134,7 @@
     var btn = $(".download-box"),
     	btnAndroid = btn.find(".btn-android"),
     	btnIos = btn.find(".btn-ios");
-    var QQAPP_URL = 'http://a.app.qq.com/o/simple.jsp?pkgname=com.petdoctor2345&g_f=991653';
+    var QQAPP_URL = 'https://a.app.qq.com/o/simple.jsp?pkgname=com.petdoctor2345&g_f=991653';
     if (browser.versions.iPhone || browser.versions.iPad || !!(/petdoctor2345ios/.test(navigator.userAgent.toLowerCase()))) {
         btnIos.attr('href',QQAPP_URL).show();
         btnAndroid.hide();

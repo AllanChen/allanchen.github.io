@@ -6,7 +6,7 @@ description: 浅谈 JavaScript Promise
 ---
 浅谈 JavaScript Promise
 
-##Promise.all
+## Promise.all
 官方解析：方法用于将多个 Promise 实例，包装成一个新的 Promise 实例
 
 通俗解析：它以数组形式所谓参数接受多个promise 实例，__且当所有传入的promise 执行完成后，返回一个新的promise__。
@@ -105,7 +105,7 @@ Promise.race([task1(), task2(), task3()]).then(function(result){
 
 
 
-##Promise.reject
+## Promise.reject
 官方解析：用于改变该Promise本身的状态为拒绝, 执行后, 将触发 then | catch的onRejected回调, 并把reject的参数传递给onRejected回调。
 
 通俗解析：接受Promise 中失败的状态。
@@ -135,7 +135,7 @@ testReject().then(
     );
 ```
 
-##Promise.catch
+## Promise.catch
 官方解析：用于您的promise组合中的错误处理
 
 通俗解析：捕获Promise  中错误错误处理, 包括error reject 等
@@ -169,7 +169,7 @@ catch 方法和我们的try/catch 的方法相似。
 [参考代码](https://codesandbox.io/s/promise-reolve-and-reject-code-ccelc)
 
 
-##Promise.resolve
+## Promise.resolve
 官方解析：用于改变该Promise本身的状态为实现, 执行后, 将触发then的onFulfilled回调, 并把resolve的参数传递给onFulfilled回调
 
 通俗解析：resolve 你可以简单理解问在Promise 执行成功的时候要进行回调的一个方法（虽然这么说好像有点不正确，希望有读者可以提供更通俗的解析）
